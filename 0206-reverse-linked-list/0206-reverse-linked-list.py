@@ -11,24 +11,16 @@ class Solution:
         while cur : 
             temp_arr.append(cur.val)
             cur = cur.next
-        
-        print(temp_arr)
 
-        
-       
         if len(temp_arr) == 0 : return 
-        temp_arr.reverse()
-        new_head = ListNode(temp_arr[0])
+        
+        new_head = ListNode(temp_arr[-1])
         curr = new_head
-        for i in range(1, len(temp_arr)):
-            print("adding : " , temp_arr[i])
-            new_node = ListNode(temp_arr[i])
+        for i in range(2, len(temp_arr) + 1):
+            new_node = ListNode(temp_arr[-i])
             curr.next = new_node
-            # print(new_head)
             curr = curr.next
-
-        print(new_head)
-
+            
         return new_head
 
         
