@@ -49,7 +49,7 @@ class Solution:
                 table[sqrt_list[i]] = [i]
 
 
-        finalists = merge_sort(table.keys())[:k]
+        finalists = sorted(table.keys())[:k]
         
         temp = []
         for i in range(k): 
