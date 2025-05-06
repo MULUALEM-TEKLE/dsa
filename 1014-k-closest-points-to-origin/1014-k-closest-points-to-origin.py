@@ -10,19 +10,15 @@ class Solution:
                 table[sqrt_list[i]] = [i]
          
         finalists = sorted(table.keys())[:k]
-        print(finalists)
-        print(k)
-
+       
         result = []
         last_key = -1
         temp = []
         for i in range(k): 
             if len(temp) >= k : continue;
             if finalists[i] in table.keys():
-                if finalists[i] == last_key : 
-                    continue
                 temp.extend(table[finalists[i]])
-                last_key = finalists[i]
+                
 
         result.extend([points[temp[i]] for i in range(len(temp))])
                                     
