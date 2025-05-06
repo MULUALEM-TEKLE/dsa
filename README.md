@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0088-merge-sorted-array) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0283-move-zeroes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0283-move-zeroes) |
+| [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1019-squares-of-a-sorted-array) |
 | [1580-shuffle-the-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1580-shuffle-the-array) |
 | [2350-find-closest-number-to-zero](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2350-find-closest-number-to-zero) |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0088-merge-sorted-array) |
+| [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1019-squares-of-a-sorted-array) |
 ## Linked List
 |  |
@@ -49,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [1013-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1013-fibonacci-number) |
+| [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 ## Stack
 |  |
 | ------- |
@@ -67,4 +70,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1013-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1013-fibonacci-number) |
+## Divide and Conquer
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
