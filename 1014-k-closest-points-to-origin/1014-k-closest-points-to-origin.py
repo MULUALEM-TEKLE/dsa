@@ -19,10 +19,9 @@ class Solution:
             if finalists[i] in table.keys():
                 temp.extend(table[finalists[i]])
                 
-
         result.extend([points[temp[i]] for i in range(len(temp))])
                                     
-        return result[:k]
+        return result
 
         
         
