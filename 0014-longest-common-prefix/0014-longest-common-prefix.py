@@ -1,10 +1,9 @@
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
-        prefix = strs[0]
+        strs = set(strs)
+        prefix = strs.pop()
         prefix_len = len(prefix)
 
-        strs = set(strs)
-        print(strs)
 
         for word in strs : 
             while prefix != word[: prefix_len] :
