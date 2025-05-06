@@ -15,7 +15,7 @@ class Solution:
         last_key = -1
         temp = []
         for i in range(k): 
-            if len(temp) >= k : continue;
+            if len(temp) >= k : break;
             if finalists[i] in table.keys():
                 temp.extend(table[finalists[i]])
                 
