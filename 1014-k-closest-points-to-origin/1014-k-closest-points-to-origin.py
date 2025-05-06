@@ -13,7 +13,7 @@ class Solution:
        
 
         temp = []
-        for i in range(len(finalists)): 
+        for i in range(k): 
             if not len(temp) >= k:
                 temp.extend(table[finalists[i]])
                           
