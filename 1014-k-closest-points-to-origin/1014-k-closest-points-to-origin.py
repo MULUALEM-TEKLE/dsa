@@ -8,8 +8,49 @@ class Solution:
                 table[sqrt_list[i]].append(i)
             else:
                 table[sqrt_list[i]] = [i]
+
+        def merge(arr_one, arr_two):
+            temp = [0] * (len(arr_one) + len(arr_two))
+            temp_ptr = 0
+            L = 0
+            R = 0
+
+            while L < len(arr_one) and R < len(arr_two) : 
+                if arr_one[L] > arr_two[R]:
+                    temp[temp_ptr] = arr_two[R]
+                    R += 1
+                else : 
+                    temp[temp_ptr] = arr_one[L]
+                    L += 1
+                temp_ptr += 1
+
+            while L < len(arr_one):
+                temp[temp_ptr] = arr_one[L]
+                L += 1
+                temp_ptr += 1
+            
+            while R < len(arr_two): 
+                temp[temp_ptr] = arr_two[R]
+                R += 1
+                temp_ptr += 1 
+            
+            return temp
+
+        def merge_sort(arr):
+            if len(arr) <= 1 : 
+                return arr
+            mid = len(arr)//2
+
+            arr_one = merge_sort(arr[: mid])
+            arr_two = merge_sort(arr[mid:])
+
+            return merge(arr_one, arr_two)
+            
+
          
-        finalists = sorted(table.keys())[:k]
+        finalists = merge_sort(list(table.keys()))
+        finalists = finalists[:k]
+        print(finalists)
        
 
         temp = []
@@ -17,7 +58,7 @@ class Solution:
             if not len(temp) >= k:
                 temp.extend(table[finalists[i]])
                           
-        return [points[temp[i]] for i in range(len(temp))]
+        return [points[temp[i]] for i in range(len(temp))][:k]
 
         
         
