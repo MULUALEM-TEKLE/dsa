@@ -3,11 +3,11 @@ class Solution:
         sqrt_list = [(i[0]**2 + i[1]**2) for i in points]
         table = {}
 
-        for i in range(len(sqrt_list)):
-            if sqrt_list[i] in table:
-                table[sqrt_list[i]].append(i)
+        for i, sqrt in enumerate(sqrt_list):
+            if sqrt in table.keys():
+                table[sqrt].append(i)
             else:
-                table[sqrt_list[i]] = [i]
+                table[sqrt] = [i]
          
         finalists = sorted(table.keys())[:k]
        
