@@ -4,7 +4,7 @@ class Solution:
         Do not return anything, modify nums1 in-place instead.
         """
 
-        if len(nums2) == 0 : 
+        if n == 0 : 
             return nums1
 
         repl_ctr = 0
