@@ -26,6 +26,7 @@ def merge(arr_one, arr_two):
     return temp
 
 def merge_sort(arr):
+    arr = list(arr)
     if len(arr) <= 1 : 
         return arr
     mid = len(arr)//2
@@ -48,10 +49,8 @@ class Solution:
                 table[sqrt_list[i]] = [i]
 
 
-        finalists = merge_sort(list(table.keys()))[:k]
+        finalists = merge_sort(table.keys())[:k]
         
-       
-
         temp = []
         for i in range(k): 
             if not len(temp) >= k:
