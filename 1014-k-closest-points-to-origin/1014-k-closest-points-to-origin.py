@@ -11,15 +11,14 @@ class Solution:
          
         finalists = sorted(table.keys())[:k]
        
-        result = []
-        last_key = -1
+
         temp = []
         for i in range(k): 
             if not len(temp) >= k and finalists[i] in table.keys():
                 temp.extend(table[finalists[i]])
-                
+                          
+        result = []
         result.extend([points[temp[i]] for i in range(len(temp))])
-                                    
         return result
 
         
