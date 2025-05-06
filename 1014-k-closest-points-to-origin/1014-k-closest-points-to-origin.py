@@ -14,10 +14,9 @@ class Solution:
 
         temp = []
         for i in range(k): 
-            if not len(temp) >= k and finalists[i] in table.keys():
+            if not len(temp) >= k:
                 temp.extend(table[finalists[i]])
                           
-     
         return [points[temp[i]] for i in range(len(temp))]
 
         
