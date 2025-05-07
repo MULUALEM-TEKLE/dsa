@@ -57,7 +57,6 @@ class Solution:
         # sandwiches are in stack, add to an array in reverse order to achieve this
 
         sandwiches_stack = list(reversed(sandwiches))
-        print(sandwiches)
 
         # students are in queue, implement a singly linkedlist queue for this with ability to remove from front
         # and add to end
@@ -77,15 +76,15 @@ class Solution:
         # check there's atleast one student who's willing to eat what is on top of the stack
         # (make it part of the queue implementation)
         # print(f"is {sandwiches_stack[len(sandwiches_stack) - 1]} in queue?  ans:  {students_queue.is_in_queue(sandwiches_stack[-1])}")
-        while len(sandwiches_stack) > 0 and students_queue.is_in_queue(sandwiches_stack[len(sandwiches_stack) - 1]): 
+        while len(sandwiches_stack) > 0 and students_queue.is_in_queue(sandwiches_stack[-1]): 
         # if there is one proceed
             # deque from the queue and compare with the top of the stack
             student_preference = students_queue.dequeue().preference
-            
+
             if student_preference == sandwiches_stack[-1] : 
             # if similar pop the stack and that's it
                 sandwiches_stack.pop()
-                print(f"student and sandwich is gone")
+                
             # if not similar dont pop and enqueue the student back
             else : 
                 students_queue.enqueue(student_preference)
