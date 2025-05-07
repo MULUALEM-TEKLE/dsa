@@ -76,7 +76,7 @@ class Solution:
         # check there's atleast one student who's willing to eat what is on top of the stack
         # (make it part of the queue implementation)
         # print(f"is {sandwiches_stack[len(sandwiches_stack) - 1]} in queue?  ans:  {students_queue.is_in_queue(sandwiches_stack[-1])}")
-        while len(sandwiches_stack) > 0 and students_queue.is_in_queue(sandwiches_stack[-1]): 
+        while sandwiches_stack and students_queue.is_in_queue(sandwiches_stack[-1]): 
         # if there is one proceed
             # deque from the queue and compare with the top of the stack
             student_preference = students_queue.dequeue().preference
