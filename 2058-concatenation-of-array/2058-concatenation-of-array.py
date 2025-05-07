@@ -1,12 +1,13 @@
 class Solution:
     def getConcatenation(self, nums: List[int]) -> List[int]:
-        # nums.extend(nums)
-        # return nums
-        n = len(nums)
-        ans = [0] * (n * 2)
+        (lambda : nums.extend(nums))()
+        return nums
 
-        for i, num in enumerate(nums):
-            ans[i] = ans[i + n ] = num
+        # n = len(nums)
+        # ans = [0] * (n * 2)
 
-        return ans
+        # for i, num in enumerate(nums):
+        #     ans[i] = ans[i + n ] = num
+
+        # return ans
         
