@@ -55,29 +55,21 @@ class StudentsQueue :
 class Solution:
     def countStudents(self, students: List[int], sandwiches: List[int]) -> int:
         # sandwiches are in stack, add to an array in reverse order to achieve this
-
         sandwiches_stack = list(reversed(sandwiches))
 
-        # students are in queue, implement a singly linkedlist queue for this with ability to remove from front
-        # and add to end
+        # students are in queue, implement a singly linkedlist queue for this 
+        # with ability to remove from front and add to end
         students_queue = StudentsQueue()
+        
         for preference in students : 
             students_queue.enqueue(preference)
 
-        # queue checks
-        # students_queue.print_queue()
-        # print(students_queue.length)
-        # print(students_queue.dequeue())
-        # print("after dequeuing the first student")
-        # students_queue.print_queue()
-        # print(students_queue.length)
-       
-
         # check there's atleast one student who's willing to eat what is on top of the stack
         # (make it part of the queue implementation)
-        # print(f"is {sandwiches_stack[len(sandwiches_stack) - 1]} in queue?  ans:  {students_queue.is_in_queue(sandwiches_stack[-1])}")
+        # print(f"is {sandwiches_stack[len(sandwiches_stack) - 1]} in queue?  
+        # ans:  {students_queue.is_in_queue(sandwiches_stack[-1])}")
         while sandwiches_stack and students_queue.is_in_queue(sandwiches_stack[-1]): 
-        # if there is one proceed
+            # if there is one proceed
             # deque from the queue and compare with the top of the stack
             student_preference = students_queue.dequeue().preference
 
