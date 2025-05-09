@@ -49,7 +49,11 @@ class Solution:
                 count[ord(s[i]) - ord("a")] += 1
                 count[ord(t[i]) - ord("a")] -= 1
 
-            return all(x == 0 for x in count)
+            for c in count : 
+                if c != 0 :
+                    return False
+            
+            return True
 
         except : 
             print("got an error")
