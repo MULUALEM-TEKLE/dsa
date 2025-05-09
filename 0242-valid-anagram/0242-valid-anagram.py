@@ -38,5 +38,25 @@ class Solution:
         # just sort the compare
         # t = sorted(t)
         # s = sorted(s)
-        return sorted(t) == sorted(s)
+        # return t == s
+
+        # approach three
+        # just one array and a little char trick =)
+        count = [0] * 26
+
+        try : 
+            for i in range(len(s)) : 
+                count[ord(s[i]) - ord("a")] += 1
+                count[ord(t[i]) - ord("a")] -= 1
+            
+            for i in range(len(count)) : 
+                if count[i] != 0 : 
+                    return False
+            
+            return True 
+        except : 
+            print("got an error")
+            return False
+
+
         
