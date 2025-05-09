@@ -17,18 +17,15 @@ class Solution:
                 s_table[letter] = 1
         
         for letter in t :
-            # if letter not in s_table.keys() : 
-            #     return False
+            if letter not in s_table.keys() : 
+                return False
 
             if letter in t_table.keys() : 
                 t_table[letter] += 1
             else : 
                 t_table[letter] = 1
 
-        for letter in s : 
-            if letter not in s_table.keys() or letter not in t_table.keys() : 
-                return False
-            
+        for letter in s :    
             if s_table[letter] != t_table[letter]:
                 return False
         
