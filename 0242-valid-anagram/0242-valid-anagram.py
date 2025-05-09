@@ -48,12 +48,9 @@ class Solution:
             for i in range(len(s)) : 
                 count[ord(s[i]) - ord("a")] += 1
                 count[ord(t[i]) - ord("a")] -= 1
-            
-            for i in range(len(count)) : 
-                if count[i] != 0 : 
-                    return False
-            
-            return True 
+
+            return all(x == 0 for x in count)
+
         except : 
             print("got an error")
             return False
