@@ -5,17 +5,41 @@ class Solution:
         if len(s) != len(t) : 
             return False
         # approach one
-        # else construct one table and add letters as keys with index
-        # compare for a letter in one of the strings check if exists in the other's table
-        # if all letters are in the other then you're done 
-        # approach 2
-        # of just looping works too
-        # approach 3 
-        # maybe using a sorted set and then comparing  the sets  might work too 
+        # else construct two tables with word frequencies and add letters as keys with values of frequencies
+        # compare for a letter frequencies and if all are equal return true, if not return false
+        s_table = {}
+        t_table = {}
+
+        for letter in s :
+            if letter in s_table.keys() : 
+                s_table[letter] += 1
+            else : 
+                s_table[letter] = 1
+        
+        for letter in t :
+            # if letter not in s_table.keys() : 
+            #     return False
+
+            if letter in t_table.keys() : 
+                t_table[letter] += 1
+            else : 
+                t_table[letter] = 1
+
+        for letter in s : 
+            if letter not in s_table.keys() or letter not in t_table.keys() : 
+                return False
+            
+            if s_table[letter] != t_table[letter]:
+                return False
+        
+        return True
+
+
+
+
         # approach 4
         # just sort the compare
-
-        t = sorted(t)
-        s = sorted(s)
-        return t == s
+        # t = sorted(t)
+        # s = sorted(s)
+        # return t == s
         
