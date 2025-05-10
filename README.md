@@ -135,4 +135,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0074-search-a-2d-matrix) |
+## Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0783-search-in-a-binary-search-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0783-search-in-a-binary-search-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0783-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
