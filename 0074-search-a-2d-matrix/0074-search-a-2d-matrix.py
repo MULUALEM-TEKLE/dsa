@@ -17,10 +17,6 @@ class Solution:
             else : 
                return True
 
-
-        # print(f"location is {mid}")
-        # print(f"low is {low}")
-        # print(f"high is {high}")
         location = matrix[high]
         low , high = 0 , len(location) -1
         while low <= high:
@@ -32,7 +28,7 @@ class Solution:
                 high = mid -1
             else : 
                return True
-               
+
         return False
        
 
