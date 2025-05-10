@@ -1,23 +1,18 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        # first lets find on which row the target might reside in
         low , high = 0 , len(matrix) -1
-        mid = None
         while low <= high:
             mid = (low + high)//2
-            print(f"mid is now {mid}")
-            if target > matrix[mid][0] : 
-                print(f"since target > {matrix[mid][0]} ")
-                low = mid + 1
-                print(f"low is now {low}")
+            if target == matrix[mid][0] or  matrix[mid][-1] == target :
+                return True
+            elif target > matrix[mid][0] and  matrix[mid][-1] > target : 
+                break
             elif target < matrix[mid][0] : 
-                print(f"since target < {matrix[mid][0]} ")
                 high = mid -1
-                print(f"high is now {high}")
             else : 
-               return True
+               low = mid + 1
 
-        location = matrix[high]
+        location = matrix[((high+ low)//2)]
         low , high = 0 , len(location) -1
         while low <= high:
             mid = (low + high)//2
@@ -30,10 +25,3 @@ class Solution:
                return True
 
         return False
-       
-
-        # low , high = 0 , len(matrix[location]) -1
-
-
-        # after zooming in like that we might search inside the specific row 
-        
