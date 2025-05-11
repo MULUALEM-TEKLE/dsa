@@ -6,7 +6,7 @@ class Solution:
         #         nums[j], nums[j-1] = nums[j-1], nums[j]
         #         j-=1
         
-        return [ i for i, num in enumerate(list(sorted(nums))) if num == target]
+        return [ i for i, num in enumerate(sorted(nums)) if num == target]
                 
         
     
