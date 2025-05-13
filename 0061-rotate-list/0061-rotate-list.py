@@ -16,7 +16,6 @@ class Solution:
         print(f"te list length is {length} ")
 
         dummy = ListNode(0, head)
-        
         fast = dummy.next
         counter = 1
         effective_rotation = k % length
@@ -28,7 +27,6 @@ class Solution:
                 fast.next = None
                 counter += 1
                 fast = dummy.next
-                # continue
             else : 
                 fast = fast.next
         
