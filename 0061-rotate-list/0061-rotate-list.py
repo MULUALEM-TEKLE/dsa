@@ -16,8 +16,8 @@ class Solution:
         print(f"te list length is {length} ")
 
         dummy = ListNode(0, head)
-        cur = dummy
-        fast = cur.next
+        
+        fast = dummy.next
         counter = 1
         effective_rotation = k % length
         while counter <= effective_rotation : 
