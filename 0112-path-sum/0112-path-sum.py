@@ -4,22 +4,17 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
-def hasSum(root , sum_ , targetSum) : 
-    if not root : 
-        return False
-    
-    sum_ += root.val
-
-    if not root.left and not root.right : 
-            return sum_ == targetSum
-    return  hasSum(root.left, sum_,  targetSum) or  hasSum(root.right, sum_,  targetSum)
-  
-
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
-        sum_ = 0
-        return hasSum(root, sum_ , targetSum)
-
-
-                
+        # lets do preorder traversal
+        # check if node is null
+        if not root : 
+            return False
+        targetSum -= root.val
+        # check if we're at a leaf node and if target sum is reached return true
+        if not root.right and not root.left and targetSum == 0:
+            return True
+        return self.hasPathSum(root.left , targetSum) or self.hasPathSum(root.right , targetSum)
+        # check left
+        # check right
+        # if nothing found return false
