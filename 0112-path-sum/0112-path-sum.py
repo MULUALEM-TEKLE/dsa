@@ -19,7 +19,7 @@ def hasSum(root , sum_ , targetSum) :
     if hasSum(root.right, sum_,  targetSum) : 
         return True
 
-    sum_ -= root.val
+    # sum_ -= root.val
     return False
 
 class Solution:
