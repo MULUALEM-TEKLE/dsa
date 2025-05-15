@@ -20,10 +20,10 @@ class Solution:
 
         # return head.next
 
-        if not head or not head.next : 
-            return head 
+        # if not head or not head.next : 
+        #     return head 
         cur = head
-        while cur.next:
+        while cur and cur.next:
             if cur.val == cur.next.val : 
                 cur.next = cur.next.next
             else : 
