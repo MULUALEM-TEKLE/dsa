@@ -15,7 +15,6 @@ class Solution:
         cur = head
 
         while cur  : 
-            print(f"current val : {cur.val}")
             if cur.val < x:
                 f.next = cur
                 f = f.next
@@ -27,9 +26,6 @@ class Solution:
         
         s.next = None
         f.next = second.next
-
-        # print(first)
-        # print(second)
-
+        
         return first.next
         
