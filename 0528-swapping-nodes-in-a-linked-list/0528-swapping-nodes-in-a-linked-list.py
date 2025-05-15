@@ -25,7 +25,7 @@ class Solution:
         for i in range(k-1) : 
             cur = cur.next
         
-        print(f"cur is at {cur.val}")
+        # print(f"cur is at {cur.val}")
 
         right = head 
         left = cur 
