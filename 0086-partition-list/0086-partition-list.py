@@ -17,15 +17,17 @@ class Solution:
         while cur  : 
             print(f"current val : {cur.val}")
             if cur.val < x:
-                f.next = ListNode(cur.val)
+                f.next = cur
                 f = f.next
             else : 
-                s.next = ListNode(cur.val)
+                s.next = cur
                 s= s.next
 
             cur = cur.next
         
+        s.next = None
         f.next = second.next
+
         # print(first)
         # print(second)
 
