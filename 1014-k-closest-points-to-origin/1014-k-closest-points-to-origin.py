@@ -1,64 +1,21 @@
-def merge(arr_one, arr_two):
-    temp = [0] * (len(arr_one) + len(arr_two))
-    temp_ptr = 0
-    L = 0
-    R = 0
-
-    while L < len(arr_one) and R < len(arr_two) : 
-        if arr_one[L] > arr_two[R]:
-            temp[temp_ptr] = arr_two[R]
-            R += 1
-        else : 
-            temp[temp_ptr] = arr_one[L]
-            L += 1
-        temp_ptr += 1
-
-    while L < len(arr_one):
-        temp[temp_ptr] = arr_one[L]
-        L += 1
-        temp_ptr += 1
-    
-    while R < len(arr_two): 
-        temp[temp_ptr] = arr_two[R]
-        R += 1
-        temp_ptr += 1 
-    
-    return temp
-
-def merge_sort(arr):
-    arr = list(arr)
-    if len(arr) <= 1 : 
-        return arr
-    mid = len(arr)//2
-
-    arr_one = merge_sort(arr[: mid])
-    arr_two = merge_sort(arr[mid:])
-
-    return merge(arr_one, arr_two)
-    
-
+import heapq
 class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
-        sqrt_list = [(i[0]**2 + i[1]**2) for i in points]
+        squared_list = [(point[0] ** 2  + point[1] ** 2) for point in points]
         table = {}
+        for index , square in enumerate(squared_list) : 
+            if square in table.keys() : 
+                table[square].append(points[index])
+            else :
+                table[square] = [points[index]]
 
-        for i in range(len(sqrt_list)):
-            if sqrt_list[i] in table:
-                table[sqrt_list[i]].append(i)
-            else:
-                table[sqrt_list[i]] = [i]
+        print(table)
+        # print(squared_list)
+        heapq.heapify(squared_list)
+        min = set(heapq.nsmallest(k , squared_list))
+        print(min)
+        res = []
+        for m in min : 
+            res.extend(table[m])
 
-
-        finalists = sorted(table.keys())[:k]
-        
-        temp = []
-        for i in range(k): 
-            if not len(temp) >= k:
-                temp.extend(table[finalists[i]])
-                          
-        return [points[temp[i]] for i in range(len(temp))][:k]
-
-        
-        
-       
-        
+        return res
