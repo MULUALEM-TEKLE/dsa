@@ -9,11 +9,9 @@ class Solution:
             else :
                 table[square] = [points[index]]
 
-        print(table)
-        # print(squared_list)
         heapq.heapify(squared_list)
         min = set(heapq.nsmallest(k , squared_list))
-        print(min)
+
         res = []
         for m in min : 
             res.extend(table[m])
