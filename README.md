@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0009-palindrome-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0367-valid-perfect-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0367-valid-perfect-square) |
+| [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
 | [1013-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 ## Stack
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0392-is-subsequence) |
+| [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
 | [1894-merge-strings-alternately](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1894-merge-strings-alternately) |
 ## Dynamic Programming
 |  |
@@ -151,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2058-concatenation-of-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2058-concatenation-of-array) |
 | [2195-time-needed-to-buy-tickets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2195-time-needed-to-buy-tickets) |
