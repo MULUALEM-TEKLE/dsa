@@ -11,7 +11,6 @@ class Solution:
 
         heapq.heapify(squared_list)
         min = set(heapq.nsmallest(k , squared_list))
-
         res = []
         for m in min : 
             res.extend(table[m])
