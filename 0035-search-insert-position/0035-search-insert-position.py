@@ -6,7 +6,7 @@ class Solution:
             return 0
 
         left, right = 0 , len(nums) - 1
-        mid = (left + right)//2
+        # mid = (left + right)//2
         while left <= right : 
             mid = (left + right)//2
             # if left == right : 
