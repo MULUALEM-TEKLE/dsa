@@ -24,5 +24,5 @@ class Solution:
             elif haystack[index] == needle[needle_ptr] and len(needle) == 1 :  
                 return index  
 
-        return -1
+        return pos
         
