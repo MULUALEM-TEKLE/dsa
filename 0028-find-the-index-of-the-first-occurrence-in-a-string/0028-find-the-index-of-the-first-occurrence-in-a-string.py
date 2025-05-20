@@ -9,8 +9,8 @@ class Solution:
         pos = -1
         needle_ptr = 0
 
-        for index, letter in enumerate(haystack) : 
-            if letter == needle[needle_ptr] and len(needle) > 1 : 
+        for index in range(len(haystack)) : 
+            if haystack[index] == needle[needle_ptr] and len(needle) > 1 : 
                 pos = index
                 needle_ptr += 1
                 while index + needle_ptr <= len(haystack) - 1 and needle[needle_ptr] == haystack[index + needle_ptr] : 
@@ -19,12 +19,9 @@ class Solution:
 
                     needle_ptr += 1
 
-                    if index + needle_ptr > len(haystack) - 1 : 
-                        return -1
-
                 pos = -1
                 needle_ptr = 0  
-            elif letter == needle[needle_ptr] and len(needle) == 1 :  
+            elif haystack[index] == needle[needle_ptr] and len(needle) == 1 :  
                 return index  
 
         return -1
