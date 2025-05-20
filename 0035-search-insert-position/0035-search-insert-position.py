@@ -9,10 +9,10 @@ class Solution:
         mid = (left + right)//2
         while left <= right : 
             mid = (left + right)//2
-            if left == right : 
-                if nums[mid] >= target : 
-                    return mid 
-                return mid + 1
+            # if left == right : 
+            #     if nums[mid] >= target : 
+            #         return mid 
+            #     return mid + 1
 
             if nums[mid] > target : 
                 right = mid - 1
@@ -21,4 +21,4 @@ class Solution:
             else : 
                 return mid
         
-        return mid 
+        return left 
