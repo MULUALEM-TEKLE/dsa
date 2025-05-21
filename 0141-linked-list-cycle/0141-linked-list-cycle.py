@@ -6,23 +6,24 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        # slow = fast = head 
+        slow = fast = head 
 
-        # while fast and fast.next : 
-        #     fast = fast.next.next 
-        #     slow = slow.next 
-        #     if slow == fast : 
-        #         return False 
-        # return True 
-
-        table = {}
-
-        cur = head 
-
-        while cur : 
-            if cur in table.keys() : 
+        while fast and fast.next : 
+            fast = fast.next.next 
+            slow = slow.next 
+            if slow == fast : 
                 return True
-            table[cur] = 1 
-            cur = cur.next 
-        
+                
         return False
+
+        # table = {}
+
+        # cur = head 
+
+        # while cur : 
+        #     if cur in table.keys() : 
+        #         return True
+        #     table[cur] = 1 
+        #     cur = cur.next 
+        
+        # return False
