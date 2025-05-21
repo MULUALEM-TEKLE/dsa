@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0009-palindrome-number) |
 | [0066-plus-one](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0066-plus-one) |
+| [0069-sqrtx](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0069-sqrtx) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0367-valid-perfect-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0367-valid-perfect-square) |
 | [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0367-valid-perfect-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0367-valid-perfect-square) |
