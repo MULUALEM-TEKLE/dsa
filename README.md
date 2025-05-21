@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0035-search-insert-position) |
 | [0049-group-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0049-group-anagrams) |
+| [0066-plus-one](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0088-merge-sorted-array) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0009-palindrome-number) |
+| [0066-plus-one](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0367-valid-perfect-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0367-valid-perfect-square) |
 | [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
