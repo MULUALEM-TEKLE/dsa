@@ -211,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0100-same-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0112-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0450-delete-node-in-a-bst) |
@@ -228,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0100-same-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0112-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0450-delete-node-in-a-bst) |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0100-same-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0112-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0230-kth-smallest-element-in-a-bst) |
 ## Enumeration
@@ -248,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0100-same-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0112-path-sum) |
 ## String Matching
 |  |
