@@ -13,10 +13,10 @@ class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
         low , high = 1 , max(piles)
 
-        while low <= high : 
+        while low < high : 
             mid = ((low+high)//2)
             if totalTimePerRate(mid , piles[:]) > h : 
                 low = mid +1 
             elif totalTimePerRate(mid , piles[:]) <= h :
-                high = mid - 1
+                high = mid 
         return low
