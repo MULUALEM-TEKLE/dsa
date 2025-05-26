@@ -15,22 +15,36 @@ class Solution:
         
         # return dfs(root)
 
-        if not root : 
-            return 0
+        # if not root : 
+        #     return 0
 
+        # level = 0
+        # q = deque() 
+        # q.append(root)
+
+        # while q : 
+        #     for i in range(len(q)) : 
+        #         node = q.popleft()
+        #         if node.left : 
+        #             q.append(node.left)
+        #         if node.right : 
+        #             q.append(node.right)
+        #     level += 1
+
+        # return level
+
+        stack = [[root , 1]]
         level = 0
-        q = deque() 
-        q.append(root)
 
-        while q : 
-            for i in range(len(q)) : 
-                node = q.popleft()
-                if node.left : 
-                    q.append(node.left)
-                if node.right : 
-                    q.append(node.right)
-            level += 1
+        while stack : 
+            
+            node , depth = stack.pop()
 
+            if node : 
+                level = max(level ,depth)
+                stack.append([node.left , depth +1])
+                stack.append([node.right , depth +1])
+        
         return level
         
         
