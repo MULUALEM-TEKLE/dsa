@@ -7,12 +7,9 @@ class Solution:
         low , high = 1 , max(piles)
 
         def totalTimePerRate(rate  ) : 
-            total_time = 0
-            
-            for i in range(len(piles)) : 
-                total_time += math.ceil(piles[i] / rate)
+          
 
-            return total_time
+            return sum([math.ceil(pile/rate) for pile in piles])
 
         while low < high : 
             mid = ((low+high)//2)
