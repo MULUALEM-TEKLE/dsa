@@ -19,7 +19,8 @@ class Solution:
             return 0
 
         level = 0
-        q = deque([root]) 
+        q = deque() 
+        q.append(root)
 
         while q : 
             for i in range(len(q)) : 
