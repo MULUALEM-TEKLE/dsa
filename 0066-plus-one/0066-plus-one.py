@@ -4,7 +4,7 @@ class Solution:
         for i in range(len(digits) -1 , -1 , -1) : 
             res = digits[i] + 1
             if res >= 10 : 
-                digits[i] = res%10
+                digits[i] = 0
                 carry = 1
             else : 
                 digits[i] = res
