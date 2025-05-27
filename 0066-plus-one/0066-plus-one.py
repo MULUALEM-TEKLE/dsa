@@ -8,11 +8,7 @@ class Solution:
                 carry = 1
             else : 
                 digits[i] = res
-                carry = 0
-                break
-    
+                return digits
             
-        if carry : 
-            return [1] + digits
-        else : 
-            return digits
+        return [1] + digits
+        
