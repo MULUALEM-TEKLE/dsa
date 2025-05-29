@@ -1,11 +1,22 @@
 class Solution:
     def maximumCount(self, nums: List[int]) -> int:
-        n = p = 0
+        def binary_search(target) : 
+            low , high = 0 , len(nums) - 1   
+            pos = len(nums)
+            while low <= high : 
+                mid = (low + high) // 2
 
-        for num in nums : 
-            if num > 0 : 
-                p += 1 
-            elif num < 0 :
-                n += 1 
+                if nums[mid] < target : 
+                    low = mid + 1 
+                else : 
+                    high = mid - 1
+                    pos = mid 
+            
+            return pos
+
+        print(binary_search(0))
+        print(binary_search(1))
+
+        return max(len(nums) - binary_search(1) , binary_search(0) )
         
-        return max(n , p)
+           
