@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
 | [2350-find-closest-number-to-zero](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2350-find-closest-number-to-zero) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
 ## Two Pointers
 |  |
 | ------- |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1019-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1894-merge-strings-alternately) |
+| [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
 ## Sorting
 |  |
 | ------- |
@@ -194,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0242-valid-anagram) |
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
+| [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
 ## Binary Search
 |  |
 | ------- |
@@ -208,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0907-koko-eating-bananas) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
 ## Matrix
 |  |
 | ------- |
