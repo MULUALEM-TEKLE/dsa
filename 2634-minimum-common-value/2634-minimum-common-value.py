@@ -21,6 +21,8 @@ class Solution:
             min_list = nums2
             max_list = nums1
         
+        min_list = list(set(min_list))
+        min_list.sort()
        
       
      
