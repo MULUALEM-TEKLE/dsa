@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1293-three-consecutive-odds](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1293-three-consecutive-odds) |
 | [1580-shuffle-the-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1580-shuffle-the-array) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
+| [1646-kth-missing-positive-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1646-kth-missing-positive-number) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2058-concatenation-of-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2058-concatenation-of-array) |
 | [2195-time-needed-to-buy-tickets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2195-time-needed-to-buy-tickets) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0374-guess-number-higher-or-lower](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0374-guess-number-higher-or-lower) |
 | [0792-binary-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0907-koko-eating-bananas) |
+| [1646-kth-missing-positive-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1646-kth-missing-positive-number) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
