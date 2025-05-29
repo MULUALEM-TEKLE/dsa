@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0345-reverse-vowels-of-a-string) |
+| [0383-ransom-note](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0392-is-subsequence) |
 | [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
 | [1894-merge-strings-alternately](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1894-merge-strings-alternately) |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0242-valid-anagram) |
+| [0383-ransom-note](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0383-ransom-note) |
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
 ## Binary Search
@@ -303,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [0383-ransom-note](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0383-ransom-note) |
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Sliding Window
