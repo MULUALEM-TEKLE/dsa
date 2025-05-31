@@ -9,6 +9,12 @@ def min_val_node(root) :
     while cur and cur.left:
         cur = cur.left
     return cur
+
+def max_val_node(root) : 
+    cur = root 
+    while cur and cur.right : 
+        cur = cur.right
+    return cur
  
 class Solution:
     def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
@@ -23,10 +29,15 @@ class Solution:
                 return root.right
             elif not root.right :
                 return root.left
-            else:
-                min_node = min_val_node(root.right)
-                root.val = min_node.val
-                root.right = self.deleteNode(root.right, min_node.val)
+            # else:
+            #     min_node = min_val_node(root.right)
+            #     root.val = min_node.val
+            #     root.right = self.deleteNode(root.right, min_node.val)
+            else : 
+                max_node = max_val_node(root.left)
+                root.val = max_node.val
+                root.left = self.deleteNode(root.left , max_node.val)
+
         return root
 
 
