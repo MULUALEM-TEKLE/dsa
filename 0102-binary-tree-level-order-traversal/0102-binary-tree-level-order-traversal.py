@@ -22,6 +22,6 @@ class Solution:
                 if node.right : 
                     q.append(node.right)
             res.extend([tmp])
-            # tmp = []
+            tmp = []
 
         return res
