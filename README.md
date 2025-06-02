@@ -257,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0764-n-ary-tree-level-order-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0783-search-in-a-binary-search-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0784-insert-into-a-binary-search-tree) |
+| [1035-cousins-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1035-cousins-in-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -282,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0784-insert-into-a-binary-search-tree) |
+| [1035-cousins-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1035-cousins-in-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -294,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0199-binary-tree-right-side-view) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0637-average-of-levels-in-binary-tree) |
+| [1035-cousins-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1035-cousins-in-binary-tree) |
 ## Enumeration
 |  |
 | ------- |
@@ -312,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0199-binary-tree-right-side-view) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [1035-cousins-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1035-cousins-in-binary-tree) |
 ## String Matching
 |  |
 | ------- |
