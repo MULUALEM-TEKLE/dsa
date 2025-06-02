@@ -21,9 +21,8 @@ class Solution:
             if level == 0 : 
                 q[0].next = None
             else : 
-                for i in range(0 , len(q)-1 ) : 
-                    # print(q[i-1])
-                    q[i].next = q[i + 1]
+                for i in range(1 ,len(q) ) : 
+                    q[i-1].next = q[i ]
 
             for _ in range(len(q)) : 
                 node = q.popleft()
