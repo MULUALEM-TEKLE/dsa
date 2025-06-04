@@ -16,10 +16,12 @@ class Solution:
                 print(f"adding to count is now {count}")
                 count[0] += freq[x]
             
-            if cs in freq.keys() : 
-                freq[cs] += 1 
-            else : 
-                freq[cs] = 1
+            # if cs in freq.keys() : 
+            #     freq[cs] += 1 
+            # else : 
+            #     freq[cs] = 1
+
+            freq[cs] = freq.get(cs , 0) + 1 
 
             dfs(root.left , cs , count)
             dfs(root.right , cs , count )
