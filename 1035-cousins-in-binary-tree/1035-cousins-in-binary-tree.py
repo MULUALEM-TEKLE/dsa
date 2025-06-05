@@ -12,7 +12,7 @@ class Solution:
             tmp = {}
             for _ in range(len(q)) : 
                 node , parent = q.popleft()
-                tmp[node.val] = parent
+                tmp[node.val] = parent.val if parent else None
 
                 if node.left : 
                     q.append([node.left , node])
