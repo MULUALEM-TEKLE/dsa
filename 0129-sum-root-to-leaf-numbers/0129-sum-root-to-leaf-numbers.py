@@ -6,19 +6,16 @@
 #         self.right = right
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
-        total = 0
-        def dfs(root , total) : 
+
+        def dfs(root , result) : 
             if not root : 
                 return 0
-
-            total = (total * 10) + root.val 
+            
+            result = (result * 10) + root.val
 
             if not root.left and not root.right : 
-                return total
+                return result
             
-            return dfs(root.left , total) + dfs(root.right , total)
+            return dfs(root.left , result) + dfs(root.right, result)
         
         return dfs(root , 0)
-
-       
-        
