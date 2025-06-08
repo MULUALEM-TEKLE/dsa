@@ -4,4 +4,4 @@ class Solution:
         heapq.heapify(heap)
         while len(heap) > k : 
             heapq.heappop(heap)
-        return heapq.heappop(heap)
+        return heap[0]
