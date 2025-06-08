@@ -12,13 +12,17 @@ class Solution:
 
             # if s[i].isnumeric() : 
             #     i += 1 
-            
-            subset.append(s[i].upper())
-            dfs(i+1)
-            subset.pop()
-            subset.append(s[i].lower())
-            dfs(i+1)
-            subset.pop()
+            if s[i].isalpha() : 
+                subset.append(s[i].upper())
+                dfs(i+1)
+                subset.pop()
+                subset.append(s[i].lower())
+                dfs(i+1)
+                subset.pop()
+            else : 
+                subset.append(s[i])
+                dfs(i+1)
+                subset.pop()
             
         
         dfs(0)
