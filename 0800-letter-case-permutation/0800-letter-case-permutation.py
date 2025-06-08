@@ -6,7 +6,8 @@ class Solution:
 
         def dfs(i) :
             if i >= len(s) : 
-                if "".join(subset) not in res : res.append("".join(subset))
+                tmp = "".join(subset)
+                if tmp not in res : res.append(tmp)
                 return
 
             # if s[i].isnumeric() : 
