@@ -7,11 +7,9 @@ class Solution:
         def dfs(i) :
             if i >= len(s) : 
                 tmp = "".join(subset)
-                if tmp not in res : res.append(tmp)
+                res.append(tmp)
                 return
 
-            # if s[i].isnumeric() : 
-            #     i += 1 
             if s[i].isalpha() : 
                 subset.append(s[i].upper())
                 dfs(i+1)
