@@ -8,30 +8,28 @@ class MyHashMap:
     def __init__(self):
         self.size = 0
         self.capacity = 10
-        self.map = [[] for _ in range(self.capacity)]
+        self.buckets = [[] for _ in range(self.capacity)]
     
     def hash(self, key) : 
         return key % self.capacity
     
     def rehash(self) : 
         self.capacity = 2 * self.capacity
-        newMap = [[] for _ in range(self.capacity)]
+        new_buckets = [[] for _ in range(self.capacity)]
        
-        oldMap = self.map 
-        self.map = newMap 
+        old_buckets = self.buckets 
+        self.buckets = new_buckets 
         self.size = 0
-        for chain in oldMap : 
-        
+        for chain in old_buckets : 
             for pair in chain : 
-                
-                    self.put(pair.key, pair.value)
+                self.put(pair.key, pair.value)
 
     def put(self, key: int, value: int) -> None:
         index = self.hash(key)
-        chain = self.map[index]
+        chain = self.buckets[index]
 
         for i, pair in enumerate(chain) : 
-            if pair and pair.key == key : 
+            if pair.key == key : 
                 chain[i].value = value
                 return 
         
@@ -43,10 +41,10 @@ class MyHashMap:
        
     def get(self, key: int) -> int:
         index = self.hash(key)
-        chain = self.map[index]
+        chain = self.buckets[index]
 
         for pair in chain : 
-            if pair and pair.key == key : 
+            if pair.key == key : 
                 return pair.value
         
         return -1
@@ -54,11 +52,13 @@ class MyHashMap:
 
     def remove(self, key: int) -> None:
         index = self.hash(key)
-        chain = self.map[index]
+        chain = self.buckets[index]
 
         for index, pair in enumerate(chain) : 
-            if pair and pair.key == key : 
+            if pair.key == key : 
                 del chain[index] 
+                self.size -= 1
+                return
 
         
 
