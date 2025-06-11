@@ -1,10 +1,9 @@
 class Solution:
     def targetIndices(self, nums: List[int], target: int) -> List[int]:
-        nums.sort()
         table = {}
         res = []
 
-        for index, num in enumerate(nums) : 
+        for index, num in enumerate(sorted(nums)) : 
             if num in table : 
                 table[num].append(index)
             else : 
