@@ -3,12 +3,10 @@ class Solution:
         res = []
 
         subset = []
-
-        def dfs(i) :
+        def dfs(i) : 
             if i >= len(s) : 
-                tmp = "".join(subset)
-                res.append(tmp)
-                return
+                res.append("".join(subset))
+                return 
 
             if s[i].isalpha() : 
                 subset.append(s[i].upper())
@@ -21,7 +19,6 @@ class Solution:
                 subset.append(s[i])
                 dfs(i+1)
                 subset.pop()
-            
         
         dfs(0)
         return res
