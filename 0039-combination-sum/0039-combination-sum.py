@@ -14,8 +14,6 @@ class Solution:
             subset.append(candidates[i])
             dfs(i , candidates[i] + cur_sum)
             subset.pop()
-            while i + 1 < len(candidates) and candidates[i]==candidates[i+1] : 
-                i += 1 
             dfs(i+1 ,cur_sum)
         
         dfs(0 , 0)
