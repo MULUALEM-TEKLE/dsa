@@ -1,15 +1,11 @@
 class Solution:
     def targetIndices(self, nums: List[int], target: int) -> List[int]:
-        res = []
-        nums.sort()
-        table = {}
+        lt = eq = 0
 
-        for index,num in enumerate(nums) : 
-            if num in table : 
-                table[num].append(index)
-            else : 
-                table[num] = [index]
+        for num in nums : 
+            if num < target : 
+                lt += 1 
+            elif num == target : 
+                eq += 1 
         
-        if target in nums : res.extend(table[target])
-
-        return res
+        return list(range(lt , lt+eq))
