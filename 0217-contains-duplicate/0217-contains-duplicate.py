@@ -1,14 +1,12 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        table = {}
+        hash_set = set()
 
         for num in nums : 
-            table[num] = table.get(num , 0) + 1
-        
-        for num in nums : 
-            if table[num] > 1 : 
+            if num in hash_set : 
                 return True
-
+            hash_set.add(num)
+        
         return False
-         
+
 
