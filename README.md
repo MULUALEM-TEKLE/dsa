@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0086-partition-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0141-linked-list-cycle](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0146-lru-cache) |
 | [0203-remove-linked-list-elements](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0234-palindrome-linked-list) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0146-lru-cache) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0816-design-hashset](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0817-design-hashmap) |
@@ -214,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0146-lru-cache) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
 ## Data Stream
 |  |
@@ -232,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0049-group-anagrams) |
 | [0141-linked-list-cycle](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0242-valid-anagram) |
