@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0217-contains-duplicate) |
@@ -274,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0074-search-a-2d-matrix) |
+| [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
 ## Tree
 |  |
@@ -344,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0199-binary-tree-right-side-view](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0437-path-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0437-path-sum-iii) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -365,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0764-n-ary-tree-level-order-traversal) |
@@ -431,5 +435,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
