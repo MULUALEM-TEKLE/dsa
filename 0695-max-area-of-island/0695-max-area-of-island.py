@@ -13,8 +13,6 @@ class Solution:
             visited.add((r , c))
             area = 1
 
-            print(q)
-
             while q : 
                 row , col = q.popleft()
                 directions = [[1 , 0] , [-1 , 0] , [0 , 1] , [0 , -1]]
@@ -26,12 +24,9 @@ class Solution:
                         q.append((r , c))
                         visited.add((r , c))
                         area += 1
-            # print(f"area of the current island is {area}")
             return area
 
 
-        print(rows)
-        print(cols)
         for r in range(rows) : 
             for c in range(cols) : 
                 if grid[r][c] == 1 and (r , c) not in visited : 
