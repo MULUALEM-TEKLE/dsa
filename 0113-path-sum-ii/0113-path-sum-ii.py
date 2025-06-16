@@ -9,20 +9,20 @@ class Solution:
         res = []
 
         subset = []
-        def dfs(root , target) : 
+        def dfs(root , cur_sum) : 
             if not root : 
                 return 
 
             subset.append(root.val)
-            target -= root.val
+            cur_sum += root.val
 
             
-            if not root.left and not root.right and target == 0 : 
+            if not root.left and not root.right and cur_sum == targetSum : 
                 res.append(subset[:])
             
-            dfs(root.left , target)
-            dfs(root.right , target)
+            dfs(root.left , cur_sum)
+            dfs(root.right , cur_sum)
             subset.pop()
         
-        dfs(root , targetSum)
+        dfs(root , 0)
         return res
