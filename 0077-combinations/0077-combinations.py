@@ -4,19 +4,18 @@ class Solution:
 
         subset = []
 
-        def dfs(i) : 
+        def dfs(n) : 
             if len(subset) == k : 
                 res.append(subset[:])
                 return
             
-            if i < 1 : 
+            if n < 1 : 
                 return 
             
-            subset.append(i)
-            dfs(i - 1)
+            subset.append(n)
+            dfs(n-1)
             subset.pop()
-            dfs(i - 1)
+            dfs(n-1)
         
         dfs(n)
-
         return res
