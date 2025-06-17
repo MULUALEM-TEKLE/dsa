@@ -1,18 +1,23 @@
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         res = []
+        perm = []
+        count = {num:0 for num in nums}
+        for num in nums : 
+            count[num] += 1 
 
-        if len(nums) == 1 : 
-            return [nums[:]]
+        def dfs():
+            if len(perm) == len(nums) : 
+                res.append(perm[:])
 
-        for i in range(len(nums)): 
-            n = nums.pop(0)
-            perms = self.permuteUnique(nums)
-            for perm in perms : 
-                perm.append(n)
-            for perm in perms : 
-                if perm not in res : 
-                    res.append(perm)
-            nums.append(n)
+            for n in count : 
+                if count[n] : 
+                    perm.append(n)
+                    count[n] -= 1
+
+                    dfs()
+                    count[n] += 1
+                    perm.pop()
+        
+        dfs()
         return res
-
