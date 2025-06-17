@@ -6,22 +6,23 @@ class Solution:
 
         def bfs(r , c) : 
             stack = []
-            stack.append((r , c , 0 ,{(r , c)}))
-            constructed = board[r][c]
+            visited = set()
+            stack.append((r , c , 0 , {(r , c)}  ))
+            visited.add((r , c))
             
 
             while stack : 
-                row , col , idx , visited = stack.pop()
+                row , col , idx , visited  = stack.pop()
 
                 if idx == len(word) - 1 : 
                     return True
             
                 for dr,dc in directions : 
                     r , c = row + dr , col + dc
-                    if r in range(rows) and c in range(cols) and (r , c) not in visited and board[r][c] == word[idx + 1]:
+                    if r in range(rows) and c in range(cols) and (r , c) not in visited and board[r][c] == word[idx + 1]:   
                         new_visited = visited.copy()
                         new_visited.add((r , c))
-                        stack.append((r , c , idx + 1 , new_visited))
+                        stack.append((r , c , idx + 1 , new_visited ))
                        
             return False
 
