@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0074-search-a-2d-matrix) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0015-3sum) |
+| [0047-permutations-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0088-merge-sorted-array) |
@@ -423,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0047-permutations-ii) |
 | [0077-combinations](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0090-subsets-ii) |
