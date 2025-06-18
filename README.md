@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0058-length-of-last-word) |
 | [0079-word-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0131-palindrome-partitioning) |
 | [0242-valid-anagram](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0345-reverse-vowels-of-a-string) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0131-palindrome-partitioning](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0131-palindrome-partitioning) |
 | [0392-is-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0392-is-subsequence) |
 | [1013-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1013-fibonacci-number) |
 ## Memoization
@@ -444,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0113-path-sum-ii) |
+| [0131-palindrome-partitioning](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0216-combination-sum-iii) |
 | [0800-letter-case-permutation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0800-letter-case-permutation) |
 ## Hash Function
