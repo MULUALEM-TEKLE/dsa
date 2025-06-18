@@ -5,10 +5,10 @@ class Solution:
         rows, cols = len(board) , len(board[0])
         path = set()
 
-        board_char_counts = Counter()
+        board_char_counts = {}
         for r in range(rows):
             for c in range(cols):
-                board_char_counts[board[r][c]] += 1
+                board_char_counts[board[r][c]] = board_char_counts.get(board[r][c] , 0) + 1 
 
         word_char_counts = {}
 
@@ -16,7 +16,7 @@ class Solution:
             word_char_counts[char] = word_char_counts.get(char , 0) + 1
             
         for char, count in word_char_counts.items():
-            if board_char_counts[char] < count:
+            if char not in board_char_counts or board_char_counts[char] < count:
                 return False
 
         # Also, for an edge case: if the word is longer than the total number of cells, it can't exist.
