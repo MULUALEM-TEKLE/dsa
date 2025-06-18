@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1019-squares-of-a-sorted-array) |
+| [1036-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1293-three-consecutive-odds](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1293-three-consecutive-odds) |
@@ -291,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
 | [0419-battleships-in-a-board](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0419-battleships-in-a-board) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1171-shortest-path-in-binary-matrix) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Tree
@@ -392,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [1035-cousins-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1035-cousins-in-binary-tree) |
+| [1036-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1171-shortest-path-in-binary-matrix) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## String Matching
