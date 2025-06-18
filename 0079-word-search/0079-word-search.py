@@ -1,4 +1,4 @@
-from collections import Counter
+# from collections import Counter
 
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
@@ -10,8 +10,11 @@ class Solution:
             for c in range(cols):
                 board_char_counts[board[r][c]] += 1
 
-        word_char_counts = Counter(word)
+        word_char_counts = {}
 
+        for char in word : 
+            word_char_counts[char] = word_char_counts.get(char , 0) + 1
+            
         for char, count in word_char_counts.items():
             if board_char_counts[char] < count:
                 return False
