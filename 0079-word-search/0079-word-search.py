@@ -4,7 +4,7 @@ class Solution:
         path = set()
 
         def dfs(r , c , i) : 
-            if i == len(word) : 
+            if i == len(word)  : 
                 return True 
             
             if r not in range(rows) or c not in range(cols) or word[i] != board[r][c] or (r , c) in path : 
@@ -22,5 +22,7 @@ class Solution:
             for c in range(cols) : 
                 if board[r][c] == word[0] : 
                     res = res or dfs(r , c , 0)
+                    if res : 
+                        return True
         
-        return res
+        return False
