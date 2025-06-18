@@ -1,7 +1,24 @@
+from collections import Counter
+
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         rows, cols = len(board) , len(board[0])
         path = set()
+
+        board_char_counts = Counter()
+        for r in range(rows):
+            for c in range(cols):
+                board_char_counts[board[r][c]] += 1
+
+        word_char_counts = Counter(word)
+
+        for char, count in word_char_counts.items():
+            if board_char_counts[char] < count:
+                return False
+
+        # Also, for an edge case: if the word is longer than the total number of cells, it can't exist.
+        if len(word) > rows * cols:
+            return False
 
         def dfs(r , c , i) : 
             if i == len(word)  : 
