@@ -1,7 +1,7 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         res  = []
-
+        candidates.sort()
         comb = []
 
         def dfs(i , cur_sum) : 
@@ -12,8 +12,8 @@ class Solution:
             if cur_sum > target or i >= len(candidates)  : 
                 return 
 
-            # if cur_sum + candidates[i] > target : 
-            #     return 
+            if cur_sum + candidates[i] > target : 
+                return
 
             comb.append(candidates[i])
             dfs(i , cur_sum + candidates[i])
