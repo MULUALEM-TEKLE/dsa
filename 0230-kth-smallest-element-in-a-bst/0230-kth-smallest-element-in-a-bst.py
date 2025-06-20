@@ -9,15 +9,12 @@ class Solution:
         cur = root 
         stack = []
 
-        while stack or cur : 
-            while cur  : 
+        while cur or stack : 
+            while cur : 
                 stack.append(cur)
                 cur = cur.left 
             cur = stack.pop()
-            k -= 1
-            if k == 0 : 
+            k -= 1 
+            if k == 0 :  
                 return cur.val
-            print(cur.val)
             cur = cur.right
-
-        
