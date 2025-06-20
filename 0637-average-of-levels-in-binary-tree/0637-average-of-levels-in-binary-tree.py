@@ -13,15 +13,15 @@ class Solution:
             q.append(root)
 
         while q : 
-            tmp = []
+            avg = 0
             len_q = len(q)
             for _ in range(len_q) : 
                 node = q.popleft()
-                tmp.append(node.val)
+                avg += node.val
                 if node.left : 
                     q.append(node.left)
                 if node.right : 
                     q.append(node.right)
-            res.append(sum(tmp)/len_q)
+            res.append(avg/len_q)
         return res 
             
