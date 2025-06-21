@@ -8,21 +8,23 @@ class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> List[List[int]]:
         res = []
 
-        subset = []
-        def dfs(root , cur_sum) : 
+        path = []
+        def dfs(root , cur) : 
             if not root : 
                 return 
 
-            subset.append(root.val)
-            cur_sum += root.val
+            # if cur > targetSum : 
+            #     return 
 
+            cur += root.val
+            path.append(root.val)
+
+            if not root.left and not root.right and cur == targetSum : 
+                res.append(path[:])
             
-            if not root.left and not root.right and cur_sum == targetSum : 
-                res.append(subset[:])
-            
-            dfs(root.left , cur_sum)
-            dfs(root.right , cur_sum)
-            subset.pop()
+            dfs(root.left , cur)
+            dfs(root.right , cur)
+            path.pop()
         
         dfs(root , 0)
         return res
