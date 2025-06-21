@@ -366,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0199-binary-tree-right-side-view](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0207-course-schedule) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0419-battleships-in-a-board](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0419-battleships-in-a-board) |
 | [0437-path-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0437-path-sum-iii) |
@@ -390,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0207-course-schedule) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0764-n-ary-tree-level-order-traversal) |
@@ -466,4 +468,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+## Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0207-course-schedule) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
