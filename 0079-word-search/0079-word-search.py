@@ -15,6 +15,9 @@ class Solution:
         
         if len(word) > rows * cols : 
             return False 
+        
+        if word_letter_counter[word[0]] > word_letter_counter[word[-1]]: 
+            word = word[::-1]
 
         def dfs(r , c , i) : 
             if i == len(word) : 
