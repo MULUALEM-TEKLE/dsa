@@ -8,7 +8,7 @@ class Solution:
                 res.append(comb[:])
                 return
                 
-            if m > n : 
+            if (n - m + 1) < (k - len(comb)) : 
                 return 
             
             comb.append(m)
