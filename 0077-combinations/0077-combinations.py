@@ -1,21 +1,17 @@
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         res = []
+        comb = []
 
-        subset = []
-
-        def dfs(n) : 
-            if len(subset) == k : 
-                res.append(subset[:])
+        def backtrack(start):
+            if len(comb) == k:
+                res.append(comb[:])
                 return
             
-            if n < 1 : 
-                return 
-            
-            subset.append(n)
-            dfs(n-1)
-            subset.pop()
-            dfs(n-1)
-        
-        dfs(n)
+            for num in range(start, n + 1):
+                comb.append(num)
+                backtrack(num + 1)
+                comb.pop()
+
+        backtrack(1)
         return res
