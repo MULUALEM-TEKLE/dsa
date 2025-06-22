@@ -4,13 +4,16 @@ class Solution:
 
         comb = []
         def dfs(m , cs) : 
+            
             if len(comb) == k and cs == n : 
                 res.append(comb[:])
+                return
 
             if cs > n or len(comb) == k or m < 1 :
                 return 
 
             comb.append(m)
+            
             dfs(m-1 , cs+m)
             comb.pop()
             dfs(m-1 , cs)
