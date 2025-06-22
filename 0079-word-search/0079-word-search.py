@@ -1,41 +1,36 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
-        rows, cols = len(board), len(board[0])
-        visited = set()
-
-        board_letters_counter = Counter() 
-        for r in range(rows) : 
-            for c in range(cols) : 
-                board_letters_counter[board[r][c]] += 1 
-        word_letter_counter = Counter(word)
+        def in_bound(x, y):
+            return 0 <= x < len(board) and 0 <= y < len(board[0]) 
+    
+        def direction(x, y):
+            neighbors = []
+            for i, j in [(0, 1), (1, 0), (-1, 0), (0, -1)]:
+                if in_bound(x + i, y + j):
+                    neighbors.append((x + i, y + j))
+            return neighbors
         
-        for char, count in word_letter_counter.items(): 
-            if board_letters_counter[char] < count : 
-                return False
-        
-        if len(word) > rows * cols : 
-            return False 
-        
-        if word_letter_counter[word[0]] > word_letter_counter[word[-1]]: 
-            word = word[::-1]
-
-        def dfs(r , c , i) : 
-            if i == len(word) : 
+        # Check for each starting positions
+        def dfs_check(curr, i, j, visited):
+            visited.add((i, j))
+            if curr + 1 == len(word):
                 return True
-            
-            if r not in range(rows) or c not in range(cols) or board[r][c] != word[i] or (r , c) in visited : 
-                return False 
-            
-            visited.add((r,c))
-            res = dfs(r+1 , c , i+1) or dfs(r-1 , c , i+1) or dfs(r , c+1 , i+1) or dfs(r , c-1 , i+1) 
-            visited.remove((r , c))
-            return res
-
-        is_word_there = False
-        for r in range(rows) : 
-            for c in range(cols) : 
-                if board[r][c] == word[0] and (r, c) not in visited : 
-                    is_word_there = is_word_there or dfs(r , c , 0)
-                    if is_word_there : 
+            for x, y in direction(i, j): 
+                if board[x][y] == word[curr + 1] and (x, y) not in visited:
+                    visited.add((x, y))
+                    if dfs_check(curr + 1, x, y, visited):
                         return True
+            visited.remove((i, j))
+            return False
+
+        # collect word freq.
+        locations = defaultdict(list)
+        for i in range(len(board)):
+            for j in range(len(board[0])):
+                locations[board[i][j]].append([i, j])
+
+        # run dfs check
+        for i, j in locations[word[0]]:
+            if dfs_check(0, i, j, set()):
+                return True
         return False
