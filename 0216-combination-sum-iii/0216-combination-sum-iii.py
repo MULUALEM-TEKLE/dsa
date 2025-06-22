@@ -2,22 +2,18 @@ class Solution:
     def combinationSum3(self, k: int, n: int) -> List[List[int]]:
         res = []
 
-        subset = []
-        def dfs(i) : 
-            if len(subset) >= k : 
-                if sum(subset) == n : 
-                    res.append(subset[:])
-                    return
-                else : 
-                    return 
+        comb = []
+        def dfs(m , cs) : 
+            if len(comb) == k and cs == n : 
+                res.append(comb[:])
 
-            if i < 1 : 
+            if cs > n or len(comb) == k or m < 1 :
                 return 
 
-            subset.append(i)
-            dfs(i-1)
-            subset.pop()
-            dfs(i-1)
+            comb.append(m)
+            dfs(m-1 , cs+m)
+            comb.pop()
+            dfs(m-1 , cs)
         
-        dfs(9)
+        dfs(9 , 0)
         return res
