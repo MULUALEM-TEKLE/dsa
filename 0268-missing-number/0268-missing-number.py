@@ -5,8 +5,8 @@ class Solution:
         for i in range(len(nums)+1) : 
             n_xor = i ^ n_xor
 
-        nums_xor = 0
+        nums_xor = n_xor
         for num in nums : 
             nums_xor ^= num
         
-        return nums_xor ^ n_xor
+        return nums_xor
