@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0191-number-of-1-bits](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0215-kth-largest-element-in-an-array) |
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
@@ -409,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0136-single-number) |
+| [0191-number-of-1-bits](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0191-number-of-1-bits) |
 | [0287-find-the-duplicate-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0287-find-the-duplicate-number) |
 | [0389-find-the-difference](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0389-find-the-difference) |
 | [0800-letter-case-permutation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0800-letter-case-permutation) |
