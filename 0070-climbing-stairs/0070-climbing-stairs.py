@@ -1,13 +1,10 @@
 class Solution:
-    def climbStairs(self, n: int ) -> int:
-        def memo(n , cache) : 
-            if n <= 2 :
-                return n 
+    def climbStairs(self, n: int) -> int:
+        one , two = 1 , 1 
 
-            if n in cache : 
-                return cache[n]
-
-            cache[n] = memo(n-1 , cache) + memo(n-2 , cache)
-            return cache[n]
-        return memo(n , {})
-        
+        for i in range(n-1) : 
+            tmp = one 
+            one = one + two 
+            two = tmp
+            
+        return one 
