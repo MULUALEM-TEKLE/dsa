@@ -9,7 +9,8 @@ class Solution:
                 pivot = i-1
                 break
         else : 
-            return nums[::-1]
+            nums.reverse()
+            return nums 
         
         swap = len(nums)-1
 
