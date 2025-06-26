@@ -1,24 +1,13 @@
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
-        res = []
-        perm = []
-        count = {}
-        for num in nums : 
-            count[num] = count.get(num , 0) + 1 
-
-        def dfs():
-            if len(perm) == len(nums) : 
-                res.append(perm[:])
-                return
-
-            for n in count : 
-                if count[n] : 
-                    perm.append(n)
-                    count[n] -= 1
-
-                    dfs()
-                    count[n] += 1
-                    perm.pop()
+        if len(nums) == 0 : 
+            return [[]]
         
-        dfs()
+        perms = self.permuteUnique(nums[1:])
+        res = []
+        for p in perms : 
+            for i in range(len(p)+1) : 
+                pc = p[:]
+                pc.insert(i , nums[0])
+                if pc not in res : res.append(pc)
         return res
