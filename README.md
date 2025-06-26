@@ -170,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0234-palindrome-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0234-palindrome-linked-list) |
+| [0886-score-of-parentheses](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0886-score-of-parentheses) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 ## String
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0392-is-subsequence) |
 | [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
 | [0800-letter-case-permutation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0800-letter-case-permutation) |
+| [0886-score-of-parentheses](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0886-score-of-parentheses) |
 | [1894-merge-strings-alternately](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1894-merge-strings-alternately) |
 | [1970-sorting-the-sentence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1970-sorting-the-sentence) |
 ## Dynamic Programming
