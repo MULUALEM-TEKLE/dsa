@@ -9,8 +9,8 @@ class Solution:
                 pivot = i-1
                 break
         else : 
-            nums.reverse()
-            return nums 
+             nums.reverse()
+             return nums
         
         swap = len(nums)-1
 
@@ -19,4 +19,4 @@ class Solution:
 
         nums[swap] , nums[pivot] = nums[pivot] , nums[swap]
         nums[pivot+1:] = reversed(nums[pivot+1 :])
-        return nums
+        # return nums
