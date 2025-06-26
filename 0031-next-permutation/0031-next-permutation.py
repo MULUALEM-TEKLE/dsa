@@ -19,4 +19,4 @@ class Solution:
 
         nums[swap] , nums[pivot] = nums[pivot] , nums[swap]
         nums[pivot+1:] = reversed(nums[pivot+1 :])
-        # return nums
+        return nums
