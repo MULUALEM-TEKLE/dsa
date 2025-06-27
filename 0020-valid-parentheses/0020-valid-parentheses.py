@@ -5,10 +5,8 @@ class Solution:
         lookup = {"}" : "{" , ")" : "(" , "]" : "["}
         for c in s : 
             if c in lookup :
-                if not stack : return False
-                if stack[-1] == lookup[c] : 
-                    stack.pop()
-                else : return False
+                if not stack or stack[-1] != lookup[c] : return False
+                stack.pop()
             else : 
                 stack.append(c)
         return stack == []
