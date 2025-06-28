@@ -2,10 +2,10 @@ class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         table = {}
 
-        for index, word in enumerate(["".join(sorted(s)) for s in strs]) : 
-            if word in table.keys() : 
-                table[word].append(strs[index])
+        for word in strs : 
+            sorted_word = "".join(sorted(word))
+            if sorted_word in table:
+                table[sorted_word].append(word)
             else : 
-                table[word] = [strs[index]]
-
-        return list(table.values())
+                table[sorted_word] = [word]
+        return [vals for vals in table.values()] 
