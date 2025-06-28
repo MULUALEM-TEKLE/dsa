@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0075-sort-colors) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0070-climbing-stairs) |
 | [0131-palindrome-partitioning](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0198-house-robber) |
@@ -221,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0023-merge-k-sorted-lists) |
+| [0053-maximum-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0191-number-of-1-bits](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0215-kth-largest-element-in-an-array) |
