@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0054-spiral-matrix) |
 | [0066-plus-one](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0075-sort-colors) |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0054-spiral-matrix) |
 | [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2058-concatenation-of-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2058-concatenation-of-array) |
@@ -318,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
