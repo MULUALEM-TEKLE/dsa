@@ -1,21 +1,24 @@
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
-        if not matrix : return []
-
-        start_row ,end_row , start_col , end_col = 0 , len(matrix) , 0 , len(matrix[0])
+        left , right , top , bottom = 0 , len(matrix[0]) , 0 , len(matrix)
         res = []
-        while start_row < end_row or start_col < end_col : 
-            if start_row < end_row : res.extend([matrix[start_row][i] for i in range(start_col , end_col)])
-            start_row += 1
-            if start_col < end_col :  res.extend([matrix[i][end_col-1] for i in range(start_row , end_row)])
-            end_col -= 1
-            if start_row < end_row : res.extend([matrix[end_row-1][i] for i in range(end_col-1 , start_col-1, -1)])
-            end_row -= 1
-            if start_col < end_col : res.extend([matrix[i][start_col] for i in range(end_row-1 , start_row-1 , -1)])
-            start_col += 1
+        while left < right and top < bottom : 
+            for i in range(left , right) : 
+                res.append(matrix[top][i])
+            top += 1 
+
+            for i in range(top , bottom) : 
+                res.append(matrix[i][right-1])
+            right -= 1 
+
+            if not (left < right and top < bottom) : 
+                break
+
+            for i in range(right -1 , left-1 , -1) : 
+                res.append(matrix[bottom-1][i])
+            bottom -= 1 
+
+            for i in range(bottom-1 , top- 1 , -1) : 
+                res.append(matrix[i][left])
+            left += 1
         return res
-
-
-
-                
-            
