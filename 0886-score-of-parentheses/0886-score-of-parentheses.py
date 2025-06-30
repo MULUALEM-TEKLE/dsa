@@ -8,5 +8,6 @@ class Solution:
             else : 
                 prev = stack.pop()
                 stack[-1] += max(2*prev , 1)
+            print(stack)
 
-        return stack[-1]
+        return stack[0]
