@@ -1,17 +1,19 @@
+def register_edges(board) : 
+    left , right , top , bottom = 0 , len(board[0]) , 0 , len(board)
+    edges = set()
+    for i in range(left , right) : 
+        edges.add((top , i))
+        edges.add((bottom-1 , i))
+    for i in range(top+1 , bottom-1) : 
+        edges.add((i, left))
+        edges.add((i , right-1 ))
+    return edges
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
         Do not return anything, modify board in-place instead.
         """
-        left , right , top , bottom = 0 , len(board[0]) , 0 , len(board)
-        edges = set()
-        for i in range(left , right) : 
-            edges.add((top , i))
-            edges.add((bottom-1 , i))
-        for i in range(top+1 , bottom-1) : 
-            edges.add((i, left))
-            edges.add((i , right-1 ))
-
+        edges = register_edges(board)
         visited = set()
         def bfs(r , c) :
             q = deque()
@@ -37,8 +39,6 @@ class Solution:
                     board[row][col] = "X"
 
         rows , cols = len(board) , len(board[0])
-
-        print(edges)
 
         for r in range(rows) : 
             for c in range(cols) : 
