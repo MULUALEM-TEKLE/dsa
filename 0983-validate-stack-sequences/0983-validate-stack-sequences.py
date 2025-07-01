@@ -7,5 +7,4 @@ class Solution:
             while stack and popped and stack[-1] == popped[0] : 
                 stack.pop()
                 popped.pop(0)
-
-        return stack == [] and popped == []
+        return stack == popped == []
