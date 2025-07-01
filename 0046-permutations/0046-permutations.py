@@ -3,11 +3,11 @@ class Solution:
         perms = [[]]
 
         for num in nums : 
-            new_perm = []
+            new_perms = []
             for perm in perms : 
                 for i in range(len(perm) + 1) : 
                     pc = perm[:]
                     pc.insert(i , num)
-                    new_perm.append(pc)
-            perms = new_perm 
-        return perms 
+                    new_perms.append(pc)
+            perms = new_perms
+        return perms
