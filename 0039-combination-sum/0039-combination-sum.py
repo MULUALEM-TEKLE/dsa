@@ -11,8 +11,8 @@ class Solution:
                 return 
             if i >= len(candidates) : 
                 return
-            # if candidates[i] + cur > target : 
-            #     return 
+            if candidates[i] + cur > target : 
+                return 
             comb.append(candidates[i])
             dfs(i , candidates[i]+cur)
             comb.pop()
