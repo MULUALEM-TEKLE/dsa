@@ -4,13 +4,11 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
-def find_max_node(root): 
-    cur = root
-    while cur.right : 
-        cur = cur.right
+def find_min(root) : 
+    cur = root 
+    while cur.left : 
+        cur = cur.left
     return cur
-
 class Solution:
     def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
         if not root : 
@@ -22,11 +20,11 @@ class Solution:
             root.left = self.deleteNode(root.left , key)
         else : 
             if not root.left : 
-                return root.right
+                return root.right 
             elif not root.right : 
                 return root.left
             else : 
-                max_node = find_max_node(root.left)
-                root.val = max_node.val 
-                root.left = self.deleteNode(root.left , max_node.val)
+                min_node = find_min(root.right)
+                root.val = min_node.val 
+                root.right = self.deleteNode(root.right , root.val)
         return root
