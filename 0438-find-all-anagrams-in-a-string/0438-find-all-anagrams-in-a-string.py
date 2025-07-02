@@ -10,10 +10,10 @@ class Solution:
         p = sort_word(p)
         N = len(p)
         while left < len(s)-N+1 : 
-            if sort_word(s[left : left+N]) == p : 
+            if s[left] in p and sort_word(s[left : left+N]) == p : 
                 res.append(left)
                 left += 1
             else : 
-                left += 1
-
+                left += 1 
+            
         return res 
