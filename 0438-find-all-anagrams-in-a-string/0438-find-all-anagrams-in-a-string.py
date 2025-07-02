@@ -6,6 +6,9 @@ class Solution:
         window_table = Counter(s[0 : N])
         res = []
         while left < len(s)-N+1 : 
+            if s[left] not in p : 
+                left += 1 
+                continue 
             window_table = Counter(s[left : left+N])
             if window_table == p_table : 
                 res.append(left)
