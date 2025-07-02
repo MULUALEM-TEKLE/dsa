@@ -42,7 +42,7 @@ class Solution:
 
         for r in range(rows) : 
             for c in range(cols) : 
-                if board[r][c] == "O" and (r , c) not in visited  : 
+                if board[r][c] == "O" and (r , c) not in visited and (r , c) not in edges  : 
                     bfs(r , c)
         
         
