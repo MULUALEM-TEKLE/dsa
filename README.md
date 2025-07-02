@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0055-jump-game) |
 | [0066-plus-one](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0066-plus-one) |
+| [0073-set-matrix-zeroes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0078-subsets) |
@@ -298,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0141-linked-list-cycle](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0146-lru-cache) |
@@ -341,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0054-spiral-matrix) |
+| [0073-set-matrix-zeroes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0130-surrounded-regions) |
