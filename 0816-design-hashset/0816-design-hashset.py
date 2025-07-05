@@ -1,44 +1,44 @@
-class ListNode :
-    def __init__(self, key=-1 , next=None) : 
-        self.key = key
-        self.next = None  
-
+class ListNode : 
+    def __init__(self , val=None , next=None) : 
+        self.val = val 
+        self.next = next
 class MyHashSet:
 
     def __init__(self):
-        self.set = [ListNode(0) for _ in range(10**4)]
-
+        self.capacity = 1000
+        self.map = [ListNode(-1) for _ in range(self.capacity)]
+    
+    def hash(self, key) : 
+        return key%self.capacity
 
     def add(self, key: int) -> None:
-        cur = self.set[key % len(self.set)]
+        chain = self.map[self.hash(key)]
 
-        while cur.next : 
-            if cur.next.key == key :
-                return
-            cur = cur.next
+        while chain.next : 
+            if chain.next.val == key : 
+                return 
+            chain = chain.next
+        new_node = ListNode(key)
+        chain.next = new_node
 
-        cur.next = ListNode(key) 
-        
 
     def remove(self, key: int) -> None:
-        cur = self.set[key % len(self.set)]
+        chain = self.map[self.hash(key)]
 
-        while cur.next : 
-            if cur.next.key == key :
-                cur.next = cur.next.next
-                return 
-            cur = cur.next
-
+        while chain and chain.next : 
+            if chain.next.val == key : 
+                chain.next = chain.next.next
+            chain = chain.next
+        
 
     def contains(self, key: int) -> bool:
-        cur = self.set[key % len(self.set)]
+        chain = self.map[self.hash(key)]
 
-        while cur.next : 
-            if cur.next.key == key :
-                return True
-            cur = cur.next
-        
-        return False
+        while chain.next : 
+            if chain.next.val == key : 
+                return True 
+            chain = chain.next 
+        return False 
         
 
 
