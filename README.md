@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0120-triangle](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0120-triangle) |
 | [0130-surrounded-regions](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0070-climbing-stairs) |
+| [0120-triangle](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0120-triangle) |
 | [0131-palindrome-partitioning](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0213-house-robber-ii) |
