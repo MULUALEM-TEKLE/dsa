@@ -2,23 +2,17 @@ class Solution:
     def letterCasePermutation(self, s: str) -> List[str]:
         res = []
 
-        subset = []
-        def dfs(i) : 
+        # perm = []
+        def backtrack(i , perm) : 
             if i >= len(s) : 
-                res.append("".join(subset))
+                res.append(perm)
                 return 
-
+            
             if s[i].isalpha() : 
-                subset.append(s[i].upper())
-                dfs(i+1)
-                subset.pop()
-                subset.append(s[i].lower())
-                dfs(i+1)
-                subset.pop()
+                backtrack(i+1 , perm+s[i].upper())
+                backtrack(i+1 , perm+s[i].lower())
+                pass
             else : 
-                subset.append(s[i])
-                dfs(i+1)
-                subset.pop()
-        
-        dfs(0)
+                backtrack(i+1 , perm+s[i])
+        backtrack(0 , "")
         return res
