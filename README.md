@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0287-find-the-duplicate-number) |
 | [0414-third-maximum-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0414-third-maximum-number) |
 | [0419-battleships-in-a-board](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0419-battleships-in-a-board) |
+| [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
 | [0792-binary-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0792-binary-search) |
 | [0816-design-hashset](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0816-design-hashset) |
@@ -249,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0213-house-robber-ii) |
 | [0338-counting-bits](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0392-is-subsequence) |
+| [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
 | [0647-palindromic-substrings](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0647-palindromic-substrings) |
 | [1013-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1013-fibonacci-number) |
 ## Memoization
@@ -507,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0338-counting-bits) |
 | [0389-find-the-difference](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0389-find-the-difference) |
+| [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
 | [0800-letter-case-permutation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0800-letter-case-permutation) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Interactive
@@ -557,6 +560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0216-combination-sum-iii) |
+| [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
 | [0800-letter-case-permutation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0800-letter-case-permutation) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Hash Function
@@ -590,4 +594,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0062-unique-paths) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
+## Bitmask
+|  |
+| ------- |
+| [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
 <!---LeetCode Topics End-->
