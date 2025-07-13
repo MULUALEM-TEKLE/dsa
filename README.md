@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
 | [1013-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
+| [1236-n-th-tribonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1236-n-th-tribonacci-number) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Stack
 |  |
@@ -259,11 +260,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0518-coin-change-ii) |
 | [0647-palindromic-substrings](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0647-palindromic-substrings) |
 | [1013-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1013-fibonacci-number) |
+| [1236-n-th-tribonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1236-n-th-tribonacci-number) |
 ## Memoization
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1013-fibonacci-number) |
+| [1236-n-th-tribonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1236-n-th-tribonacci-number) |
 ## Divide and Conquer
 |  |
 | ------- |
