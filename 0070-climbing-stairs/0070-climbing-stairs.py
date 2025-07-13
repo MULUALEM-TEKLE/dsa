@@ -34,11 +34,11 @@ how many ways to reach step 0 from step n
 
 class Solution:
     def climbStairs(self, n: int) -> int:
-        @cache
+        memo = {1:1 , 2:2}
         def climb(n) : 
-            if n == 1 : return 1
-            if n == 2 : return 2
-            return climb(n-2) + climb(n-1)
+            if n in memo : return memo[n]
+            memo[n] = climb(n-2) + climb(n-1)
+            return memo[n]
         
         return climb(n)
          
