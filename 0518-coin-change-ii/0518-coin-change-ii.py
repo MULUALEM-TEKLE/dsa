@@ -1,13 +1,13 @@
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:
-        @cache
+        memo = {}
         def ways(i,amt) : 
-            if i == len(coins) : 
-                return 1 if amt == 0 else 0
-            take = 0
-            if amt >= coins[i] : 
-                take = ways(i , amt-coins[i])
-            leave = ways(i+1 , amt)
-            return take + leave 
-        return ways(0 , amount)
+            if amt == 0 : return 1 
+            if i == len(coins) or amt < 0 : return 0
+            if (i,amt) in memo : return memo[(i,amt)]
+            memo[(i,amt)] = ways(i , amt-coins[i]) + ways(i+1 , amt)
+            return memo[(i,amt)]
+        res = ways(0 , amount)
+        # print(memo)
+        return res
             
