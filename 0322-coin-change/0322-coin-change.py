@@ -1,21 +1,17 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         coins.sort()
-        memo ={0:0}
+        dp = [0] * (amount+1)
 
-        def find_ways(amt) : 
-            if amt in memo : return memo[amt]
-            minm = float("inf")
+        for i in range(1 , amount+1) : 
+            minm = float('inf')
+
             for coin in coins : 
-                diff = amt - coin 
-                if diff < 0 : 
-                    break
-                minm = min(minm , 1+find_ways(diff))
-            memo[amt] = minm
-            return memo[amt]
-                
+                diff = i - coin
+                if diff < 0 : break
+                minm = min(minm , dp[diff]+1)
+            
+            dp[i] = minm
         
-        result = find_ways(amount)
-        print(memo)
-        if result < float("inf") : return result
+        if dp[amount] < float('inf') : return dp[amount]
         return -1
