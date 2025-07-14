@@ -1,22 +1,23 @@
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
-        candidates.sort()
+        nums = candidates
+        nums.sort() 
         res = []
         comb = []
-        def dfs(i , cur) : 
-            if cur > target : return
-            if cur == target : 
-                res.append(comb[:])
+        def backtrack(i , cur_sum) : 
+            # base case 
+            if cur_sum > target : 
                 return
-            if i >= len(candidates) : 
-                return 
-            if candidates[i] + cur > target : 
+            if i == len(nums) : 
+                if cur_sum == target : 
+                    res.append(comb[:])
                 return
-            comb.append(candidates[i])
-            dfs(i+1 , cur + candidates[i])
+            # recursive case
+            comb.append(nums[i])
+            backtrack(i+1 , cur_sum + nums[i])
             comb.pop()
-            while i+1 < len(candidates) and candidates[i] == candidates[i+1]: 
-                i+=1
-            dfs(i+1 , cur)
-        dfs(0,0)
-        return res
+            while i+1 < len(nums) and nums[i] == nums[i+1] : 
+                i += 1 
+            backtrack(i+1 , cur_sum)
+        backtrack(0 , 0) 
+        return res 
