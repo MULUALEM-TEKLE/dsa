@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
 | [0518-coin-change-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0518-coin-change-ii) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
+| [0724-find-pivot-index](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0724-find-pivot-index) |
 | [0747-min-cost-climbing-stairs](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0792-binary-search) |
 | [0816-design-hashset](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0816-design-hashset) |
@@ -614,4 +615,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
+## Prefix Sum
+|  |
+| ------- |
+| [0724-find-pivot-index](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0724-find-pivot-index) |
 <!---LeetCode Topics End-->
