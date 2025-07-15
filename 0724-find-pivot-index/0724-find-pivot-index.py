@@ -11,10 +11,9 @@ class Solution:
         for i in range(len(nums)-1 , -1 , -1) : 
             total += nums[i]
             pos[i] = (total)
-      
-        res = [0] * len(nums)
+    
+   
         for i in range(len(nums)):
-            res[i] = pre[i]-pos[i]
+            if pre[i] == pos[i] : return i
         
-        print(res)
-        return res.index(0) if 0 in res else -1
+        return -1
