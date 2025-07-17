@@ -74,6 +74,9 @@ class Solution:
                     container[side] += matches[i]
                     if dfs(i+1) : return True 
                     container[side] -= matches[i]
+                
+                if container[side] == 0 : 
+                    break
 
             return False
         
