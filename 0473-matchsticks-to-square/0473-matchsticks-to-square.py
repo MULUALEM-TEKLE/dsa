@@ -65,7 +65,7 @@ class Solution:
         side_length = total_sum//4
         container = [0] * 4 
         matches.sort(reverse=True)
-
+        # @cache
         def dfs(i):
             if i == len(matches) : return True 
             
