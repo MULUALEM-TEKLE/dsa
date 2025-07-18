@@ -1,14 +1,17 @@
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
-        max_range = max(nums) + 2 
-        bucket = [0] * max_range
+        N = max(nums) + 2 
+
+        bucket = [0] * N 
 
         for num in nums : 
-            bucket[num + 1 ] += 1 
+            bucket[num+1] += 1 
         
-        for i in range(1 , max_range) : 
+        print(bucket)
+        
+        for i in range(1 , N) : 
             bucket[i] += bucket[i-1]
         
-        return [bucket[num] for num in nums]
-
+        print(bucket)
         
+        return [bucket[num] for num in nums]
