@@ -24,6 +24,26 @@ class Solution:
         rows = cols = len(matrix)
         res = float('inf')
 
+        dp = [[float('inf')] *(cols+2) for _ in range(rows)]
+        dp[rows-1] = [float('inf'), *matrix[rows-1] , float('inf')]
+
+        # print(dp)
+
+        for r in range(rows-2 , -1 , -1 ) : 
+            for c in range(1 , cols+1) : 
+                dp[r][c] = min(dp[r+1][c] , dp[r+1][c-1] , dp[r+1][c+1]) + matrix[r][c-1]
+        print(dp)
+        
+        return min(dp[0])
+
+        '''
+        [
+            [inf, inf, inf, inf, inf], 
+            [inf, inf, inf, inf, inf], 
+            [inf, 7,   8,   9,   inf]]
+        '''
+
+        '''
         memo = {}
         def dfs(r , c) : 
             if (r , c) in memo : return memo[(r , c)]
@@ -38,3 +58,4 @@ class Solution:
             res = min(res , dfs(0 , c))
         
         return res
+        '''
