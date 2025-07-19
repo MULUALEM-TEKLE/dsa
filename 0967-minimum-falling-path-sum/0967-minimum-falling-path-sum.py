@@ -22,17 +22,15 @@ Specifically, the next element from position (row, col) will be (row + 1, col - 
 class Solution:
     def minFallingPathSum(self, matrix: List[List[int]]) -> int:
         rows = cols = len(matrix)
-        res = float('inf')
 
         dp = [[float('inf')] *(cols+2) for _ in range(rows)]
         dp[rows-1] = [float('inf'), *matrix[rows-1] , float('inf')]
 
-        # print(dp)
 
         for r in range(rows-2 , -1 , -1 ) : 
             for c in range(1 , cols+1) : 
                 dp[r][c] = min(dp[r+1][c] , dp[r+1][c-1] , dp[r+1][c+1]) + matrix[r][c-1]
-        print(dp)
+
         
         return min(dp[0])
 
