@@ -7,9 +7,9 @@ class Solution:
         if n == 2 : 
             return max(nums[0], nums[1])
         
-        dp = [nums[0] ,max(nums[0], nums[1])]
+        prev , cur = nums[0] ,max(nums[0], nums[1])
 
         for i in range(2 , len(nums)) : 
-            dp[0] , dp[1] = dp[1] , max(nums[i]+dp[0] , dp[1])
+            prev , cur = cur , max(nums[i]+prev , cur)
         
-        return dp[1]
+        return cur
