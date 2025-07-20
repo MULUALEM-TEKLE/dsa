@@ -1,9 +1,15 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        @cache
-        def steal(n) : 
-            if n < 0 : 
-                return 0
-            return max(nums[n] + steal(n-2) , steal(n-1))
+        n = len(nums)
 
-        return steal(len(nums)-1)
+        if n == 1 : 
+            return nums[0]
+        if n == 2 : 
+            return max(nums[0], nums[1])
+        
+        dp = [nums[0] ,max(nums[0], nums[1])]
+
+        for i in range(2 , len(nums)) : 
+            dp[0] , dp[1] = dp[1] , max(nums[i]+dp[0] , dp[1])
+        
+        return dp[1]
