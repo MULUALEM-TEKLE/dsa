@@ -1,6 +1,8 @@
 class Solution:
     def countHousePlacements(self, n: int) -> int:
-        dp = [1 , 2]
-        for i in range(2 , n+1) :
-            dp[0] , dp[1] = dp[1], dp[0] + dp[1]
-        return (dp[1] * dp[1]) % ((10**9) + 7)
+        @cache
+        def place(n) : 
+            if n == 0 : return 1
+            if n == 1 : return 2
+            return  place(n-2) + place(n-1)
+        return (place(n) * place(n)) % ((10**9) + 7)
