@@ -1,6 +1,6 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        coins.sort()
+        # coins.sort()
         @cache
         def change(amt) : 
             if amt == 0 : return 0
