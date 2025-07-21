@@ -3,7 +3,7 @@ class Solution:
         coins.sort()
         @cache
         def change(amt) : 
-            if amt == 0 : return 0
+            if amt <= 0 : return 0
             minm = float('inf')
             for coin in coins : 
                 diff = amt-coin
