@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0647-palindromic-substrings) |
 | [1019-squares-of-a-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1019-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1894-merge-strings-alternately) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
 ## Sorting
 |  |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0817-design-hashmap](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0817-design-hashmap) |
 | [0838-design-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0838-design-linked-list) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
@@ -218,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0983-validate-stack-sequences](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0983-validate-stack-sequences) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## String
 |  |
 | ------- |
