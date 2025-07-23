@@ -9,13 +9,13 @@ class Node:
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
-        if not node : return 
+        if not node : return
         o2n = {}
         def clone(node) : 
             if node in o2n : return o2n[node]
             copy = Node(node.val)
-            o2n[node] = copy
+            o2n[node] = copy 
             for n in node.neighbors : 
                 copy.neighbors.append(clone(n))
-            return copy
+            return copy 
         return clone(node)
