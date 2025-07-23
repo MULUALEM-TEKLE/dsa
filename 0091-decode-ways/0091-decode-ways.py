@@ -1,7 +1,7 @@
 import sys
 class Solution:
     def numDecodings(self, s: str) -> int:
-        sys.setrecursionlimit(len(s) + 1000) # Adjust as needed
+        sys.setrecursionlimit(len(s) + 500) # Adjust as needed
         @cache
         def decode(i) : 
             if i == len(s) : 
