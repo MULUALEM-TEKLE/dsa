@@ -8,5 +8,6 @@ class Solution:
             return 1 if digit_count % 2 == 0 else 0
         res = 0 
         for num in nums : 
+            if num < 10 : continue
             res += isEvenDigit(num)
         return res
