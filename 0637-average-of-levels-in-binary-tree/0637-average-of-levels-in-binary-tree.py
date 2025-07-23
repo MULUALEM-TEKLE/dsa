@@ -7,21 +7,17 @@
 class Solution:
     def averageOfLevels(self, root: Optional[TreeNode]) -> List[float]:
         res = []
-        q = deque()
-
-        if root : 
+        def bfs(root) : 
+            q = deque()
             q.append(root)
-
-        while q : 
-            avg = 0
-            len_q = len(q)
-            for _ in range(len_q) : 
-                node = q.popleft()
-                avg += node.val
-                if node.left : 
-                    q.append(node.left)
-                if node.right : 
-                    q.append(node.right)
-            res.append(avg/len_q)
+            while q : 
+                tmp = []
+                lenq = len(q)
+                for _ in range(len(q)) : 
+                    node = q.popleft()
+                    tmp.append(node.val)
+                    if node.left : q.append(node.left)
+                    if node.right : q.append(node.right)
+                res.append(sum(tmp)/lenq)
+        bfs(root)
         return res 
-            
