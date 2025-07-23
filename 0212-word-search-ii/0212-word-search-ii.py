@@ -48,15 +48,22 @@ class Solution:
                 r not in range(rows) 
                 or c not in range(cols) 
                 or (r , c) in visited 
-                or board[r][c] not in node.children 
-                or node.children[board[r][c]].refs < 1
-                ) : 
+            ): 
+                return
+
+            char = board[r][c]
+
+            if char not in node.children : 
                 return 
 
-           
+            next_trie_node = node.children[board[r][c]]
+
+            if next_trie_node.refs < 1 : 
+                return
+
             visited.add((r , c)) 
-            node = node.children[board[r][c]]
-            word += board[r][c]
+            node = next_trie_node
+            word += char
 
             if node.word : 
                 node.word = False 
