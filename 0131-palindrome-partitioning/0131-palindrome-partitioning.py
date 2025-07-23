@@ -1,18 +1,16 @@
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
         res = []
-
         part = []
-        def dfs(i) : 
-            if i >= len(s) : 
+        def backtrack(i) : 
+            if i == len(s) : 
                 res.append(part[:])
-                return 
-
-            for j in range(i , len(s)) : 
-                substr = s[i:j+1]
-                if substr == substr[::-1] : 
-                    part.append(substr)
-                    dfs(j+1)
+            
+            for j in range(i , len(s)): 
+                subs = s[i : j+1]
+                if subs == subs[::-1] : 
+                    part.append(subs)
+                    backtrack(j+1)
                     part.pop()
-        dfs(0)
+        backtrack(0)
         return res
