@@ -1,6 +1,23 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         rows , cols = len(board) , len(board[0])
+        board_letter_counter = Counter()
+        for r in range(rows) : 
+            for c in range(cols) :
+                board_letter_counter[board[r][c]] += 1 
+        word_letter_counter = Counter(word)
+
+        for letter,count in word_letter_counter.items() : 
+            if board_letter_counter[letter] < count : 
+                return False 
+        
+        if len(word) > rows*cols : 
+            return False 
+        
+        if word_letter_counter[word[0]] > word_letter_counter[word[-1]] : 
+            word = word[::-1]
+        
+
         visited = set()
         def dfs(r , c , i) : 
             if i == len(word) : return True 
