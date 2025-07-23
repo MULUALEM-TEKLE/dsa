@@ -1,10 +1,18 @@
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
-        dp = [[0]*(n+1) for _ in range(m+1)]
-        dp[1][1] = 1 
+        rows , cols = m , n
+        visited = set() 
+        @cache
+        def dfs(r , c) : 
+            if r not in range(rows) or c not in range(cols) or (r , c) in visited : 
+                return 0 
+            
+            if r == rows-1 and c == cols-1 : 
+                return 1 
 
-        for r in range(1 , len(dp)) : 
-            for c in range(1 , len(dp[0])) : 
-                if r == c == 1 : continue
-                dp[r][c] = dp[r-1][c] + dp[r][c-1]
-        return dp[m][n]
+            visited.add((r , c))
+            res = dfs(r+1 , c) + dfs(r , c+1)
+            visited.remove((r , c))
+            return res 
+        
+        return dfs(0 , 0)
