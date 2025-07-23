@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0209-minimum-size-subarray-sum) |
+| [0212-word-search-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0216-combination-sum-iii) |
@@ -249,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0131-palindrome-partitioning) |
 | [0208-implement-trie-prefix-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0212-word-search-ii) |
 | [0242-valid-anagram](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0345-reverse-vowels-of-a-string) |
@@ -336,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0014-longest-common-prefix) |
 | [0208-implement-trie-prefix-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0212-word-search-ii) |
 ## Simulation
 |  |
 | ------- |
@@ -429,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0212-word-search-ii) |
 | [0304-range-sum-query-2d-immutable](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0304-range-sum-query-2d-immutable) |
 | [0419-battleships-in-a-board](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0419-battleships-in-a-board) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
@@ -617,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0131-palindrome-partitioning) |
+| [0212-word-search-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0216-combination-sum-iii) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
 | [0800-letter-case-permutation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0800-letter-case-permutation) |
