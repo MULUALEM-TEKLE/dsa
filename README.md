@@ -188,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0146-lru-cache) |
+| [0208-implement-trie-prefix-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0208-implement-trie-prefix-tree) |
 | [0303-range-sum-query-immutable](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0304-range-sum-query-2d-immutable) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0131-palindrome-partitioning) |
+| [0208-implement-trie-prefix-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0345-reverse-vowels-of-a-string) |
@@ -330,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0014-longest-common-prefix) |
+| [0208-implement-trie-prefix-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0208-implement-trie-prefix-tree) |
 ## Simulation
 |  |
 | ------- |
@@ -371,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0146-lru-cache) |
 | [0202-happy-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0202-happy-number) |
+| [0208-implement-trie-prefix-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0242-valid-anagram) |
