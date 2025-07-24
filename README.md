@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0120-triangle](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0120-triangle) |
+| [0128-longest-consecutive-sequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -374,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0128-longest-consecutive-sequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0141-linked-list-cycle) |
@@ -634,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
