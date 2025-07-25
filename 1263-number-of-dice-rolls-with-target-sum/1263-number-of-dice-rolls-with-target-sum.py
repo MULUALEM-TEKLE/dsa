@@ -1,14 +1,17 @@
 class Solution:
     def numRollsToTarget(self, n: int, k: int, target: int) -> int:
+        MOD = ((10**9) + 7)
         @cache
-        def roll(i , cur_target) : 
-            # if i <= 0 : return 0
-            if i == 0 : 
-                return 1 if cur_target == 0 else 0
-    
+        def roll(i , trgt) : 
+            if i == n and trgt == 0 : 
+                return 1
 
-            ways = 0 
+            if i >= n  : return 0
+
+            ways = 0
             for face in range(1 , k+1) : 
-                ways += roll(i-1 , cur_target - face)
+                if trgt - face < 0 : break
+                ways += roll(i+1 , trgt - face)
             return ways 
-        return roll(n , target) % ((10**9) + 7)
+        
+        return roll(0 , target) % MOD
