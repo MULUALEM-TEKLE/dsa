@@ -1,15 +1,4 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         nums.sort()
-        majority = (len(nums)//2)+1
-
-        left = 0 
-        length = 0
-        for right in range(len(nums)) : 
-            if nums[right] == nums[left] : 
-                length += 1 
-                if length >= majority : 
-                    return nums[left]
-            else : 
-                left = right
-                length = 1
+        return nums[len(nums)//2]
