@@ -1,19 +1,10 @@
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         rows , cols = len(grid) , len(grid[0])
-        memo = {}
-        visited = set()
-        def dfs(r , c ) : 
-            if (r , c) in memo : return memo[(r , c)]
-            if r not in range(rows) or c not in range(cols) or (r , c) in visited : 
-                return float('inf')
-            
-            if r == rows-1 and c == cols-1 : 
-                return grid[r][c]
-            visited.add((r , c))
-            res = min(dfs(r+1 , c ) , dfs(r , c+1 )) + grid[r][c]
-            visited.remove((r , c))
-            memo[(r , c)] = res
-            return res
-        
-        return dfs(0 , 0 )
+        dp = [[float('inf')]*(cols+1) for _ in range(rows+1)]
+        dp[1][1] = grid[0][0]
+        for r in range(1 , rows+1) : 
+            for c in range(1 , cols+1) : 
+                if r == c == 1 : continue 
+                dp[r][c] = min(dp[r-1][c] , dp[r][c-1]) + grid[r-1][c-1]
+        return dp[rows][cols]
