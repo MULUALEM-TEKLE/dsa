@@ -44,6 +44,7 @@ class Solution:
                     rows_used[r].remove(num_char)
                     cols_used[c].remove(num_char)
                     boxes_used[box_idx].remove(num_char)
+            return False
         
         def isValid(r , c , num) : 
             for i in range(N) : 
