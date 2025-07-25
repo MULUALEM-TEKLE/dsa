@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0414-third-maximum-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0414-third-maximum-number) |
 | [0419-battleships-in-a-board](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0419-battleships-in-a-board) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
+| [0494-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0392-is-subsequence) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
+| [0494-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0518-coin-change-ii) |
 | [0647-palindromic-substrings](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0647-palindromic-substrings) |
 | [0650-2-keys-keyboard](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0650-2-keys-keyboard) |
@@ -633,6 +635,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0216-combination-sum-iii) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
+| [0494-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0494-target-sum) |
 | [0800-letter-case-permutation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0800-letter-case-permutation) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Hash Function
