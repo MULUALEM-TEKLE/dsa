@@ -1,11 +1,15 @@
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:
-        dp = [0] * (amount+1)
-        dp[0] = 1 
+        @cache
+        def solve(i , amt) : 
+            if amt == 0 : 
+                return 1
+            if i == len(coins) : return 0
+            take = 0 
+            if amt - coins[i] >= 0 : 
+                take = solve(i , amt-coins[i])
+            leave = solve(i+1 , amt)
 
-        for coin in coins : 
-            for i in range(coin , amount+1) : 
-                dp[i] = dp[i] + dp[i-coin]
+            return take + leave
         
-        return dp[amount]
-
+        return solve(0 , amount)
