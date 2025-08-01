@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+| [3334-apple-redistribution-into-boxes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3334-apple-redistribution-into-boxes) |
 | [3429-special-array-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3429-special-array-i) |
 ## Two Pointers
 |  |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1970-sorting-the-sentence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1970-sorting-the-sentence) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
+| [3334-apple-redistribution-into-boxes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3334-apple-redistribution-into-boxes) |
 ## Linked List
 |  |
 | ------- |
@@ -703,6 +705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0055-jump-game) |
+| [3334-apple-redistribution-into-boxes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3334-apple-redistribution-into-boxes) |
 ## Combinatorics
 |  |
 | ------- |
