@@ -2,67 +2,51 @@ from typing import List
 
 class Solution:
     def reverseWords(self, s: str) -> str:
-        s_bytes = bytearray(s.encode("utf-8"))
-        N = len(s_bytes)
+        # Convert string to list of characters for in-place manipulation
+        chars = list(s)
+        N = len(chars)
 
-        def reverse_segment(arr: bytearray, left: int, right: int):
-            """Reverse a segment of the bytearray from index left to right."""
-            if left < 0 or right >= len(arr) or left >= right:
-                return
+        def reverse_segment(arr: list, left: int, right: int):
+            """Reverse a segment of the list from index left to right."""
             while left < right:
                 arr[left], arr[right] = arr[right], arr[left]
                 left += 1
                 right -= 1
 
-        def clean_spaces(arr: bytearray) -> int:
-            """Remove extra spaces and return the effective length of the cleaned array."""
-            left, right = 0, 0
-            
-            # Skip leading spaces
-            while right < N and arr[right] == ord(' '):
+        # Clean spaces and get effective length in one pass
+        left = 0
+        right = 0
+        while right < N:
+            # Skip leading or multiple spaces
+            while right < N and chars[right] == ' ':
                 right += 1
+            # Copy word
+            while right < N and chars[right] != ' ':
+                chars[left] = chars[right]
+                left += 1
+                right += 1
+            # Add single space if more characters exist
+            if right < N and left > 0:
+                chars[left] = ' '
+                left += 1
+            right += 1
 
-            while right < N:
-                # Copy word characters
-                while right < N and arr[right] != ord(' '):
-                    arr[left] = arr[right]
-                    left += 1
-                    right += 1
-                
-                # Skip multiple spaces
-                while right < N and arr[right] == ord(' '):
-                    right += 1
-                
-                # Add a single space only if there are more non-space characters
-                if right < N:
-                    arr[left] = ord(' ')
-                    left += 1
-            
-            # No need to trim trailing space, as we only add space when more words follow
-            return left
-
-        effective_len = clean_spaces(s_bytes)
-
-        if effective_len == 0:
+        # Trim trailing space if present
+        effective_len = left - 1 if left > 0 and chars[left - 1] == ' ' else left
+        if effective_len <= 0:
             return ""
 
         # Reverse the entire cleaned string
-        reverse_segment(s_bytes, 0, effective_len - 1)
+        reverse_segment(chars, 0, effective_len - 1)
 
         # Reverse each word
         word_start = 0
-        i = 0
-        while i < effective_len:
-            if s_bytes[i] == ord(' ') or i == effective_len - 1:
-                # If at a space, reverse up to the character before the space
-                # If at the end, include the last character
-                end = i - 1 if s_bytes[i] == ord(' ') else i
-                reverse_segment(s_bytes, word_start, end)
+        for i in range(effective_len):
+            if chars[i] == ' ':
+                reverse_segment(chars, word_start, i - 1)
                 word_start = i + 1
-                i += 1
-            else:
-                i += 1
+        # Reverse the last word
+        reverse_segment(chars, word_start, effective_len - 1)
 
-        # Decode only the effective portion of the bytearray
-        return s_bytes[:effective_len].decode("utf-8")
-
+        # Join the list back to a string
+        return ''.join(chars[:effective_len])
