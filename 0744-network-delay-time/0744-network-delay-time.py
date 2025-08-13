@@ -7,21 +7,22 @@ class Solution:
             adj[u].append((v , w))
         
         pq = [(0 , k)]
-        visited = set()
-        t = 0 
+        distance = {node:float('inf') for node in range(1 , n+1)}
+        distance[k] = 0
 
         while pq : 
             w , node = heapq.heappop(pq)
-            if node in visited : 
+
+            if w > distance[node] : 
                 continue
 
-            visited.add(node)
-            
-            t = max(t , w)
-
             for neighbor , weight in adj[node] : 
-                if neighbor not in visited : 
-                    heapq.heappush(pq , (w + weight , neighbor))
+                new_time = w + weight
+                if new_time < distance[neighbor] :
+                    distance[neighbor] = new_time 
+                    heapq.heappush(pq , (new_time , neighbor))
 
-        return t if len(visited) == n else -1
+        res = max(distance.values())
+
+        return res if res != float('inf') else -1
         
