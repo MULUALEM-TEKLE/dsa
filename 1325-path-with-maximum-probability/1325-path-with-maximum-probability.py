@@ -4,9 +4,8 @@ class Solution:
 
         for i in range(len(edges)) : 
             src , dst = edges[i]
-            prob = succProb[i]
-            adj[src].append((dst , prob ))
-            adj[dst].append((src , prob ))
+            adj[src].append((dst , succProb[i] ))
+            adj[dst].append((src , succProb[i] ))
         
         visited = set()
         maxHeap = [(-1 , start_node)]
