@@ -1,10 +1,11 @@
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
-        @cache
-        def backtrack(i , total) : 
-            if i == len(nums) : 
-                return 1 if total == target else 0
+        memo = {}
+        def find(i , cur) : 
+            if (i , cur) in memo : return memo[(i , cur)]
+            if i == len(nums) : return 1 if cur == target else 0
             
-            return backtrack(i+1 , total + nums[i]) + backtrack(i+1 , total - nums[i])
+            memo[(i , cur)] = find(i+1 , cur + nums[i]) + find(i+1 , cur - nums[i])
+            return memo[(i , cur)]
         
-        return backtrack(0 , 0)
+        return find(0 , 0)
