@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
-        if not root : return
+        
         self.res = 0 
 
         def dfs(root , maxval) : 
