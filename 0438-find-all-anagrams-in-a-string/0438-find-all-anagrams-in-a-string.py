@@ -3,13 +3,29 @@ class Solution:
         lens = len(s)
         lenp = len(p)
 
-        p_table = Counter(p)
-        res = []
+        if lenp > lens : return []
 
-        for i in range(lens-lenp+1) : 
-            if s[i] not in p : 
-                continue
-            if Counter(s[i:i+lenp]) == p_table : 
-                res.append(i)
+        p_table = defaultdict(int)
+        s_table = defaultdict(int)
+
+        for i in range(lenp) : 
+            p_table[p[i]] += 1 
+            s_table[s[i]] += 1
+            
+        res = [0] if p_table == s_table else []
+
+        left = 0
+
+        for right in range(lenp , lens) : 
+            s_table[s[right]] += 1 
+            s_table[s[left]] -= 1
+
+            if s_table[s[left]] == 0 : 
+                s_table.pop(s[left])
+
+            left += 1 
+
+            if s_table == p_table : 
+                res.append(left)
         
         return res
