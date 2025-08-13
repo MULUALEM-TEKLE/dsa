@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1293-three-consecutive-odds](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1293-three-consecutive-odds) |
+| [1325-path-with-maximum-probability](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1325-path-with-maximum-probability) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
@@ -348,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1127-last-stone-weight) |
+| [1325-path-with-maximum-probability](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1325-path-with-maximum-probability) |
 ## Quickselect
 |  |
 | ------- |
@@ -727,6 +729,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0207-course-schedule) |
 | [0684-redundant-connection](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0684-redundant-connection) |
+| [1325-path-with-maximum-probability](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1325-path-with-maximum-probability) |
 ## Topological Sort
 |  |
 | ------- |
@@ -754,4 +757,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0304-range-sum-query-2d-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0724-find-pivot-index) |
+## Shortest Path
+|  |
+| ------- |
+| [1325-path-with-maximum-probability](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1325-path-with-maximum-probability) |
 <!---LeetCode Topics End-->
