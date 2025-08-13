@@ -345,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0215-kth-largest-element-in-an-array) |
+| [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
@@ -588,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
+| [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
 | [0975-range-sum-of-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0975-range-sum-of-bst) |
 | [1035-cousins-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1035-cousins-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -621,6 +623,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
+| [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [1035-cousins-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1035-cousins-in-binary-tree) |
 | [1036-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1036-rotting-oranges) |
@@ -729,6 +732,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0207-course-schedule) |
 | [0684-redundant-connection](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1325-path-with-maximum-probability) |
 ## Topological Sort
 |  |
@@ -760,5 +764,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1325-path-with-maximum-probability) |
 <!---LeetCode Topics End-->
