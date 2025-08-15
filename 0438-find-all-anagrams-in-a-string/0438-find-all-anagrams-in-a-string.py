@@ -3,29 +3,31 @@ class Solution:
         lens = len(s)
         lenp = len(p)
 
-        if lenp > lens : return []
+        if lenp > lens : 
+            return []
 
-        p_table = defaultdict(int)
-        s_table = defaultdict(int)
+        ptable = defaultdict(int)
+        stable = defaultdict(int)
 
         for i in range(lenp) : 
-            p_table[p[i]] += 1 
-            s_table[s[i]] += 1
-            
-        res = [0] if p_table == s_table else []
-
-        left = 0
-
-        for right in range(lenp , lens) : 
-            s_table[s[right]] += 1 
-            s_table[s[left]] -= 1
-
-            if s_table[s[left]] == 0 : 
-                s_table.pop(s[left])
-
-            left += 1 
-
-            if s_table == p_table : 
-                res.append(left)
+            ptable[p[i]] += 1 
+            stable[s[i]] += 1 
         
-        return res
+        res = [0] if ptable == stable else []
+        left = 0
+        
+        for right in range(lenp , lens) : 
+            
+            stable[s[right]] += 1 
+            stable[s[left]] -= 1 
+
+
+            if stable[s[left]] == 0 : 
+                stable.pop(s[left])
+
+            left += 1
+            
+            if stable == ptable : 
+                res.append(left)
+                
+        return res 
