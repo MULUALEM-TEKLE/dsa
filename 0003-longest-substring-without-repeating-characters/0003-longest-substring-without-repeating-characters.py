@@ -13,6 +13,6 @@ class Solution:
                 left += 1 
             
             window.add(s[right])
-            longest = max(longest , len(window))
+            longest = max(longest ,right-left+1)
         
         return longest
