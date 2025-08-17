@@ -601,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0975-range-sum-of-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0975-range-sum-of-bst) |
 | [1035-cousins-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1035-cousins-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1558-course-schedule-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1558-course-schedule-iv) |
 | [2103-find-all-groups-of-farmland](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2103-find-all-groups-of-farmland) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -639,6 +640,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1558-course-schedule-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1558-course-schedule-iv) |
 | [2103-find-all-groups-of-farmland](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2103-find-all-groups-of-farmland) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -747,12 +749,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1325-path-with-maximum-probability) |
+| [1558-course-schedule-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1558-course-schedule-iv) |
 | [1706-min-cost-to-connect-all-points](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1706-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0210-course-schedule-ii) |
+| [1558-course-schedule-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1558-course-schedule-iv) |
 ## Greedy
 |  |
 | ------- |
