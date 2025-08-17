@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1580-shuffle-the-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1580-shuffle-the-array) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
 | [1646-kth-missing-positive-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1646-kth-missing-positive-number) |
+| [1706-min-cost-to-connect-all-points](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1706-min-cost-to-connect-all-points) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2058-concatenation-of-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2058-concatenation-of-array) |
@@ -732,6 +733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
+| [1706-min-cost-to-connect-all-points](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1706-min-cost-to-connect-all-points) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
 ## Graph
@@ -742,6 +744,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1325-path-with-maximum-probability) |
+| [1706-min-cost-to-connect-all-points](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1706-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
 | ------- |
@@ -775,4 +778,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1325-path-with-maximum-probability) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
