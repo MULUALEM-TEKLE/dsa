@@ -14,23 +14,20 @@ class Solution:
                 adj[src].append([dst , weight])
                 adj[dst].append([src , weight])
         
-        minheap = []
-        start = 0
-        for neighbor , weight in adj[start] : 
-            heapq.heappush(minheap , [weight , start , neighbor])
+        minheap = [(0 , 0)] # weight to it self (weight , dest)
         
         cost = 0
         visited = set()
-        visited.add(start)
+       
 
         while minheap : 
-            weight , src , dst = heapq.heappop(minheap)
+            weight , dst = heapq.heappop(minheap)
             if dst in visited : continue
             cost += weight
             visited.add(dst)
 
             for neighbor , weight in adj[dst] : 
                 if neighbor not in visited : 
-                    heapq.heappush(minheap , [weight , dst , neighbor])
+                    heapq.heappush(minheap , [ weight , neighbor])
 
         return cost 
