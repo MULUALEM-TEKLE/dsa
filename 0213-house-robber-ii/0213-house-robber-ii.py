@@ -1,17 +1,23 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        n = len(nums)
+        nums = tuple(nums)
+        @cache
+        def steal(sub , i) : 
+            if i == 0 : 
+                return sub[0] 
+            if i == 1 : 
+                return max(sub[0] , sub[1])
+            
+            return max(sub[i] + steal(sub , i-2) ,steal(sub , i-1))
+        
+        N = len(nums)
 
-        if n == 1 : 
+        if N == 1 : 
             return nums[0]
-        if n == 2 : 
-            return max(nums[0] , nums[1])
+        if N == 2 : 
+            return max(nums)
         
-        def steal(sub) : 
-            dp = [sub[0] , max(sub[0] , sub[1])]
-            for i in range(2 , len(sub)) : 
-                dp[0] , dp[1] = dp[1] , max(sub[i] + dp[0] , dp[1])
-            return dp[1]
-        
-        return max(steal(nums[1:]) , steal(nums[:-1]))
+        print(nums[1:])
+        print(nums[:-1])
 
+        return max(steal(nums[1:] , N-2) , steal(nums[:-1] , N-2))        
