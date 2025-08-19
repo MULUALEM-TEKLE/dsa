@@ -10,7 +10,7 @@ class Solution:
                 return 
 
 
-            if i >= len(nums) or cur > target : 
+            if i >= len(nums) : 
                 return 
 
             if cur+nums[i] > target : 
