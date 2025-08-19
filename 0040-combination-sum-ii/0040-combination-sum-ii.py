@@ -13,8 +13,8 @@ class Solution:
             if i >= len(nums) or cur > target : 
                 return 
 
-            # if cur+nums[i] > target : 
-            #     return
+            if cur+nums[i] > target : 
+                return
             comb.append(nums[i])
             backtrack(i+1 , comb , cur+nums[i])
             comb.pop()
