@@ -10,7 +10,7 @@ class Solution:
                 res.append(comb[:])
                 return 
             
-            if i < 1 or len(comb) == n: 
+            if i < 1 : 
                 return 
                 
             comb.append(i)
