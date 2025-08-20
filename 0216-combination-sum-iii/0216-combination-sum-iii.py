@@ -5,8 +5,8 @@ class Solution:
         comb = []
 
         def backtrack(i , cur) : 
-            # if cur > n : 
-            #     return
+            if cur > n : 
+                return
             if len(comb) == k and cur == n : 
                 res.append(comb[:])
                 return 
