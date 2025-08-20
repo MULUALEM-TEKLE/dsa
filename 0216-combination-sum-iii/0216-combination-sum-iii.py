@@ -5,13 +5,12 @@ class Solution:
         comb = []
 
         def backtrack(i , cur) : 
-            if cur > n : 
-                return
+          
             if len(comb) == k and cur == n : 
                 res.append(comb[:])
                 return 
             
-            if i < 1 : 
+            if i < 1 or len(comb) == n: 
                 return 
                 
             comb.append(i)
