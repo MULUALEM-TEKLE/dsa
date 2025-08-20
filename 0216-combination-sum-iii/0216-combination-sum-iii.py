@@ -3,20 +3,22 @@ class Solution:
         res = []
 
         comb = []
-        def dfs(m , cs) : 
-            
-            if len(comb) == k and cs == n : 
+
+        def backtrack(i , cur) : 
+            # if cur > n : 
+            #     return
+            if len(comb) == k and cur == n : 
                 res.append(comb[:])
-                return
-
-            if cs > n or len(comb) == k or m < 1 :
                 return 
-
-            comb.append(m)
             
-            dfs(m-1 , cs+m)
+            if i < 1 : 
+                return 
+                
+            comb.append(i)
+            backtrack(i-1 , cur + i)
             comb.pop()
-            dfs(m-1 , cs)
-        
-        dfs(9 , 0)
+            backtrack(i-1 , cur)
+
+        backtrack(9 , 0)
+
         return res
