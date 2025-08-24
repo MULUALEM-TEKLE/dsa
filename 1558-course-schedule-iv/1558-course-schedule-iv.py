@@ -3,19 +3,21 @@ class Solution:
         courses = prerequisites
         N = numCourses
 
-        is_pre = [[False] * N for _ in range(N)]
+        matrix = [[False] * N for _ in range(N)]
 
-        for course , pre in courses : 
-            is_pre[course][pre] = True
-
-        for via in range(N) : 
-            for start in range(N) : 
-                for end in range(N) : 
-                    if is_pre[start][via] and is_pre[via][end] : 
-                        is_pre[start][end] = True
-
-        res = []
-        for u , v in queries : 
-            res.append(is_pre[u][v])
+        for pre , course in courses : 
+            matrix[pre][course] = True
         
-        return res 
+
+        
+        for k in range(N) : 
+            for i in range(N) : 
+                for j in range(N) : 
+                    if matrix[i][k] and matrix[k][j] : 
+                        matrix[i][j] = True 
+        
+        res = []
+        for pre , course in queries : 
+            res.append(matrix[pre][course])
+        
+        return res
