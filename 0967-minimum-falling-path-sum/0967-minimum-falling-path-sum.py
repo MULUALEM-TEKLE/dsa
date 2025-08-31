@@ -1,59 +1,18 @@
-'''
-Given an n x n array of integers matrix, return the minimum sum of any falling path through matrix.
--> square
--> falling defined below
-
-A falling path starts at any element in the first row and chooses the element in the next row that is either directly below or diagonally left/right. 
--> start from first row, fall down to left,right,below in bound till you get to the bottom row
--> caching??? --> will decide later
--> base case got to the bottom row , return its grid value
--> base case, got out of bounds, return infinity since we are looking for a min value here
--> recursive case :
-    -> explore the possible cells and find min and add it to the cell value
-    -> min(dfs(r+1 , c-1) , dfs(r+1 , c) , dfs(r+1 , c+1)) + grid[r][c]
--> we also have to find the minmum of all the first row elements : 
-    -> for c in range(cols) : find and return the minimum(dfs(0 ,c))
-
-
-Specifically, the next element from position (row, col) will be (row + 1, col - 1), (row + 1, col), or (row + 1, col + 1).
-
-'''
-
 class Solution:
     def minFallingPathSum(self, matrix: List[List[int]]) -> int:
-        rows = cols = len(matrix)
-
-        dp = [[float('inf')] *(cols+2) for _ in range(rows)]
-        dp[rows-1] = [float('inf'), *matrix[rows-1] , float('inf')]
-
-
-        for r in range(rows-2 , -1 , -1 ) : 
-            for c in range(1 , cols+1) : 
-                dp[r][c] = min(dp[r+1][c] , dp[r+1][c-1] , dp[r+1][c+1]) + matrix[r][c-1]
-
-        
-        return min(dp[0])
-
-        '''
-        [
-            [inf, inf, inf, inf, inf], 
-            [inf, inf, inf, inf, inf], 
-            [inf, 7,   8,   9,   inf]]
-        '''
-
-        '''
-        memo = {}
+        rows , cols = len(matrix) , len(matrix[0])
+        @cache
         def dfs(r , c) : 
-            if (r , c) in memo : return memo[(r , c)]
-            if r not in range(rows) or c not in range(cols) : return float('inf')
-            if r == rows-1 : 
-                return matrix[r][c]
+            if r not in range(rows) or c not in range(cols) : 
+                return float('inf')
             
-            memo[(r , c)] = min(dfs(r+1 , c-1) , dfs(r+1 , c) , dfs(r+1 , c+1)) + matrix[r][c]
-            return memo[(r , c)]
-        
+            if r == rows - 1 : 
+                return matrix[r][c] 
+            
+            return matrix[r][c] + min(dfs(r+1 , c-1) , dfs(r+1 , c) , dfs(r+1 , c+1))
+
+        res = float("inf")
         for c in range(cols) : 
-            res = min(res , dfs(0 , c))
+            res = min(res , dfs(0,c))
         
         return res
-        '''
