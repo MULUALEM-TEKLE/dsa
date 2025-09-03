@@ -1,10 +1,12 @@
 class Solution:
     def countHousePlacements(self, n: int) -> int:
-        @cache
-        def place(i) : 
-            if i == 0 : return 1 
-            if i == 1 : return 2
+        MOD = (10 ** 9) + 7
+        cache = {0 : 1 , 1 : 2}
+        def place(n) : 
+            if n in cache : return cache[n]
 
-            return (place(i-1) + place(i-2)) 
+            cache[n] = place(n-1) + place(n-2)
+
+            return cache[n]
         
-        return (place(n) * place(n) ) % ((10**9)+7)  
+        return (place(n) * place(n)) % MOD
