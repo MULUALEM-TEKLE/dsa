@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2058-concatenation-of-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2058-concatenation-of-array) |
 | [2103-find-all-groups-of-farmland](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2103-find-all-groups-of-farmland) |
+| [2146-check-if-word-can-be-placed-in-crossword](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 | [2195-time-needed-to-buy-tickets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2195-time-needed-to-buy-tickets) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
@@ -493,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1171-shortest-path-in-binary-matrix) |
 | [2103-find-all-groups-of-farmland](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2103-find-all-groups-of-farmland) |
+| [2146-check-if-word-can-be-placed-in-crossword](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
 ## Tree
@@ -627,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2146-check-if-word-can-be-placed-in-crossword](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
 ## Breadth-First Search
 |  |
