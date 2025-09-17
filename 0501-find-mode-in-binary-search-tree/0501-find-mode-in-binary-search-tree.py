@@ -15,7 +15,6 @@ class Solution:
             dfs(root.right)
         
         dfs(root)
-        print(hashmap)
         res = []
         mode = max(hashmap.values())
         for key,val in hashmap.items() : 
