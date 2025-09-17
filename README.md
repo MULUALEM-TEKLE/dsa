@@ -287,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0211-design-add-and-search-words-data-structure](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0212-word-search-ii) |
 | [0242-valid-anagram](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0257-binary-tree-paths) |
 | [0344-reverse-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0383-ransom-note) |
@@ -523,6 +524,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0257-binary-tree-paths](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0450-delete-node-in-a-bst) |
 | [0508-most-frequent-subtree-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0508-most-frequent-subtree-sum) |
@@ -574,6 +576,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0257-binary-tree-paths](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0450-delete-node-in-a-bst) |
 | [0508-most-frequent-subtree-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0508-most-frequent-subtree-sum) |
@@ -616,6 +619,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0257-binary-tree-paths](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0257-binary-tree-paths) |
 | [0419-battleships-in-a-board](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0419-battleships-in-a-board) |
 | [0437-path-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0437-path-sum-iii) |
 | [0508-most-frequent-subtree-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0508-most-frequent-subtree-sum) |
@@ -752,6 +756,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0216-combination-sum-iii) |
+| [0257-binary-tree-paths](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0257-binary-tree-paths) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0494-target-sum) |
 | [0800-letter-case-permutation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0800-letter-case-permutation) |
