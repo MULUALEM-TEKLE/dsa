@@ -1,32 +1,40 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        N = 9 
-        for r in range(N) : 
-            s = set()
-            for c in range(N) : 
-                if board[r][c] == "." : continue 
-                if board[r][c] in s : return False 
-                s.add(board[r][c])
-            
-        for c in range(N) : 
-            s = set()
-            for r in range(N) : 
-                if board[r][c] == "." : continue 
-                if board[r][c] in s : return False 
-                s.add(board[r][c])
+        rows = cols = 9
+
+        for row in range(rows) : 
+            bucket = set()
+            for col in range(cols) :  
+                if board[row][col] == "." : continue 
+                if board[row][col] in bucket : 
+                    print("a")
+                    return False
+                bucket.add(board[row][col])
         
-        start = [
-            [0 , 0] , [0 , 3] , [0 , 6] , 
-            [3 , 0] , [3 , 3] , [3 , 6] , 
-            [6 , 0] , [6 , 3] , [6 , 6] , 
+        for col in range(cols) :  
+            bucket = set()
+            for row in range(rows) : 
+                if board[row][col] == "." : continue 
+                if board[row][col] in bucket : 
+                    print("b")
+                    return False
+                bucket.add(board[row][col])
+        
+        starts = [
+            [0,0] , [0,3] , [0,6] , 
+            [3,0] , [3,3] , [3,6] , 
+            [6,0] , [6,3] , [6,6] , 
             ]
+
+        for i,j in starts : 
+            bucket = set()
+            for row in range(i , i+3) : 
+                for col in range(j , j+3) : 
+                    if board[row][col] == "." : continue 
+                    if board[row][col] in bucket : 
+                        print("c")
+                        return False
+                    bucket.add(board[row][col])
+            # print(bucket)
         
-        for i,j in start : 
-            s = set()
-            for r in range(i , i+3) : 
-                for c in range(j , j+3) : 
-                    if board[r][c] == "." : continue 
-                    if board[r][c] in s : return False 
-                    s.add(board[r][c])
-        
-        return True
+        return True 
