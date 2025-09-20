@@ -4,27 +4,20 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Cousin : 
-    def __init__(self , parent , depth) : 
-        self.parent = parent
-        self.depth = depth
 class Solution:
     def isCousins(self, root: Optional[TreeNode], x: int, y: int) -> bool:
-        def bfs(root) : 
-            q = deque([[root , 0 , None]])
-            candidates = []
-            while q : 
-                for _ in range(len(q)) : 
-                    node, depth , parent = q.popleft()
-                    if node.val == x or node.val == y : 
-                        candidates.append(Cousin(parent.val if parent else None, depth)) 
-                            
-                    if node.right : 
-                        q.append([node.right , depth+1 , node])
-                    if node.left : 
-                        q.append([node.left , depth+1 , node])
-            print(candidates[0].parent)
-            print(candidates[1].parent)
-            return candidates[0].parent != candidates[1].parent and candidates[0].depth == candidates[1].depth
-
-        return bfs(root)
+        candidates = {}
+        def dfs(node , parent , level) : 
+            if not node : 
+                return 
+            
+            if node.val == x or node.val == y : 
+                candidates[node.val] = [parent.val if parent else None , level]
+            level += 1 
+            dfs(node.left , node , level)
+            dfs(node.right , node , level)
+        
+        dfs(root , None , 0)
+        print(candidates)
+        if candidates[x][0] != candidates[y][0] and candidates[x][1] == candidates[y][1] : return True 
+        return False 
