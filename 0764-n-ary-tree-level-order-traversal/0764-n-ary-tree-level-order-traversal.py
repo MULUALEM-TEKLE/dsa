@@ -11,17 +11,18 @@ class Solution:
         if not root : 
             return []
         
+        q = deque()
+        q.append(root)
         res = []
-        q = deque([root])
 
         while q : 
             tmp = []
             for _ in range(len(q)) : 
                 node = q.popleft()
                 tmp.append(node.val)
-                # if children : 
-                for child in node.children : 
-                    q.append(child)
+                if node.children : 
+                    for child in node.children :
+                        q.append(child)
             res.append(tmp)
         
-        return res
+        return res 
