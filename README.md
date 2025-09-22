@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0219-contains-duplicate-ii) |
+| [0220-contains-duplicate-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0220-contains-duplicate-iii) |
 | [0228-summary-ranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0268-missing-number) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0217-contains-duplicate) |
+| [0220-contains-duplicate-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0220-contains-duplicate-iii) |
 | [0242-valid-anagram](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0389-find-the-difference) |
@@ -734,6 +736,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bucket Sort
 |  |
 | ------- |
+| [0220-contains-duplicate-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0220-contains-duplicate-iii) |
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
 ## Radix Sort
 |  |
@@ -754,6 +757,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0219-contains-duplicate-ii) |
+| [0220-contains-duplicate-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0220-contains-duplicate-iii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0567-permutation-in-string) |
 ## Backtracking
@@ -852,4 +856,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1706-min-cost-to-connect-all-points](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1706-min-cost-to-connect-all-points) |
+## Ordered Set
+|  |
+| ------- |
+| [0220-contains-duplicate-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0220-contains-duplicate-iii) |
 <!---LeetCode Topics End-->
