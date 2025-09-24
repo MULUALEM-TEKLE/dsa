@@ -1,25 +1,25 @@
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
-        res = [-1 , -1]
-        left , right = 0 , len(nums)-1
-
-        def find_bounds(mid) : 
-            left = mid 
-            while left > 0 and nums[left-1] == target : 
+        def bounds(index) : 
+            left = right = index
+            while left > 0 and nums[left] == nums[left-1]: 
                 left -= 1 
-            right = mid
-            while right < len(nums) - 1 and nums[right+1] == target : 
-                right += 1 
-            return [left , right]
-
-        while left <= right : 
-            mid = (left+right)//2
-
-            if nums[mid] > target : 
-                right = mid - 1
-            elif nums[mid] < target : 
-                left = mid + 1 
-            else : 
-                return find_bounds(mid)
             
-        return res
+            while right < len(nums)-1 and nums[right] == nums[right+1] : 
+                    right += 1 
+            
+            return [left , right]
+        
+
+        low , high = 0 , len(nums)-1
+
+        while low <= high : 
+            mid = (low+high)//2
+            if nums[mid] > target : 
+                high = mid - 1 
+            elif nums[mid] < target : 
+                low = mid + 1 
+            else : 
+                return bounds(mid)
+        
+        return [-1 , -1]
