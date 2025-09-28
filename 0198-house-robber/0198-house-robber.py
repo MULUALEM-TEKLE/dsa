@@ -1,5 +1,6 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
+        @cache
         def steal(i) : 
             if i == 0 :
                 return nums[0]
