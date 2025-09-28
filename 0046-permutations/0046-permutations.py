@@ -5,9 +5,10 @@ class Solution:
         for num in nums : 
             new_perms = []
             for perm in perms : 
-                for i in range(len(perm) + 1) : 
+                for p in range(len(perm)+1) : 
                     pc = perm[:]
-                    pc.insert(i , num)
+                    pc.insert(p , num)
                     new_perms.append(pc)
             perms = new_perms
-        return perms
+        
+        return perms 
