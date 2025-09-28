@@ -4,24 +4,24 @@ class Solution:
         nums.sort()
         res = []
 
-        def backtrack(i , comb , cur) : 
+        def dfs(i , cur , comb ) : 
             if cur == target : 
                 res.append(comb[:])
                 return 
 
-
-            if i >= len(nums) : 
+            if i == len(nums) or cur > target : 
                 return 
-
+            
             if cur+nums[i] > target : 
                 return
+
             comb.append(nums[i])
-            backtrack(i+1 , comb , cur+nums[i])
+            dfs(i+1 , cur+nums[i] , comb)
             comb.pop()
-            while i < len(nums)-1 and nums[i] == nums[i+1] : 
-                i += 1
-            backtrack(i+1 , comb , cur)
+            while i+1 < len(nums) and nums[i] == nums[i+1] : 
+                i += 1 
+            dfs(i+1 , cur , comb)
 
-        backtrack(0 , [] , 0)
+        dfs(0 , 0 , [])
 
-        return res 
+        return res
