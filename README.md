@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0983-validate-stack-sequences](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0983-validate-stack-sequences) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1019-squares-of-a-sorted-array) |
+| [1020-longest-turbulent-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1020-longest-turbulent-subarray) |
 | [1025-minimum-cost-for-tickets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1127-last-stone-weight) |
@@ -346,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0954-maximum-sum-circular-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0954-maximum-sum-circular-subarray) |
 | [0967-minimum-falling-path-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1013-fibonacci-number) |
+| [1020-longest-turbulent-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1020-longest-turbulent-subarray) |
 | [1025-minimum-cost-for-tickets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1025-minimum-cost-for-tickets) |
 | [1236-n-th-tribonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1250-longest-common-subsequence) |
@@ -768,6 +770,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0220-contains-duplicate-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0220-contains-duplicate-iii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0567-permutation-in-string) |
+| [1020-longest-turbulent-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1020-longest-turbulent-subarray) |
 ## Backtracking
 |  |
 | ------- |
