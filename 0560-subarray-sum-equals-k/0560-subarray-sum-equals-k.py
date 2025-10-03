@@ -8,6 +8,6 @@ class Solution:
             cur += num 
             if cur - k in table : 
                 res += table[cur-k]
-            table[cur] = 1 
+            table[cur] += 1 
         
         return res
