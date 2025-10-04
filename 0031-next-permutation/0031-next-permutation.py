@@ -3,19 +3,29 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        pivot = None
-
-        for i in range(len(nums)-1 , 0 , -1) : 
-            if nums[i] > nums[i-1] : 
+        # find our pivot 
+        pivot = -1
+        n = len(nums)
+        for i in range(n-1 , -1 , -1) : 
+            if nums[i-1] < nums[i] : 
                 pivot = i-1
                 break
-        else : 
+        
+        print(f"pivot > {pivot}")
+
+        if pivot == -1 : 
             nums.reverse()
-            return nums
-        
-        swap = len(nums)-1
-        while nums[swap] <= nums[pivot] : 
+            return
+
+        swap = n-1
+
+        while nums[pivot] >= nums[swap] : 
             swap -= 1 
-        nums[swap] , nums[pivot] = nums[pivot], nums[swap]
-        nums[pivot+1 : ] = reversed(nums[pivot+1 : ])
         
+        nums[pivot] , nums[swap] = nums[swap] , nums[pivot]
+
+        nums[pivot+1 : ] = reversed(nums[pivot+1 : ])
+
+
+        
+
