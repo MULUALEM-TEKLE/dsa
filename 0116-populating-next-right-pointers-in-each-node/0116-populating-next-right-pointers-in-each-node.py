@@ -10,28 +10,18 @@ class Node:
 
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
-        def bfs(root) : 
-            if not root : 
-                return 
-                
-            q = deque([root])
+        cur , nxt = root , root.left if root else None  
 
-            while q : 
-                tmp = []
-                for _ in range(len(q)) : 
-                    node = q.popleft() 
+        while cur and nxt : 
+            cur.left.next = cur.right
 
-                    tmp.append(node)
+            if cur.next : 
+                cur.right.next = cur.next.left
 
-                    if node.left : 
-                        q.append(node.left)
-                    
-                    if node.right : 
-                        q.append(node.right)
-             
-                for i in range(len(tmp) - 1 ) : 
-                    tmp[i].next = tmp[i+1]
-                    
-        bfs(root)
+            cur = cur.next
 
+            if not cur : 
+                cur = nxt
+                nxt = cur.left
+        
         return root
