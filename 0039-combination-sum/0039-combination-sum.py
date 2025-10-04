@@ -1,6 +1,7 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         nums = candidates
+        nums.sort()
         res = []
 
         comb = []
@@ -14,6 +15,8 @@ class Solution:
                 res.append(comb[:])
                 return
 
+            if cur_sum - nums[i] < 0 : 
+                return
             comb.append(nums[i])
             dfs(i , cur_sum - nums[i])
             comb.pop()
