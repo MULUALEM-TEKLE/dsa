@@ -1,40 +1,39 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        rows = cols = 9
+        N = 9 
 
-        for row in range(rows) : 
-            bucket = set()
-            for col in range(cols) :  
-                if board[row][col] == "." : continue 
-                if board[row][col] in bucket : 
-                    print("a")
-                    return False
-                bucket.add(board[row][col])
+        for r in range(N) : 
+            s = set()
+            for c in range(N) : 
+                cell = board[r][c]
+                if cell == "." : 
+                    continue
+                if cell in s : return False
+                s.add(cell)
         
-        for col in range(cols) :  
-            bucket = set()
-            for row in range(rows) : 
-                if board[row][col] == "." : continue 
-                if board[row][col] in bucket : 
-                    print("b")
-                    return False
-                bucket.add(board[row][col])
+        for c in range(N) : 
+            s = set()
+            for r in range(N) : 
+                cell = board[r][c]
+                if cell == "." : 
+                    continue
+                if cell in s : return False
+                s.add(cell)
         
-        starts = [
-            [0,0] , [0,3] , [0,6] , 
-            [3,0] , [3,3] , [3,6] , 
-            [6,0] , [6,3] , [6,6] , 
-            ]
+        start = [
+            [0 , 0] , [0 , 3] , [0 , 6] , 
+            [3 , 0] , [3 , 3] , [3 , 6] , 
+            [6 , 0] , [6 , 3] , [6 , 6] , 
 
-        for i,j in starts : 
-            bucket = set()
-            for row in range(i , i+3) : 
-                for col in range(j , j+3) : 
-                    if board[row][col] == "." : continue 
-                    if board[row][col] in bucket : 
-                        print("c")
-                        return False
-                    bucket.add(board[row][col])
-            # print(bucket)
-        
-        return True 
+        ]
+
+        for r , c in start : 
+            s = set()
+            for row in range(r , r+3) : 
+                for col in range(c , c+3) : 
+                    cell = board[row][col]
+                    if cell == "." : continue 
+                    if cell in s : return False 
+                    s.add(cell)
+
+        return True
