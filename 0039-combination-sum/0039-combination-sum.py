@@ -5,19 +5,21 @@ class Solution:
 
         comb = []
 
-        def dfs(i , cur) : 
-            if i == len(nums) or cur > target : 
+        def dfs(i , cur_sum) : 
+            # base cases 
+            if i == len(nums) or cur_sum < 0 : 
                 return 
             
-            if cur == target : 
+            if cur_sum == 0 : 
                 res.append(comb[:])
-                return 
+                return
 
-            comb.append(nums[i]) 
-            dfs(i , cur + nums[i])
+            comb.append(nums[i])
+            dfs(i , cur_sum - nums[i])
             comb.pop()
-            dfs(i+1 , cur)
+            dfs(i+1 , cur_sum)
         
-        dfs(0 , 0)
+        dfs(0 , target)
 
-        return res 
+        return res
+
