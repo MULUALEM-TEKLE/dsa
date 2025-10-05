@@ -9,22 +9,25 @@ class Solution:
         res = []
 
         path = []
+
         def dfs(root , cur) : 
+            #base cases
             if not root : 
                 return 
-
+            
             # if cur > targetSum : 
-            #     return 
+            #     return
 
-            cur += root.val
             path.append(root.val)
+            cur += root.val
 
             if not root.left and not root.right and cur == targetSum : 
                 res.append(path[:])
-            
+
             dfs(root.left , cur)
             dfs(root.right , cur)
             path.pop()
-        
+
         dfs(root , 0)
+
         return res
