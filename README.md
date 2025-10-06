@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3334-apple-redistribution-into-boxes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3334-apple-redistribution-into-boxes) |
 | [3429-special-array-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3429-special-array-i) |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1894-merge-strings-alternately](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1894-merge-strings-alternately) |
 | [1970-sorting-the-sentence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1970-sorting-the-sentence) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -409,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0212-word-search-ii) |
 | [0648-replace-words](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0648-replace-words) |
 | [0720-longest-word-in-dictionary](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0720-longest-word-in-dictionary) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Simulation
 |  |
 | ------- |
@@ -731,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0459-repeated-substring-pattern](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0459-repeated-substring-pattern) |
 | [0572-subtree-of-another-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0572-subtree-of-another-tree) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -813,6 +817,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0572-subtree-of-another-tree) |
 | [0816-design-hashset](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0817-design-hashmap) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Union Find
 |  |
 | ------- |
@@ -891,4 +896,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0954-maximum-sum-circular-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0954-maximum-sum-circular-subarray) |
+## Rolling Hash
+|  |
+| ------- |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 <!---LeetCode Topics End-->
