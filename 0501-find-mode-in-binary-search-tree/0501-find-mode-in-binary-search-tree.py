@@ -6,18 +6,21 @@
 #         self.right = right
 class Solution:
     def findMode(self, root: Optional[TreeNode]) -> List[int]:
-        hashmap = defaultdict(int)
+        res = defaultdict(int)
+        output = []
         def dfs(root) : 
             if not root : 
                 return 
-            hashmap[root.val] += 1 
+            res[root.val] += 1 
             dfs(root.left)
             dfs(root.right)
         
         dfs(root)
-        res = []
-        mode = max(hashmap.values())
-        for key,val in hashmap.items() : 
+        mode = max(res.values())
+        for key,val in res.items() : 
             if val == mode : 
-                res.append(key)
-        return res 
+                output.append(key)
+        
+        return output
+
+
