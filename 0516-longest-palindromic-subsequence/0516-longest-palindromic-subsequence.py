@@ -1,16 +1,20 @@
 class Solution:
     def longestPalindromeSubseq(self, s: str) -> int:
-        @cache
-        def dfs(i , j) : 
-            if i > j : 
-                return 0
-            if i == j : 
-                return 1 
+        r = s[::-1]
 
-            if s[i] == s[j] : 
-                
-                return 2 + dfs(i+1 , j-1)
+        n = len(s)
+
+        memo = {}
+        def solve(i , j) : 
+            if (i , j) in memo : return memo[(i,j)]
+            if i == n or j == n : 
+                return 0 
+            
+            if s[i] == r[j] : 
+                memo[(i,j)] = 1 + solve(i+1, j+1)
+                return memo[(i,j)] 
             else : 
-                return max(dfs(i+1 , j) , dfs(i , j-1))
+                memo[(i,j)] = max(solve(i , j+1) , solve(i+1 , j))
+                return memo[(i,j)]
         
-        return dfs(0 , len(s)-1)
+        return solve(0 , 0)
