@@ -1,19 +1,16 @@
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:
         @cache
-        def dfs(i , amt) : 
-            if i >= len(coins) : 
-                return 1 if amt == 0 else 0
-            
-            if amt < 0 : 
+        def dfs(i , cur) : 
+            if i == len(coins) : 
+                return 0
+
+            if cur > amount : 
                 return 0
             
-            
-            # take = 0
-            # if amt-coins[i] >= 0 :
-            take = dfs(i , amt-coins[i])
-            leave = dfs(i+1 , amt)
+            if cur == amount : 
+                return 1 
 
-            return take + leave 
-        
-        return dfs(0 , amount)
+            return dfs(i , cur + coins[i]) + dfs(i+1 , cur)
+
+        return dfs(0 , 0)
