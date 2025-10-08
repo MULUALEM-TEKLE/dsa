@@ -1,9 +1,10 @@
 class Solution:
     def targetIndices(self, nums: List[int], target: int) -> List[int]:
-        lt = eq = 0
-        for num in nums : 
-            if num < target : 
-                lt += 1 
+        res = []
+
+        for index, num in enumerate(sorted(nums)) : 
             if num == target : 
-                eq += 1 
-        return [*range(lt , lt+eq)]
+                res.append(index)
+        
+
+        return res
