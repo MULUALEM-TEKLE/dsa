@@ -1,16 +1,12 @@
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:
         @cache
-        def dfs(i , cur) : 
-            if i == len(coins) : 
+        def explore(i , x) : 
+            if i == len(coins) or x > amount : 
                 return 0
-
-            if cur > amount : 
-                return 0
+            if x == amount : 
+                return 1
             
-            if cur == amount : 
-                return 1 
+            return explore(i, x+coins[i]) + explore (i+1 , x)
 
-            return dfs(i , cur + coins[i]) + dfs(i+1 , cur)
-
-        return dfs(0 , 0)
+        return explore(0,0)
