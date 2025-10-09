@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+| [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3334-apple-redistribution-into-boxes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3334-apple-redistribution-into-boxes) |
 | [3429-special-array-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3429-special-array-i) |
@@ -366,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1263-number-of-dice-rolls-with-target-sum) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2397-count-number-of-ways-to-place-houses](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2397-count-number-of-ways-to-place-houses) |
+| [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 ## Memoization
 |  |
 | ------- |
