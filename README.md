@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
 | [1646-kth-missing-positive-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1646-kth-missing-positive-number) |
 | [1706-min-cost-to-connect-all-points](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1706-min-cost-to-connect-all-points) |
+| [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2058-concatenation-of-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2058-concatenation-of-array) |
@@ -402,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1127-last-stone-weight) |
 | [1325-path-with-maximum-probability](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1325-path-with-maximum-probability) |
+| [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
 ## Quickselect
 |  |
 | ------- |
@@ -506,6 +508,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0907-koko-eating-bananas) |
 | [1646-kth-missing-positive-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1646-kth-missing-positive-number) |
+| [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
@@ -531,6 +534,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
 | [2103-find-all-groups-of-farmland](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2103-find-all-groups-of-farmland) |
 | [2146-check-if-word-can-be-placed-in-crossword](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -687,6 +691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1558-course-schedule-iv) |
+| [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
 | [2103-find-all-groups-of-farmland](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2103-find-all-groups-of-farmland) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -734,6 +739,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1558-course-schedule-iv) |
+| [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
 | [2103-find-all-groups-of-farmland](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2103-find-all-groups-of-farmland) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -840,6 +846,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0721-accounts-merge) |
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
 | [1706-min-cost-to-connect-all-points](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1706-min-cost-to-connect-all-points) |
+| [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
 ## Graph
