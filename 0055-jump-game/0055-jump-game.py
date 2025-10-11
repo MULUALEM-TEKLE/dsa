@@ -1,18 +1,18 @@
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
-        N = len(nums)-1
-        dp = [None] * len(nums)
-        def dfs(pos) : 
-            if pos == N : 
+        n = len(nums)
+        @cache
+        def jump(i) : 
+            if i == n-1 : 
                 return True 
-            if pos > N : 
-                return False
-            if dp[pos] is not None : return dp[pos]
-            cur = nums[pos]
-            for i in range(1 , cur+1) : 
-                if dfs(pos + i) : 
-                    dp[pos] = True
-                    return True
-            dp[pos] = False
-            return False
-        return dfs(0)
+            can = False
+            for j in range(nums[i] , 0 , -1) : 
+                if i+j > n-1 :
+                    continue 
+                if i+j == n-1 : 
+                    return True 
+                can = can or jump(i+j)
+
+            return can
+        
+        return jump(0)
