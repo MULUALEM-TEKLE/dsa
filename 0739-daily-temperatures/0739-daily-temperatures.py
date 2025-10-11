@@ -5,9 +5,9 @@ class Solution:
         ans = [0] * len(temp)
 
         for i,t in enumerate(temp) : 
-            while stack and stack[-1][0] < temp[i] : 
-                _ , stack_i = stack.pop()
+            while stack and temp[stack[-1]] < temp[i] : 
+                stack_i = stack.pop()
                 ans[stack_i] = i - stack_i 
-            stack.append((t , i))           
+            stack.append(i)           
         
         return ans
