@@ -6,7 +6,7 @@ class Solution:
         closest_sum = float("inf")
 
         for i,num in enumerate(nums) : 
-            # if i > 0 and i < n-1 and nums[i] == nums[i+1] : continue
+            if i > 0 and nums[i] == nums[i-1] : continue
             left , right = i + 1 , n - 1
 
             while left < right : 
