@@ -6,7 +6,6 @@
 class Solution:
     def insertGreatestCommonDivisors(self, head: Optional[ListNode]) -> Optional[ListNode]:
         def get_gcd(n1 , n2 ) : 
-            print(f"getting gcd of {n1} and {n2}")
             if n1 == n2 : 
                 return n1 
             if n1 == 1  or n2 == 1 : 
