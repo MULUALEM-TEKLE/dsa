@@ -14,7 +14,6 @@ class Solution:
             gcd = n1 if n1 < n2 else n2 
             for i in range(gcd , 0 , -1) : 
                 if n1 % i == n2 % i == 0 : 
-                    print(f"the gcd is {i}")
                     return i
         
         dummy = ListNode(0)
@@ -22,23 +21,16 @@ class Solution:
 
         left = head 
 
-        while  left.next : 
+        while left.next : 
             gcd = get_gcd(left.val , left.next.val)
             cur.next = ListNode(left.val)
             cur = cur.next 
             cur.next = ListNode(gcd)
-            # cur = cur.next 
-            # cur.next = ListNode(left.next.val)
             left = left.next
             cur = cur.next
         cur.next = ListNode(left.val)
         cur = dummy 
-        s = ''
-        while cur : 
-            s += f"-> {cur.val}"
-            cur = cur.next 
-        
-        print(s)
+       
 
         return dummy.next
             
