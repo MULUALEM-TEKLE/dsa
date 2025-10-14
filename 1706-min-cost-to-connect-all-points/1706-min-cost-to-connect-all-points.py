@@ -1,33 +1,37 @@
+from heapq import heappop , heappush
 class Solution:
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
-        points = [(p[0] , p[1]) for p in points]
-
-        def distance(p1 , p2) : 
-            return abs(p1[0]-p2[0]) + abs(p1[1]-p2[1])
-        
         adj = defaultdict(list)
 
         for i in range(len(points)) : 
-            for j in range(i+1 , len(points)) : 
-                src , dst = i , j
-                weight = distance(points[src] , points[dst])
-                adj[src].append([dst , weight])
-                adj[dst].append([src , weight])
+            x1 , y1 = points[i]
+            for j in range(i+ 1 , len(points)) : 
+                x2 , y2 = points[j]
+
+                cost = abs(x1-x2) + abs(y1-y2)
+
+                adj[(x1 , y1)].append([(x2 , y2) , cost])
+                adj[(x2 , y2)].append([ (x1 , y1), cost])
         
-        minheap = [(0 , 0)] # weight to it self (weight , dest)
-        
-        cost = 0
+        # print(len(adj))
+        # print(adj)
+
+        pq = []
+        for neighbor, cost in adj[(points[0][0] , points[0][1])] : 
+            heappush(pq , [cost , neighbor])
+
+        total_cost = 0
         visited = set()
-       
+        visited.add((points[0][0] , points[0][1]))
 
-        while minheap : 
-            weight , dst = heapq.heappop(minheap)
-            if dst in visited : continue
-            cost += weight
-            visited.add(dst)
-
-            for neighbor , weight in adj[dst] : 
-                if neighbor not in visited : 
-                    heapq.heappush(minheap , [ weight , neighbor])
-
-        return cost 
+        while pq : 
+            cost , node = heappop(pq)
+            if node in visited : 
+                continue
+            visited.add(node)
+            total_cost += cost 
+            for neighbor , cost in adj[node] : 
+                if neighbor not in visited :
+                    heappush(pq , [cost , neighbor])
+        
+        return total_cost
