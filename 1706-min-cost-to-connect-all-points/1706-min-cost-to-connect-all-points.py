@@ -36,7 +36,7 @@ class Solution:
                 # adj[(x1 , y1)].append([(x2 , y2) , cost])
                 # adj[(x2 , y2)].append([ (x1 , y1), cost])
         
-        print(adj)
+        # print(adj)
         
         # pq = []
         # for neighbor, cost in adj[points[0]] : 
