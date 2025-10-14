@@ -2,7 +2,9 @@ from heapq import heappop , heappush
 class Solution:
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
         adj = defaultdict(list)
+        points = [tuple(point) for point in points]
 
+       
         for i in range(len(points)) : 
             x1 , y1 = points[i]
             for j in range(i+ 1 , len(points)) : 
@@ -13,16 +15,13 @@ class Solution:
                 adj[(x1 , y1)].append([(x2 , y2) , cost])
                 adj[(x2 , y2)].append([ (x1 , y1), cost])
         
-        # print(len(adj))
-        # print(adj)
-
         pq = []
-        for neighbor, cost in adj[(points[0][0] , points[0][1])] : 
+        for neighbor, cost in adj[points[0]] : 
             heappush(pq , [cost , neighbor])
 
         total_cost = 0
         visited = set()
-        visited.add((points[0][0] , points[0][1]))
+        visited.add(points[0])
 
         while pq : 
             cost , node = heappop(pq)
