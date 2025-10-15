@@ -9,7 +9,8 @@ class Solution:
         q = deque([root])
 
         level = 1 
-        data = {}
+        cur_max = float('-inf')
+        res = 1 
 
         while q : 
             level_sum = 0
@@ -20,11 +21,9 @@ class Solution:
                 if node.left : q.append(node.left)
                 if node.right : q.append(node.right)
 
-            data[level] = level_sum
+            if level_sum > cur_max :
+                cur_max = level_sum 
+                res = level
             level += 1 
 
-        max_level_sum = max(data.values())
-
-        for level in data : 
-            if data[level] == max_level_sum : 
-                return level
+        return res
