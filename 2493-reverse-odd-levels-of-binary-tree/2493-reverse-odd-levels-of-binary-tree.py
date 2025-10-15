@@ -6,26 +6,26 @@
 #         self.right = right
 class Solution:
     def reverseOddLevels(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        def bfs(root) : 
-            q = deque([root])
-            level = 0
+        q = deque([root])
 
-            while q : 
-                tmp = []
-                nodes = []
-                for _ in range(len(q)) : 
-                    node = q.popleft()
-                    tmp.append(node.val)
-                    nodes.append(node)
-                    if node.left : q.append(node.left)
-                    if node.right : q.append(node.right)
-                
-                if level % 2 != 0 : 
-                    tmp.reverse()
-                    for index , node in enumerate(nodes) : 
-                        node.val = tmp[index]
-                level += 1 
-                
-        bfs(root)
+        level = 0
 
-        return root 
+        while q : 
+            nodes , vals = [] , []
+            for _ in range(len(q)) : 
+                node = q.popleft()
+                nodes.append(node)
+                vals.append(node.val)
+
+                if node.left : 
+                    q.append(node.left)
+                if node.right: 
+                    q.append(node.right)
+            if level % 2 != 0 :    
+                # vals = vals[::-1]
+                for i,node in enumerate(nodes) : 
+                    node.val = vals[-i-1]
+            
+            level += 1
+        
+        return root
