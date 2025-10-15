@@ -7,14 +7,20 @@
 class Solution:
     def binaryTreePaths(self, root: Optional[TreeNode]) -> List[str]:
         res = []
-        def dfs(root , path) : 
+
+        def dfs(root , cur) : 
             if not root : 
                 return 
-            path += f"{root.val}->"
-            if not root.left and not root.right : 
-                res.append(path[:-2])
-            dfs(root.left , path)
-            dfs(root.right , path)
-        dfs(root , "")
-        return res
             
+            cur += f'{root.val}->'
+            
+            if not root.left and not root.right : 
+                res.append(cur[:-2])
+            
+
+            dfs(root.left , cur)
+            dfs(root.right , cur)
+        
+        dfs(root , "")
+
+        return res 
