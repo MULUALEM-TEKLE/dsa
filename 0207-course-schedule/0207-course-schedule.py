@@ -7,31 +7,33 @@ class Solution:
         for src , dst in courses : 
             adj[src].append(dst)
         
-        visited = set()
-        path = set()
+        VISITING = 1
+        VISITED = 2
+        UNVISITED = 0 
+
+        state = [0] * n
 
         def dfs(i) : 
-            if i in path : 
+            if state[i] == VISITING : 
                 return False 
-
-            if i in visited : 
-                return True 
+            if state[i] == VISITED : 
+                return True
             
-            path.add(i)
-            visited.add(i)
-
-            for neighbor in adj[i] : 
-                if not dfs(neighbor) : 
-                    return False
-
-            path.remove(i)
+            state[i] = VISITING
+            
+            for nei in adj[i] : 
+                if not dfs(nei) : 
+                    return False 
+            
+            state[i] = VISITED
             return True
-
+        
         for i in range(n) : 
             if not dfs(i) : 
                 return False
-        return True
-    
+        
+        return True 
+
        
         
         
