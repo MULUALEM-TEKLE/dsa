@@ -3,10 +3,10 @@ class Solution:
         # s_nums1 = set(nums1)
         # s_nums2 = set(nums2)
 
-        res = set()
+        res = []
 
         for num in nums1 + nums2 : 
-            if num in nums1 and num in nums2 : 
-                res.add(num)
+            if num in nums1 and num in nums2 and num not in res : 
+                res.append(num)
         
-        return list(res)
+        return res
