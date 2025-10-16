@@ -1,35 +1,41 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        n = numCourses
         courses = prerequisites
+
         adj = defaultdict(list)
 
-        for course , pre in courses : 
-            adj[course].append(pre)
+        for a , b in courses : 
+            adj[a].append(b)
         
-        tsort = []
         visited = set()
         visiting = set()
 
-        def dfs(course) : 
-            if course in visiting : 
+        topsort = []
+
+        def dfs(i) : 
+            if i in visiting : 
                 return False 
-            if course in visited : 
+            if i in visited : 
                 return True 
-
-            visiting.add(course)
             
-            for neighbor in adj[course] : 
-                if not dfs(neighbor) : 
-                    return False
+            visited.add(i)
+            visiting.add(i)
 
-            visited.add(course)
-            tsort.append(course)
-            visiting.remove(course)
+            for nei in adj[i] : 
+                if not dfs(nei) : 
+                    return False 
+            
+            visiting.remove(i)
+            topsort.append(i)
+            return True 
 
-            return True
+        for i in range(n) : 
+            if not dfs(i) : 
+                return []
+        # topsort.reverse()
+        return topsort
 
-        for course in range(numCourses) : 
-            if course not in visited : 
-                if not dfs(course) : return []
         
-        return tsort
+
+
