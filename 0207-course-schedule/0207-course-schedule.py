@@ -1,41 +1,33 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        n = numCourses
-        courses = prerequisites
         adj = defaultdict(list)
 
-        for src , dst in courses : 
-            adj[src].append(dst)
+        for a , b in prerequisites : 
+            adj[a].append(b)
         
-        VISITING = 1
-        VISITED = 2
-        UNVISITED = 0 
-
-        state = [0] * n
+        visited = set()
+        visiting = set()
 
         def dfs(i) : 
-            if state[i] == VISITING : 
+            if i in visiting : 
                 return False 
-            if state[i] == VISITED : 
-                return True
+            if i in visited : 
+                return True 
             
-            state[i] = VISITING
+            visiting.add(i)
             
             for nei in adj[i] : 
                 if not dfs(nei) : 
-                    return False 
+                    return False
             
-            state[i] = VISITED
+            visiting.remove(i)
+            visited.add(i)
             return True
+                
+            
         
-        for i in range(n) : 
+        for i in range(numCourses) : 
             if not dfs(i) : 
-                return False
+                return False 
         
-        return True 
-
-       
-        
-        
-
-        
+        return True
