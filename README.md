@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0739-daily-temperatures) |
+| [0740-delete-and-earn](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
@@ -379,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0647-palindromic-substrings) |
 | [0650-2-keys-keyboard](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0650-2-keys-keyboard) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0740-delete-and-earn](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0747-min-cost-climbing-stairs) |
 | [0954-maximum-sum-circular-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0954-maximum-sum-circular-subarray) |
 | [0967-minimum-falling-path-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0967-minimum-falling-path-sum) |
@@ -505,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0648-replace-words](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0648-replace-words) |
 | [0720-longest-word-in-dictionary](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0720-longest-word-in-dictionary) |
 | [0721-accounts-merge](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0721-accounts-merge) |
+| [0740-delete-and-earn](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0740-delete-and-earn) |
 | [0816-design-hashset](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0817-design-hashmap) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
