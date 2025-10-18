@@ -4,20 +4,25 @@ class Solution:
         res = []
 
 
-        def dfs(comb , cur) : 
+        def dfs(i, comb , cur) : 
+            if i == len(nums) or cur < 0 : 
+                return 
+            
             if cur == 0 : 
-                comb = sorted(comb)
-                if comb not in res : 
-                    res.append(comb[:])
+                res.append(comb[:])
                 return
             
-            for num in nums : 
-                if cur - num < 0 : break
-                comb.append(num)
-                dfs(comb , cur-num)
-                comb.pop()
+            if cur-nums[i] < 0 : 
+                return
+            
+            comb.append(nums[i])
+            dfs(i , comb , cur-nums[i])
+            comb.pop()
+            dfs(i+1 , comb , cur)
+            
+
         
-        dfs([] , target)
+        dfs(0 , [] , target)
 
         return res 
 
