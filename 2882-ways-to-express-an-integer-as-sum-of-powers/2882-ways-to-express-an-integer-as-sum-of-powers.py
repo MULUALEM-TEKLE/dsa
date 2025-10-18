@@ -36,12 +36,8 @@ class Solution:
         limit = 0
         base = 1
         while True:
-            try:
-                term = base ** x
-            except OverflowError:
-                # Handle potential overflow for very large bases, though unlikely here
-                break 
-
+            term = base ** x
+    
             if term > n:
                 break
             limit = base
