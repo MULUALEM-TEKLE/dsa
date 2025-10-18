@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0349-intersection-of-two-arrays) |
 | [0377-combination-sum-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0377-combination-sum-iv) |
 | [0414-third-maximum-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0414-third-maximum-number) |
+| [0416-partition-equal-subset-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0416-partition-equal-subset-sum) |
 | [0419-battleships-in-a-board](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0419-battleships-in-a-board) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0494-target-sum) |
@@ -375,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0338-counting-bits) |
 | [0377-combination-sum-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0392-is-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0416-partition-equal-subset-sum) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0516-longest-palindromic-subsequence) |
