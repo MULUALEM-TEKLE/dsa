@@ -396,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2001-jump-game-vii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2001-jump-game-vii) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2397-count-number-of-ways-to-place-houses](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2397-count-number-of-ways-to-place-houses) |
+| [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 ## Memoization
 |  |
