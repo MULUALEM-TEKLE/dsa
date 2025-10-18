@@ -10,18 +10,16 @@ class Solution:
                 break 
             limit = base 
             base += 1 
-            
+
         
         @cache
         def explore(cur , lim) : 
-            if cur == 0 : 
-                return 1
-
-            if lim <= 0 : 
-                return 0
-            if cur < 0 : 
+                
+            if lim < 0 or cur < 0 : 
                 return 0
                 
+            if cur == 0 : 
+                return 1
 
             res = 0
             for i in range(lim , 0 , -1) :
