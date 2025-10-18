@@ -8,6 +8,8 @@ class Solution:
                 return 1 
             res = 0 
             for num in nums : 
+                if cur-num < 0 : 
+                    continue
                 res += dfs(cur - num)
             
             return res
