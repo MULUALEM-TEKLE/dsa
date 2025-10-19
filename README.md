@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0648-replace-words](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0648-replace-words) |
 | [0682-baseball-game](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0682-baseball-game) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0720-longest-word-in-dictionary](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0720-longest-word-in-dictionary) |
 | [0721-accounts-merge](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0721-accounts-merge) |
@@ -383,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0518-coin-change-ii) |
 | [0647-palindromic-substrings](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0647-palindromic-substrings) |
 | [0650-2-keys-keyboard](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0650-2-keys-keyboard) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0740-delete-and-earn](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0747-min-cost-climbing-stairs) |
@@ -404,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0070-climbing-stairs) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1013-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1236-n-th-tribonacci-number) |
 ## Divide and Conquer
@@ -801,6 +804,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0338-counting-bits) |
 | [0389-find-the-difference](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0389-find-the-difference) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0800-letter-case-permutation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0800-letter-case-permutation) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Interactive
@@ -864,6 +868,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0257-binary-tree-paths) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0494-target-sum) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0800-letter-case-permutation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0800-letter-case-permutation) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -931,6 +936,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Prefix Sum
 |  |
 | ------- |
