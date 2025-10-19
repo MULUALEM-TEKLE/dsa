@@ -23,7 +23,7 @@ class Solution:
                     sub[j] -= nums[i]
             
                 if sub[j] == 0 : 
-                    break
+                    return False
 
             return False
         
