@@ -6,7 +6,7 @@ class Solution:
         target = total // k 
         sub = [0] * k
 
-        nums.sort(reverse=True)
+        nums.sort()
 
         def explore(i) : 
             if i == len(nums) : 
