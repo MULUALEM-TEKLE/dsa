@@ -13,6 +13,8 @@ class Solution:
                 return True
             
             for j in range(k) : 
+                if nums[i]+sub[j] > target : 
+                    continue
                 if nums[i]+sub[j] <= target : 
                     sub[j] += nums[i]
 
