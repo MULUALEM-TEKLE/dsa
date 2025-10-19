@@ -6,6 +6,9 @@ class Solution:
         target = total // k 
         sub = [0] * k
         nums.sort(reverse=True)
+
+        if nums[0] > target : 
+            return False
   
 
         def explore(i) : 
