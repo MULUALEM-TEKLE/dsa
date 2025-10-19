@@ -5,8 +5,8 @@ class Solution:
 
         target = total // k 
         sub = [0] * k
-
-        nums.sort()
+        nums.sort(reverse=True)
+  
 
         def explore(i) : 
             if i == len(nums) : 
