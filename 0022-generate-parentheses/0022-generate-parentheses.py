@@ -10,7 +10,7 @@ class Solution:
             # +( -> opened + 1 
             # +) -> closed + 1 
 
-            if opened < n+1: 
+            if opened < n: 
                 build(opened+1 , closed , res + "(")
             if closed < opened : 
                 build(opened , closed+1 , res + ")")
