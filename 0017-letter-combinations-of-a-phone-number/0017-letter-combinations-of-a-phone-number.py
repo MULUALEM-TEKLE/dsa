@@ -12,15 +12,15 @@ class Solution:
         }
 
         res = []
-        def dfs(i , cur_str) :
-            if i >= len(digits) : 
-                res.append(cur_str)
-                return 
+
+        def explore(i , ch) : 
+            if i == len(digits) : 
+                res.append(ch)
+                return
             for c in table[digits[i]] : 
-                dfs(i+1 , cur_str + c)
-        if not digits == "" :
-            dfs(0 , "")
+                explore(i+1 , ch + c )
+        
+        explore(0 , "")
+
         return res 
-
-
-       
+            
