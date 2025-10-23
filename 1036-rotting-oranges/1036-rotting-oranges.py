@@ -1,31 +1,33 @@
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         rows , cols = len(grid) , len(grid[0])
-        dxn = [[0 , 1] , [0 , -1] , [1 , 0] , [-1 , 0]]
+        directions = [[0 , 1] , [0 , -1] , [1 , 0] , [-1 , 0]]
 
-        rotten = deque()
-        fresh = 0
+        process = deque()
+        fresh_oranges = 0
 
         for r in range(rows) : 
             for c in range(cols) : 
-                if grid[r][c] == 2 : 
-                    rotten.append((r, c))
+                if grid[r][c] == 0 : 
+                    continue 
                 elif grid[r][c] == 1 : 
-                    fresh += 1 
-        minutes = 0
-        while rotten and fresh > 0 : 
-            for _ in range(len(rotten)) : 
-                row , col = rotten.popleft()
-                for dr , dc in dxn : 
-                    r , c = row + dr , col + dc
-                    if r in range(rows) and c in range(cols) and grid[r][c] == 1 : 
-                        grid[r][c] = 2 
-                        fresh -= 1
-                        rotten.append((r , c))
-                        
-            minutes += 1   
+                    fresh_oranges += 1
+                else : 
+                    process.append((r , c))
+
         
-        if fresh == 0 : 
-            return minutes 
-        else : 
-            return -1
+        time = 0 
+
+        while process and fresh_oranges : 
+            for _ in range(len(process)) : 
+                row , col = process.popleft()
+                for dr , dc in directions : 
+                    nr , nc = row + dr , col + dc
+                    if nr in range(rows) and nc in range(cols) and grid[nr][nc] == 1 : 
+                        grid[nr][nc] = 2
+                        fresh_oranges -= 1 
+                        process.append((nr , nc))
+            time +=  1 
+        
+        return time if fresh_oranges == 0 else -1
+
