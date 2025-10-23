@@ -17,7 +17,7 @@ class Solution:
             cs = ps + root.val
             x = cs - targetSum
 
-            if x in freq and freq[x] > 0 : 
+            if x in freq : 
                 self.res += freq[x]
             
             freq[cs] += 1 
