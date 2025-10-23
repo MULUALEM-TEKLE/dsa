@@ -10,10 +10,12 @@ class Solution:
         for i in range(len(nums)-1, -1 , -1) : 
             nextdp = set()
             for t in dp :
-                if nums[i]+t == target :
+                summ = nums[i]+t
+                if summ == target :
                     return True
                 nextdp.add(t)
-                nextdp.add(nums[i]+t)
+                if summ > target : continue
+                nextdp.add(summ)
             dp = nextdp
 
         return target in dp
