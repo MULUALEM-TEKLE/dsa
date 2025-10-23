@@ -1,20 +1,31 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         total = sum(nums)
-        if total % 2 != 0 : 
-            return False 
-        half = total // 2
+        if total % 2 != 0 : return False
+        target = total // 2
 
-        @cache
-        def explore(i , cur) : 
-            if cur == 0 : 
-                return True 
+        dp = set()
+        dp.add(0)
 
-            if i == len(nums) or cur < 0: 
-                return False
+        for i in range(len(nums)-1, -1 , -1) : 
+            nextdp = set()
+            for t in dp :
+                if nums[i]+t == target :
+                    return True
+                nextdp.add(t)
+                nextdp.add(nums[i]+t)
+            dp = nextdp
+
+        return target in dp
 
 
-            return explore(i+1 , cur-nums[i]) or explore(i+1 , cur)
-
-
-        return explore(0 , half)
+        # @cache
+        # def explore(i , cur) : 
+        #     if cur == target : 
+        #         return True 
+        #     if i == len(nums) : 
+        #         return False
+            
+        #     return explore(i+1 , cur+nums[i]) or explore(i+1 , cur)
+        
+        # return explore(0 , 0)
