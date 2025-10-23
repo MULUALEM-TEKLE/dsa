@@ -23,6 +23,8 @@ class Solution:
 
         @cache
         def explore(i , cur) : 
+            if cur > target : 
+                return False
             if cur == target : 
                 return True 
             if i == len(nums) : 
