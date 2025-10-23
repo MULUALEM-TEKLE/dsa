@@ -26,6 +26,7 @@ class Solution:
             dfs(root.left , freq , cs)
 
             freq[cs] -= 1 
+            if cs in freq and freq[cs] == 0 : del freq[cs]
         
         dfs(root , freq , 0)
 
