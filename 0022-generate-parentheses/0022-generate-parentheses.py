@@ -1,15 +1,20 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        res = []
+        self.output = []
 
-        def backtrack(opened , closed, s) : 
+        def build(opened , closed , res) : 
             if opened == closed == n : 
-                res.append(s)
+                self.output.append(res)
+                return 
             
-            if opened < n : 
-                backtrack(opened+1 , closed , s+"(")
+            # +( -> opened + 1 
+            # +) -> closed + 1 
+
+            if opened < n+1: 
+                build(opened+1 , closed , res + "(")
             if closed < opened : 
-                backtrack(opened , closed+1 , s+")")
+                build(opened , closed+1 , res + ")")
         
-        backtrack(0 , 0 , "")
-        return res
+        build(0 , 0 , "")
+
+        return self.output
