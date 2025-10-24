@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0416-partition-equal-subset-sum) |
 | [0419-battleships-in-a-board](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0419-battleships-in-a-board) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
+| [0474-ones-and-zeroes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0560-subarray-sum-equals-k) |
@@ -340,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0459-repeated-substring-pattern](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0459-repeated-substring-pattern) |
+| [0474-ones-and-zeroes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0474-ones-and-zeroes) |
 | [0516-longest-palindromic-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0516-longest-palindromic-subsequence) |
 | [0567-permutation-in-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0647-palindromic-substrings) |
@@ -383,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0416-partition-equal-subset-sum) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
+| [0474-ones-and-zeroes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0518-coin-change-ii) |
