@@ -1,22 +1,27 @@
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
+        # minimizing total cost
         durations = [1 , 7 , 30]
-        def find(start , target_day) : 
-            for i in range(start ,len(days)) :
-                if days[i] >= target_day : 
+
+        def find_nxt(start , dur) : 
+            for i in range(start, len(days) ) : 
+                if days[i] >= days[start]+dur : 
                     return i
-            return len(days) 
+            return len(days)
+                
         @cache
-        def solve(i) : 
-            if i == len(days) : return 0 
+        def explore(i) : 
+            if i == len(days) : 
+                return 0
+        
+            cost = float('inf')
 
-            minm = float('inf')
+            for j in range(len(costs)): 
+                nxt_day = find_nxt(i , durations[j])
+                cost = min(cost , costs[j]+explore(nxt_day))
+            return cost
+        
+        return explore(0)
 
-            for duration,cost in enumerate(costs) : 
-                ticket_duration = days[i]+durations[duration]-1
-
-                next_index = find(i , ticket_duration+1)
-
-                minm =min(minm,  cost + solve(next_index))
-            return minm
-        return solve(0)
+            
+                
