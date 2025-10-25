@@ -1,7 +1,7 @@
 class Solution:
     def lastStoneWeightII(self, stones: List[int]) -> int:
         total = sum(stones)
-        target = ceil(total/2)
+        target = total//2
         @cache
         def explore(i , cur) : 
             if cur >= target or i == len(stones) : 
