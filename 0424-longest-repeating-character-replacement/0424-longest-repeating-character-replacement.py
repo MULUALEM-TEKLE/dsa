@@ -1,11 +1,12 @@
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
+        m = len(s)
         longest = 0 
         left = 0
         counts = defaultdict(int)
         maxf = 0
 
-        for right in range(len(s)) : 
+        for right in range(m) : 
             counts[s[right]] +=1
             maxf = max(maxf , counts[s[right]])
             while (right-left+1) - maxf > k : 
