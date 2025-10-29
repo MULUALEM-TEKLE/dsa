@@ -356,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0800-letter-case-permutation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0800-letter-case-permutation) |
 | [0886-score-of-parentheses](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0886-score-of-parentheses) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1030-smallest-string-starting-from-leaf) |
+| [1170-shortest-common-supersequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1250-longest-common-subsequence) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1894-merge-strings-alternately](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1894-merge-strings-alternately) |
@@ -410,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-longest-turbulent-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1020-longest-turbulent-subarray) |
 | [1025-minimum-cost-for-tickets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1025-minimum-cost-for-tickets) |
 | [1130-last-stone-weight-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1130-last-stone-weight-ii) |
+| [1170-shortest-common-supersequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1170-shortest-common-supersequence) |
 | [1236-n-th-tribonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1250-longest-common-subsequence) |
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1263-number-of-dice-rolls-with-target-sum) |
