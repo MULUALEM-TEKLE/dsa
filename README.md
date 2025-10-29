@@ -343,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0392-is-subsequence) |
 | [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
+| [0424-longest-repeating-character-replacement](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0459-repeated-substring-pattern](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0459-repeated-substring-pattern) |
 | [0474-ones-and-zeroes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0474-ones-and-zeroes) |
@@ -527,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0389-find-the-difference) |
+| [0424-longest-repeating-character-replacement](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0508-most-frequent-subtree-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0508-most-frequent-subtree-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0560-subarray-sum-equals-k) |
@@ -863,6 +865,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0219-contains-duplicate-ii) |
 | [0220-contains-duplicate-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0220-contains-duplicate-iii) |
+| [0424-longest-repeating-character-replacement](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0567-permutation-in-string) |
 | [1020-longest-turbulent-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1020-longest-turbulent-subarray) |
