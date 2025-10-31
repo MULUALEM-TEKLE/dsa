@@ -3,7 +3,6 @@ class Solution:
         # 8 -> 4 -> 2 -> 3
         low , high = 0 , x
         res = x
-
         while low <= high : 
             mid = (low+high)//2
 
@@ -11,8 +10,8 @@ class Solution:
                 high = mid-1
             elif mid * mid < x : 
                 res = mid
-                low = mid + 1 
+                low = mid+1
             else : 
                 return mid
-
-        return res   
+            
+        return res 
