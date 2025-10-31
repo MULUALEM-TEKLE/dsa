@@ -16,7 +16,7 @@ class Solution:
                 row , col = q.popleft()
                 for dr , dc in directions : 
                     nr , nc = row + dr , col + dc 
-                    if nr in range(rows) and nc in range(cols) and (nr , nc ) not in visited and grid[nr][nc] == 1 : 
+                    if nr >= 0 and nr < rows and nc >= 0 and nc < cols and (nr , nc ) not in visited and grid[nr][nc] == 1 : 
                         area += 1 
                         visited.add((nr , nc))
                         q.append((nr , nc))
