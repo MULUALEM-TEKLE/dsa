@@ -18,7 +18,7 @@ class Solution:
                 end = [row , col]
                 for dr , dc in directions : 
                     nr , nc = row + dr , col + dc
-                    if nr in range(rows) and nc in range(cols) and (nr , nc) not in visited and land[nr][nc] == 1 : 
+                    if nr < rows and nr >= 0 and nc < cols and nc >= 0 and (nr , nc) not in visited and land[nr][nc] == 1 : 
                         q.append((nr , nc))
                         visited.add((nr , nc))
 
