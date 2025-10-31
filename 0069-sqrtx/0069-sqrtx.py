@@ -1,15 +1,18 @@
 class Solution:
     def mySqrt(self, x: int) -> int:
-        left , right = 0 , x 
-        res = 0
-        while left <= right : 
-            mid = (left + right)//2
+        # 8 -> 4 -> 2 -> 3
+        low , high = 0 , x
+        res = x
 
-            if mid*mid < x : 
-                res = mid 
-                left = mid+1
-            elif mid*mid > x :
-                right = mid -1 
+        while low <= high : 
+            mid = (low+high)//2
+
+            if mid * mid > x : 
+                high = mid-1
+            elif mid * mid < x : 
+                res = mid
+                low = mid + 1 
             else : 
-                return mid 
-        return res
+                return mid
+
+        return res   
