@@ -4,20 +4,20 @@ class Solution:
 
         comb = []
 
-        def backtrack(i , cur) : 
-          
-            if len(comb) == k and cur == n : 
+        def dfs(i , cur) : 
+            if cur == n and len(comb) == k : 
                 res.append(comb[:])
+                return
+
+            if i < 1 or cur > n : 
                 return 
             
-            if i < 1 : 
-                return 
-                
+            
             comb.append(i)
-            backtrack(i-1 , cur + i)
+            dfs(i-1 , cur+i)
             comb.pop()
-            backtrack(i-1 , cur)
-
-        backtrack(9 , 0)
+            dfs(i-1 , cur)
+        
+        dfs(9 , 0)
 
         return res
