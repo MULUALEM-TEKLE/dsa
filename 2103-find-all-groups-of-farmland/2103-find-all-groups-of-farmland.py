@@ -21,8 +21,8 @@ class Solution:
                     if nr < rows and nr >= 0 and nc < cols and nc >= 0 and (nr , nc) not in visited and land[nr][nc] == 1 : 
                         q.append((nr , nc))
                         visited.add((nr , nc))
-
-            res.append(start+end)
+            start.extend(end)
+            res.append(start)
 
         
         for r in range(rows) : 
