@@ -1,13 +1,11 @@
 class Solution:
     def maxProfit(self, prices: List[int], fee: int) -> int:
-        n = len(prices)
-        buy = [0] * n 
-        sell = [0] * n 
-
-        buy[0] = -prices[0]
-
-        for i in range(1 , n) : 
-            buy[i] = max(buy[i-1] , sell[i-1] - prices[i])
-            sell[i] = max(sell[i-1] , buy[i-1] + prices[i]-fee)
-
-        return sell[-1]
+        @cache
+        def explore(i , holding) : 
+            if i >= len(prices) : 
+                return 0
+            if holding : 
+                return max(prices[i]-fee + explore(i+1 , False) , explore(i+1 , True))
+            else : 
+                return max(-prices[i]+explore(i+1 , True) , explore(i+1 , False))
+        return explore(0 , False)
