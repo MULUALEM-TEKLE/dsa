@@ -22,7 +22,7 @@ class Solution:
             
         
         for left in range(len(nums)-k+1) : 
-            process(sorted(nums[left:left+k]))
+            process(nums[left:left+k])
 
 
         return res
