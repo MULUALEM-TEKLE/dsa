@@ -22,7 +22,9 @@ class Solution:
 
         maxsum = 0
         while rhead : 
-            maxsum = max(maxsum , rhead.val+head.val)
+            if (cursum:=rhead.val+head.val) > maxsum : 
+                maxsum = cursum
+            # maxsum = max(maxsum , rhead.val+head.val)
             rhead , head = rhead.next , head.next 
         
         return maxsum
