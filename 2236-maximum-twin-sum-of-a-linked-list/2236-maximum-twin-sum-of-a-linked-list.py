@@ -3,37 +3,27 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-
-            
-        # s = ''
-        # while prev : 
-        #     s += f'{prev.val}->'
-        #     prev = prev.next 
-        # print(s[:-2])
-
 class Solution:
     def pairSum(self, head: Optional[ListNode]) -> int:
-       
-
-        fast = slow = head 
+        slow , fast = head , head 
         while fast and fast.next : 
-            slow = slow.next
-            fast = fast.next.next 
-
-        prev = None
-        cur = slow         
-
-        while cur : 
-            nxt = cur.next 
-            cur.next = prev 
-            prev = cur 
-            cur = nxt 
-
-        res = float('-inf')
-        while prev :
-            res = max(res , head.val + prev.val)
-            head = head.next
-            prev = prev.next 
+            fast = fast.next.next
+            slow = slow.next 
         
-        return res
+        shalf = slow
+        prev = None 
+        while shalf : 
+            nxt = shalf.next 
+            shalf.next = prev 
+            prev = shalf
+            shalf = nxt
 
+        rhead = prev
+
+        maxsum = 0
+        while rhead : 
+            maxsum = max(maxsum , rhead.val+head.val)
+            rhead , head = rhead.next , head.next 
+        
+        return maxsum
+        
