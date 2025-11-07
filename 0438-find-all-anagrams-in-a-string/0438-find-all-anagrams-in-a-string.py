@@ -1,33 +1,11 @@
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
-        lens = len(s)
-        lenp = len(p)
+        m , n = len(s) , len(p)
+        pcounter = Counter(p)
+        res = []
 
-        if lenp > lens : 
-            return []
-
-        ptable = defaultdict(int)
-        stable = defaultdict(int)
-
-        for i in range(lenp) : 
-            ptable[p[i]] += 1 
-            stable[s[i]] += 1 
+        for i in range(0 , m-n+1) : 
+            if pcounter == Counter(s[i : i+n]) : 
+                res.append(i)
         
-        res = [0] if ptable == stable else []
-        left = 0
-        
-        for right in range(lenp , lens) : 
-            
-            stable[s[right]] += 1 
-            stable[s[left]] -= 1 
-
-
-            if stable[s[left]] == 0 : 
-                stable.pop(s[left])
-
-            left += 1
-            
-            if stable == ptable : 
-                res.append(left)
-                
         return res 
