@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0560-subarray-sum-equals-k) |
+| [0561-array-partition](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0561-array-partition) |
 | [0648-replace-words](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0648-replace-words) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0682-baseball-game](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0682-baseball-game) |
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0349-intersection-of-two-arrays) |
 | [0389-find-the-difference](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0389-find-the-difference) |
 | [0414-third-maximum-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0414-third-maximum-number) |
+| [0561-array-partition](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0561-array-partition) |
 | [0720-longest-word-in-dictionary](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0720-longest-word-in-dictionary) |
 | [0721-accounts-merge](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0721-accounts-merge) |
 | [0917-boats-to-save-people](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0917-boats-to-save-people) |
@@ -889,6 +891,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0274-h-index) |
 | [0383-ransom-note](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0387-first-unique-character-in-a-string) |
+| [0561-array-partition](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0561-array-partition) |
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -982,6 +985,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0561-array-partition](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0561-array-partition) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0917-boats-to-save-people](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0917-boats-to-save-people) |
 | [3195-separate-black-and-white-balls](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3195-separate-black-and-white-balls) |
