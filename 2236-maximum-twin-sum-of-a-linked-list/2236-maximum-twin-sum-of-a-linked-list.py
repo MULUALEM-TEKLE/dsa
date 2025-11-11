@@ -24,7 +24,6 @@ class Solution:
         while rhead : 
             if (cursum:=rhead.val+head.val) > maxsum : 
                 maxsum = cursum
-            # maxsum = max(maxsum , rhead.val+head.val)
             rhead , head = rhead.next , head.next 
         
         return maxsum
