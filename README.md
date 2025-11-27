@@ -284,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0969-number-of-recent-calls](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0969-number-of-recent-calls) |
 | [1023-time-based-key-value-store](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1023-time-based-key-value-store) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
+| [1603-design-parking-system](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1603-design-parking-system) |
 ## Math
 |  |
 | ------- |
@@ -507,6 +508,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
 | [0682-baseball-game](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0682-baseball-game) |
 | [0983-validate-stack-sequences](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0983-validate-stack-sequences) |
+| [1603-design-parking-system](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1603-design-parking-system) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2058-concatenation-of-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2058-concatenation-of-array) |
 | [2195-time-needed-to-buy-tickets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2195-time-needed-to-buy-tickets) |
@@ -915,6 +917,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0621-task-scheduler) |
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+| [1603-design-parking-system](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1603-design-parking-system) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Sliding Window
 |  |
