@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0220-contains-duplicate-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0220-contains-duplicate-iii) |
 | [0228-summary-ranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0238-product-of-array-except-self) |
+| [0240-search-a-2d-matrix-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0283-move-zeroes) |
@@ -465,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0215-kth-largest-element-in-an-array) |
+| [0240-search-a-2d-matrix-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
 | [0954-maximum-sum-circular-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0954-maximum-sum-circular-subarray) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
@@ -599,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0209-minimum-size-subarray-sum) |
+| [0240-search-a-2d-matrix-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0268-missing-number) |
 | [0278-first-bad-version](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0278-first-bad-version) |
 | [0287-find-the-duplicate-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0287-find-the-duplicate-number) |
@@ -630,6 +633,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0212-word-search-ii) |
+| [0240-search-a-2d-matrix-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 | [0304-range-sum-query-2d-immutable](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0304-range-sum-query-2d-immutable) |
 | [0419-battleships-in-a-board](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0419-battleships-in-a-board) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
