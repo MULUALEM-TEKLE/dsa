@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-longest-turbulent-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1020-longest-turbulent-subarray) |
 | [1025-minimum-cost-for-tickets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1036-rotting-oranges) |
+| [1095-find-in-mountain-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1095-find-in-mountain-array) |
 | [1127-last-stone-weight](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1127-last-stone-weight) |
 | [1130-last-stone-weight-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1130-last-stone-weight-ii) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -619,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0852-peak-index-in-a-mountain-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1023-time-based-key-value-store) |
+| [1095-find-in-mountain-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1095-find-in-mountain-array) |
 | [1646-kth-missing-positive-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
@@ -908,6 +910,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0278-first-bad-version](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0374-guess-number-higher-or-lower) |
+| [1095-find-in-mountain-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1095-find-in-mountain-array) |
 ## Merge Sort
 |  |
 | ------- |
