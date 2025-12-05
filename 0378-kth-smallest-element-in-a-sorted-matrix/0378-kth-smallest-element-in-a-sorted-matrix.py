@@ -7,15 +7,16 @@ class Solution:
         while left < right : 
             mid = (left+right)//2
             count = 0
+            j = n-1
 
             for i in range(n) : 
-                for j in range(n) : 
-                    if matrix[i][j] <= mid : 
-                        count += 1 
+                while j >= 0 and matrix[i][j] > mid :
+                    j -= 1 
+                count += j + 1 
 
             if count < k : 
                 left = mid + 1 
             else : 
-                right = mid
+                right = mid 
 
         return left 
