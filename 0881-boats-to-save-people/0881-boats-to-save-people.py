@@ -8,11 +8,8 @@ class Solution:
 
         while left <= right : 
             if people[left] + people[right] <= limit : 
-                res += 1 
                 left += 1 
-            else : 
-                res += 1
-                # left += 1 
+            res += 1 
             right -= 1
 
         return res 
