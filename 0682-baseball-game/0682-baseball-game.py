@@ -1,15 +1,16 @@
 class Solution:
     def calPoints(self, operations: List[str]) -> int:
-        stack = []
+        score = 0 
+        record = []
 
         for op in operations : 
             if op == "+" : 
-                stack.append(stack[-2] + stack[-1]) 
+                record.append(record[-1] + record[-2])
             elif op == "D" : 
-                 stack.append(stack[-1] * 2)
+                record.append(record[-1]*2)
             elif op == "C" : 
-                stack.pop()
+                record.pop()
             else : 
-                stack.append(int(op))
-        
-        return sum(stack)
+                record.append(int(op)) 
+                
+        return sum(record)
