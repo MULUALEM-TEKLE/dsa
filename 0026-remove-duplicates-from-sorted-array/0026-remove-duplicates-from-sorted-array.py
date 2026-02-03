@@ -4,6 +4,6 @@ class Solution:
         for right in range(1 , len(nums)) : 
             if nums[right] != nums[left] : 
                 left += 1 
-                nums[left] , nums[right] = nums[right] , nums[left]
+                nums[left]  = nums[right] 
         
         return left+1
