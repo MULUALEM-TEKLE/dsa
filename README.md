@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1428-jump-game-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1428-jump-game-iii) |
 | [1470-shuffle-the-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1470-shuffle-the-array) |
+| [1472-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1472-design-browser-history) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1580-shuffle-the-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1580-shuffle-the-array) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
@@ -266,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0816-design-hashset](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0817-design-hashmap) |
 | [0838-design-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0838-design-linked-list) |
+| [1472-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1472-design-browser-history) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -301,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0969-number-of-recent-calls](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0969-number-of-recent-calls) |
 | [1023-time-based-key-value-store](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1023-time-based-key-value-store) |
 | [1146-snapshot-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1146-snapshot-array) |
+| [1472-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1472-design-browser-history) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
 | [1603-design-parking-system](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1603-design-parking-system) |
 ## Math
@@ -344,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0883-car-fleet](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0883-car-fleet) |
 | [0886-score-of-parentheses](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0886-score-of-parentheses) |
 | [0983-validate-stack-sequences](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0983-validate-stack-sequences) |
+| [1472-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1472-design-browser-history) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -541,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0146-lru-cache) |
+| [1472-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1472-design-browser-history) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
 ## Data Stream
 |  |
@@ -548,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0789-kth-largest-element-in-a-stream](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0933-number-of-recent-calls](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0933-number-of-recent-calls) |
 | [0969-number-of-recent-calls](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0969-number-of-recent-calls) |
+| [1472-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1472-design-browser-history) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
 ## Queue
 |  |
