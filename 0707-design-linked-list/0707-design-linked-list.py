@@ -16,8 +16,8 @@ class MyLinkedList:
         self.head = ListNode() 
 
     def get(self, index: int) -> int:
-        cnt = 0 
-        cur = self.head.next
+        cnt = -1
+        cur = self.head
         while cur : 
             if cnt == index : 
                 return cur.val
