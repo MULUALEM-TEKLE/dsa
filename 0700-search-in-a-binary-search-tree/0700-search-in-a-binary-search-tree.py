@@ -10,9 +10,11 @@ class Solution:
             if not root : 
                 return None 
             
-            if root.val == val : 
-                return root 
-            
-            return search(root.left) or search(root.right)
+            if root.val < val : 
+                return search(root.right)
+            elif root.val > val : 
+                return search(root.left)
+            else : 
+                return root   
 
         return search(root)
