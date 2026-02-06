@@ -8,13 +8,17 @@ class Solution:
             window[s[i]] += 1 
         res = [0] if p_dict == window else []
 
+        left = 0
         
-        for i in range(1 , len(s)-p_len+1) : 
-            window[s[i-1]] -= 1 
-            if window[s[i-1]] == 0 : del window[s[i-1]]
-            window[s[i+p_len-1]] += 1 
+        for right in range(p_len , len(s)) : 
+            window[s[left]] -= 1 
+            if window[s[left]] == 0 : del window[s[left]]
+            window[s[right]] += 1 
+
+            left += 1 
 
             if window == p_dict : 
-                res.append(i)
+                res.append(left)
+
         
         return res
