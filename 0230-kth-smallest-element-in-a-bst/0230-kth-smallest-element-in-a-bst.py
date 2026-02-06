@@ -9,7 +9,7 @@ class Solution:
         self.k = k
         self.res = None
         def dfs(root) : 
-            if not root or self.res != None : 
+            if not root: 
                 return 
             
             dfs(root.left)
