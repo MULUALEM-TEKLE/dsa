@@ -11,6 +11,6 @@ class Solution:
                 return -1
             if i == len(strs) : 
                 return 0
-            return max(lss(i+1 , n_c , m_c) , 1 + lss(i+1 , n_c+table[i]['1'] , m_c+table[i]['0']))
+            return max(lss(i+1 , n_c , m_c) , 1 + lss(i+1 , n_c+strs[i].count('1') , m_c+strs[i].count('0')))
         
         return lss(0 , 0, 0)
