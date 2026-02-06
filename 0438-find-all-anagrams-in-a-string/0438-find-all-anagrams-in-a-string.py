@@ -1,19 +1,20 @@
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
-        m , n = len(s) , len(p)
-        pcounter = Counter(p)
-        scounter = Counter(s[0 : n])
-        res = [0] if pcounter == scounter else []
-        left = 0
+        p_dict = Counter(p)
+        window = defaultdict(int)
+        p_len = len(p)
+        if p_len > len(s) : return []
+        for i in range(p_len) : 
+            window[s[i]] += 1 
+        res = [0] if p_dict == window else []
 
-        for right in range(1 , m-n+1) : 
-            scounter[s[left]] -= 1
-            scounter[s[right+n-1]] += 1  
-            if scounter[s[left]] == 0 : 
-                del scounter[s[left]]
-            left += 1
-
-            if scounter == pcounter : 
-                res.append(right) 
         
-        return res 
+        for i in range(1 , len(s)-p_len+1) : 
+            window[s[i-1]] -= 1 
+            if window[s[i-1]] == 0 : del window[s[i-1]]
+            window[s[i+p_len-1]] += 1 
+
+            if window == p_dict : 
+                res.append(i)
+        
+        return res
