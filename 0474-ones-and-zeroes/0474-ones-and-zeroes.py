@@ -1,10 +1,6 @@
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
-        table = defaultdict(int)
-
-        for i , s in enumerate(strs) : 
-            table[i] = Counter(s)
-        
+    
         @cache
         def lss(i, n_c , m_c) : 
             if n_c > n or m_c > m : 
