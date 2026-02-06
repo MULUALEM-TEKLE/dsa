@@ -14,7 +14,7 @@ class Solution:
                 return search(root.right)
             elif root.val > val : 
                 return search(root.left)
-            else : 
-                return root   
+            
+            return root   
 
         return search(root)
