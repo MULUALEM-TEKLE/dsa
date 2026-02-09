@@ -4,8 +4,6 @@ class Solution:
         for index, num in enumerate(nums) : 
             cont[num].append(index)
         
-        print(cont)
-        
         for index, num in enumerate(nums) : 
             if target - num in nums : 
                 if num == target - num and len(cont[num]) > 1  : 
