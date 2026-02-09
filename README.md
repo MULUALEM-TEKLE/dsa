@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-longest-turbulent-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1020-longest-turbulent-subarray) |
 | [1025-minimum-cost-for-tickets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1036-rotting-oranges) |
+| [1046-last-stone-weight](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1046-last-stone-weight) |
 | [1095-find-in-mountain-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1095-find-in-mountain-array) |
 | [1127-last-stone-weight](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1127-last-stone-weight) |
 | [1130-last-stone-weight-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1130-last-stone-weight-ii) |
@@ -520,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0912-sort-an-array) |
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
+| [1046-last-stone-weight](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1046-last-stone-weight) |
 | [1127-last-stone-weight](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1127-last-stone-weight) |
 | [1325-path-with-maximum-probability](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1325-path-with-maximum-probability) |
 | [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
