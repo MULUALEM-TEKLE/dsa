@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
 | [0954-maximum-sum-circular-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0954-maximum-sum-circular-subarray) |
 | [0967-minimum-falling-path-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0967-minimum-falling-path-sum) |
+| [0973-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0973-k-closest-points-to-origin) |
 | [0983-validate-stack-sequences](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0983-validate-stack-sequences) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1019-squares-of-a-sorted-array) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0917-boats-to-save-people) |
 | [0941-sort-array-by-parity](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1019-squares-of-a-sorted-array) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -330,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
 | [0509-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0509-fibonacci-number) |
 | [0650-2-keys-keyboard](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0650-2-keys-keyboard) |
+| [0973-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0973-k-closest-points-to-origin) |
 | [1013-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1236-n-th-tribonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1236-n-th-tribonacci-number) |
@@ -501,10 +504,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0912-sort-an-array) |
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
 | [0954-maximum-sum-circular-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0954-maximum-sum-circular-subarray) |
+| [0973-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 ## Geometry
 |  |
 | ------- |
+| [0973-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
 |  |
@@ -520,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
 | [0912-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0912-sort-an-array) |
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1046-last-stone-weight) |
 | [1127-last-stone-weight](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1127-last-stone-weight) |
@@ -530,6 +536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0215-kth-largest-element-in-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 ## Trie
 |  |
