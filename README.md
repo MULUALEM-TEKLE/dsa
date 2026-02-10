@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0967-minimum-falling-path-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0973-k-closest-points-to-origin) |
 | [0983-validate-stack-sequences](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0983-validate-stack-sequences) |
+| [0994-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0994-rotting-oranges) |
 | [1014-k-closest-points-to-origin](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1019-squares-of-a-sorted-array) |
 | [1020-longest-turbulent-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1020-longest-turbulent-subarray) |
@@ -694,6 +695,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
 | [0867-transpose-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0867-transpose-matrix) |
 | [0967-minimum-falling-path-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0967-minimum-falling-path-sum) |
+| [0994-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1036-rotting-oranges) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -925,6 +927,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0764-n-ary-tree-level-order-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0994-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0994-rotting-oranges) |
 | [1035-cousins-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1035-cousins-in-binary-tree) |
 | [1036-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1036-rotting-oranges) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1091-shortest-path-in-binary-matrix) |
