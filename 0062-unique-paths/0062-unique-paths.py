@@ -8,10 +8,6 @@ class Solution:
             if row == m-1 and col == n-1 : 
                 return 1 
             
-            path = 0 
-            path += explore(row+1 , col)
-            path += explore(row , col+1)
-
-            return path
+            return explore(row+1 , col) + explore(row , col+1)
         
         return explore(0 , 0)
