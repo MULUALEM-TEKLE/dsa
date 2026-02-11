@@ -1,8 +1,9 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        memo = {1:1 , 2:2}
-        def climb(n) : 
-            if n in memo : return memo[n]
-            memo[n] = climb(n-1) + climb(n-2)
-            return memo[n]
+        @cache
+        def climb(i) : 
+            if i <= 2 : 
+                return i
+            return climb(i-1) + climb(i-2)
+        
         return climb(n)
