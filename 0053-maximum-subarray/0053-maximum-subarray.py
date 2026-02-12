@@ -2,6 +2,7 @@ class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         res = nums[0]
         cur = 0
+        if len(nums) == 1 : return res
         for num in nums : 
             if cur < 0 : 
                 cur = 0
