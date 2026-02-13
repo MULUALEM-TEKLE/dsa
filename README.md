@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1293-three-consecutive-odds) |
 | [1325-path-with-maximum-probability](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1325-path-with-maximum-probability) |
+| [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1428-jump-game-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1428-jump-game-iii) |
@@ -1021,6 +1022,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0567-permutation-in-string) |
 | [0978-longest-turbulent-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0978-longest-turbulent-subarray) |
 | [1020-longest-turbulent-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1020-longest-turbulent-subarray) |
+| [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [2001-jump-game-vii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2001-jump-game-vii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Backtracking
