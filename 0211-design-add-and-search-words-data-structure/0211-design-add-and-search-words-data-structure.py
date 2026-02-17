@@ -18,7 +18,7 @@ class WordDictionary:
     def search(self, word: str) -> bool:
         def dfs(node , index) : 
             # if index > len(word) or not node : return False 
-            if index == len(word) : return True 
+            if index == len(word) : return node.end
 
             if word[index] == "." :
                 for child in node.children.values() : 
