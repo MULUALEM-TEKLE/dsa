@@ -1,37 +1,34 @@
-class TrieNode : 
-    def __init__(self) : 
+class TN  : 
+    def __init__(self) :
         self.children = {}
-        self.eow = False
+        self.end = False 
 class WordDictionary:
 
     def __init__(self):
-        self.root = TrieNode()
+        self.root = TN()
 
     def addWord(self, word: str) -> None:
         cur = self.root 
         for c in word : 
             if c not in cur.children : 
-                cur.children[c] = TrieNode()
+                cur.children[c] = TN()
             cur = cur.children[c]
-        cur.eow = True
+        cur.end = True
 
     def search(self, word: str) -> bool:
         def dfs(node , index) : 
-            if index == len(word) : 
-                return node.eow
-            
-            # wildcard
-            if word[index] == "." : 
-                for child in node.children.values() : 
-                    if dfs(child , index+1) : return True
+            # if index > len(word) or not node : return False 
+            if index == len(word) : return True 
 
-            # normal 
+            if word[index] == "." :
+                for child in node.children.values() : 
+                    if dfs(child , index+1) : return True 
+            
             if word[index] in node.children : 
                 return dfs(node.children[word[index]] , index+1)
+                 
+            return False 
 
-            
-            return False
-        
         return dfs(self.root , 0)
 
 
