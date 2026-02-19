@@ -654,6 +654,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1146-snapshot-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1146-snapshot-array) |
 | [1207-delete-nodes-and-return-forest](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1207-delete-nodes-and-return-forest) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
@@ -779,6 +780,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1035-cousins-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1035-cousins-in-binary-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1207-delete-nodes-and-return-forest) |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Binary Search Tree
@@ -906,6 +908,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1207-delete-nodes-and-return-forest) |
 | [1267-count-servers-that-communicate](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1267-count-servers-that-communicate) |
 | [1428-jump-game-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1428-jump-game-iii) |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1558-course-schedule-iv) |
 | [1631-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1631-path-with-minimum-effort) |
@@ -963,6 +966,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1267-count-servers-that-communicate](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1267-count-servers-that-communicate) |
 | [1428-jump-game-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1428-jump-game-iii) |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1558-course-schedule-iv) |
 | [1631-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1631-path-with-minimum-effort) |
