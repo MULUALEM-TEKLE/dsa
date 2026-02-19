@@ -13,14 +13,15 @@ class Solution:
 
         res = []
 
-        def explore(i , ch) : 
+        def dfs(i , s) : 
             if i == len(digits) : 
-                res.append(ch)
+                res.append(s)
                 return
-            for c in table[digits[i]] : 
-                explore(i+1 , ch + c )
-        
-        explore(0 , "")
-
-        return res 
             
+            for letter in table[digits[i]] : 
+                dfs(i+1 , s+letter)
+                # dfs(i+1 , s)
+        
+        dfs(0 , "")
+
+        return res
