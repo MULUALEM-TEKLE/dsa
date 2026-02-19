@@ -3,18 +3,21 @@ class Solution:
         res = []
 
         comb = []
-        def dfs(m) : 
+
+        def dfs(i) : 
+
+
             if len(comb) == k : 
                 res.append(comb[:])
                 return
-                
-            if (n - m + 1) < (k - len(comb)) : 
-                return 
-            
-            comb.append(m)
-            dfs(m+1)
-            comb.pop()
-            dfs(m+1)
+                   
+            if i < 1 :
+                return
 
-        dfs(1)
+            comb.append(i)
+            dfs(i-1)
+            comb.pop()
+            dfs(i-1)
+        
+        dfs(n)
         return res
