@@ -8,7 +8,7 @@ class Solution:
         min_times = []
         pq = [(0 , k)]
         visited = set()
-        visited.add(k)
+        # visited.add(k)
         while pq : 
             time , node = heapq.heappop(pq)
             if node in visited : 
