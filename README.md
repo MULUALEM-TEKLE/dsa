@@ -542,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0621-task-scheduler](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0743-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
@@ -903,6 +904,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -961,6 +963,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
@@ -1167,6 +1170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -1224,4 +1228,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0133-clone-graph) |
 | [0547-number-of-provinces](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0684-redundant-connection) |
+| [0743-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
