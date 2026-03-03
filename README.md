@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2210-find-target-indices-after-sorting-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
 | [2350-find-closest-number-to-zero](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2350-find-closest-number-to-zero) |
+| [2367-number-of-arithmetic-triplets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2367-number-of-arithmetic-triplets) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2367-number-of-arithmetic-triplets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2367-number-of-arithmetic-triplets) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
 | [3195-separate-black-and-white-balls](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3195-separate-black-and-white-balls) |
 ## Sorting
@@ -669,6 +671,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
+| [2367-number-of-arithmetic-triplets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2367-number-of-arithmetic-triplets) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Binary Search
@@ -944,6 +947,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2146-check-if-word-can-be-placed-in-crossword](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
+| [2367-number-of-arithmetic-triplets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2367-number-of-arithmetic-triplets) |
 ## Breadth-First Search
 |  |
 | ------- |
