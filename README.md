@@ -347,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0268-missing-number) |
+| [0282-expression-add-operators](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0282-expression-add-operators) |
 | [0367-valid-perfect-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0367-valid-perfect-square) |
 | [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
 | [0509-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0509-fibonacci-number) |
@@ -409,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0212-word-search-ii) |
 | [0242-valid-anagram](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0257-binary-tree-paths) |
+| [0282-expression-add-operators](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0282-expression-add-operators) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0345-reverse-vowels-of-a-string) |
@@ -1089,6 +1091,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0257-binary-tree-paths) |
+| [0282-expression-add-operators](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0282-expression-add-operators) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0698-partition-to-k-equal-sum-subsets) |
