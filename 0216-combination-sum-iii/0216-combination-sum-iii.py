@@ -3,15 +3,13 @@ class Solution:
         res = []
 
         comb = []
-
         def dfs(i , cur) : 
-            if cur == n and len(comb) == k : 
+            if len(comb) == k and cur == n : 
                 res.append(comb[:])
-                return
-
-            if i < 1 or cur > n : 
                 return 
             
+            if i < 1 or cur > n: 
+                return 
             
             comb.append(i)
             dfs(i-1 , cur+i)
@@ -19,5 +17,4 @@ class Solution:
             dfs(i-1 , cur)
         
         dfs(9 , 0)
-
-        return res
+        return res 
