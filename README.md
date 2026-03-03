@@ -167,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
+| [3196-maximize-total-cost-of-alternating-subarrays](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3196-maximize-total-cost-of-alternating-subarrays) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3334-apple-redistribution-into-boxes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3334-apple-redistribution-into-boxes) |
 | [3429-special-array-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3429-special-array-i) |
@@ -511,6 +512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
+| [3196-maximize-total-cost-of-alternating-subarrays](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3196-maximize-total-cost-of-alternating-subarrays) |
 ## Memoization
 |  |
 | ------- |
