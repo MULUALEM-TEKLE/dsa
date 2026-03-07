@@ -358,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0204-count-primes) |
+| [0263-ugly-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0263-ugly-number) |
 | [0268-missing-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0279-perfect-squares) |
 | [0282-expression-add-operators](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0282-expression-add-operators) |
