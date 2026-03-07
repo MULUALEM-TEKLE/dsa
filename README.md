@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0209-minimum-size-subarray-sum) |
 | [0212-word-search-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0213-house-robber-ii) |
@@ -356,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0202-happy-number) |
+| [0204-count-primes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0279-perfect-squares) |
 | [0282-expression-add-operators](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0282-expression-add-operators) |
@@ -966,6 +968,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0204-count-primes) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2146-check-if-word-can-be-placed-in-crossword](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
@@ -1245,6 +1248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0204-count-primes) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Binary Indexed Tree
 |  |
