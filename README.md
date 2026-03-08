@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1980-find-unique-binary-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1980-find-unique-binary-string) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2013-detect-squares](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2013-detect-squares) |
 | [2058-concatenation-of-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2058-concatenation-of-array) |
 | [2103-find-all-groups-of-farmland](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2103-find-all-groups-of-farmland) |
 | [2146-check-if-word-can-be-placed-in-crossword](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
@@ -343,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1472-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1472-design-browser-history) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
 | [1603-design-parking-system](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1603-design-parking-system) |
+| [2013-detect-squares](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2013-detect-squares) |
 ## Math
 |  |
 | ------- |
@@ -635,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0969-number-of-recent-calls](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0969-number-of-recent-calls) |
 | [1472-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1472-design-browser-history) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
+| [2013-detect-squares](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2013-detect-squares) |
 ## Queue
 |  |
 | ------- |
@@ -699,6 +702,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1980-find-unique-binary-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1980-find-unique-binary-string) |
+| [2013-detect-squares](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2013-detect-squares) |
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
 | [2367-number-of-arithmetic-triplets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2367-number-of-arithmetic-triplets) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
@@ -1095,6 +1099,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1267-count-servers-that-communicate](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1267-count-servers-that-communicate) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1603-design-parking-system](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1603-design-parking-system) |
+| [2013-detect-squares](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2013-detect-squares) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Sliding Window
 |  |
