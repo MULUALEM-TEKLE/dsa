@@ -1,22 +1,20 @@
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
-        
+        """
+        Do not return anything, modify matrix in-place instead.
+        """
         rows , cols = len(matrix) , len(matrix[0])
-        # visited = set()
-        def mark(r , c) : 
-            # visited.add((r , c))
+        def mark_zero(row , col) : 
             for i in range(rows) : 
-                matrix[i][c] = 0
-                # visited.add((i , c))
-            
+                matrix[i][col] = 0
             for i in range(cols) : 
-                matrix[r][i] = 0
-                # visited.add((r , i))
-        locations = deque()
-        for r in range(rows) : 
+                matrix[row][i] = 0 
+        
+        cells_to_process = []
+        for r in range(rows): 
             for c in range(cols) : 
-                if matrix[r][c] == 0  : 
-                    locations.append((r , c))
-        while locations : 
-            r , c = locations.popleft()
-            mark(r , c)
+                if matrix[r][c] == 0 : 
+                    cells_to_process.append((r , c))
+        
+        for row , col in cells_to_process : 
+            mark_zero(row , col)
