@@ -14,7 +14,7 @@ class Solution:
             if not (top < bottom and left < right) : 
                 break
 
-            for i in range(right-1 , -1 , -1) : 
+            for i in range(right-1 , left-1 , -1) : 
                 res.append(matrix[bottom-1][i])
             bottom -= 1 
 
