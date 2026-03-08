@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1706-min-cost-to-connect-all-points](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+| [1980-find-unique-binary-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1980-find-unique-binary-string) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2058-concatenation-of-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2058-concatenation-of-array) |
 | [2103-find-all-groups-of-farmland](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2103-find-all-groups-of-farmland) |
@@ -462,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1894-merge-strings-alternately](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1894-merge-strings-alternately) |
 | [1970-sorting-the-sentence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1970-sorting-the-sentence) |
+| [1980-find-unique-binary-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1980-find-unique-binary-string) |
 | [2001-jump-game-vii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2001-jump-game-vii) |
 | [3195-separate-black-and-white-balls](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3195-separate-black-and-white-balls) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -694,6 +696,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+| [1980-find-unique-binary-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1980-find-unique-binary-string) |
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
 | [2367-number-of-arithmetic-triplets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2367-number-of-arithmetic-triplets) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
@@ -1131,6 +1134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0800-letter-case-permutation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0800-letter-case-permutation) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1030-smallest-string-starting-from-leaf) |
+| [1980-find-unique-binary-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1980-find-unique-binary-string) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Hash Function
 |  |
