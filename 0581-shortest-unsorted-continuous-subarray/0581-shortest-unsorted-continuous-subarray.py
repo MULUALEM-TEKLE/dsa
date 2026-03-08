@@ -1,28 +1,22 @@
 class Solution:
     def findUnsortedSubarray(self, nums: List[int]) -> int:
-        def get_prefix(nums) : 
-            stack = []
-            done = False 
+        n = len(nums)
+        r = 0 
+        cur_max = nums[0]
 
-            for num in nums : 
-                if stack and stack[-1] > num : 
-                    done = True 
+        for i in range(1 , n) : 
+            if nums[i] < cur_max : 
+                r = i
+            else : 
+                cur_max = nums[i]
+        
+        l = 0 
+        cur_min = nums[-1]
 
-                if done : 
-                    while stack and stack[-1] > num : 
-                        stack.pop()
-                else : 
-                    stack.append(num) 
-
-            return len(stack)
-
-        prefix = get_prefix(nums)
-
-        if prefix == len(nums) : 
-            return 0 
-
-        rev_nums = [-x for x in nums[::-1]]
-        print(rev_nums)
-        suffix = get_prefix(rev_nums)
-
-        return len(nums) - suffix - prefix       
+        for i in range(n-2 , -1 ,-1) : 
+            if nums[i] > cur_min : 
+                l = i 
+            else : 
+                cur_min = nums[i] 
+        
+        return 0 if l >= r else r-l+1
