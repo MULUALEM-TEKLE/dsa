@@ -7,15 +7,24 @@ class Solution:
             [6 , 0] , [6 , 3] , [6 , 6] , 
         ]
 
+        def check_and_add(value , seen_set) : 
+            if value == '.' : 
+                    return True
+            else : 
+                if value in seen : return False
+                seen.add(value)
+                return True
+
         for r in range(rows) : 
             seen = set()
             for c in range(cols) : 
                 value = board[r][c]
-                if value == '.' : 
-                    continue
-                else : 
-                    if value in seen : return False
-                    seen.add(value)
+                # if value == '.' : 
+                #     continue
+                # else : 
+                #     if value in seen : return False
+                #     seen.add(value)
+                if not check_and_add(value , seen) : return False 
         
         for c in range(cols) : 
             seen = set()
