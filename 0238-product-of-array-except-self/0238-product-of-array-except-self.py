@@ -1,14 +1,25 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
+        num_counter = Counter(nums)
         n = len(nums)
-        left = [1]*n
-        for i in range(1 , n) : 
-            left[i] = left[i-1] * nums[i-1]
-        
-        print(left)
+        res = [0] * n
+        if 0 in num_counter : 
+            if num_counter[0] == 1 : 
+                prod = 1 
+                for num in nums : 
+                    if num == 0 : 
+                        continue 
+                    else : 
+                        prod *= num 
 
-        right = [1]*n
-        for i in range(n-2 , -1 , -1) : 
-            right[i] = right[i+1] * nums[i+1]
-        
-        return [l*r for r,l in zip(right,left)]
+                for i in range(len(nums)) : 
+                    if nums[i] == 0 : 
+                        res[i] = prod
+                return res 
+            else :
+                return res
+        else : 
+            prod = 1 
+            for num in nums : 
+                prod *= num
+            return [int(prod/num) for num in nums ]
