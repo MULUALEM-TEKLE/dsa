@@ -6,12 +6,10 @@ class Solution:
 
         @cache
         def explore(i , cur) : 
-            if cur > target : 
-                return False
-            # if cur == target : 
-            #     return True 
             if i == len(nums) : 
                 return True if cur == target else False
+            if cur > target : 
+                return False
             
             return explore(i+1 , cur+nums[i]) or explore(i+1 , cur)
         
