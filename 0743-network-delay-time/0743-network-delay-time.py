@@ -5,19 +5,16 @@ class Solution:
         for src , dst , time in times : 
             adj[src].append([dst , time])
         
-        min_times = []
+        min_times = {}
         pq = [(0 , k)]
-        visited = set()
-        # visited.add(k)
         while pq : 
             time , node = heapq.heappop(pq)
-            if node in visited : 
+            if node in min_times : 
                 continue
-            visited.add(node)
-            min_times.append(time)
+            min_times[node] = (time)
             for nei , nei_time in adj[node] : 
-                if nei not in visited :
+                if nei not in min_times :
                     heapq.heappush(pq , (time+nei_time , nei))
         
-        if len(min_times) == n : return max(min_times)
+        if len(min_times) == n : return max(min_times.values())
         return -1
