@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0414-third-maximum-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0414-third-maximum-number) |
 | [0416-partition-equal-subset-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0416-partition-equal-subset-sum) |
 | [0419-battleships-in-a-board](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0419-battleships-in-a-board) |
+| [0435-non-overlapping-intervals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0463-island-perimeter](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0463-island-perimeter) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
 | [0474-ones-and-zeroes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0474-ones-and-zeroes) |
@@ -258,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0389-find-the-difference](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0389-find-the-difference) |
 | [0414-third-maximum-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0414-third-maximum-number) |
+| [0435-non-overlapping-intervals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0561-array-partition](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0621-task-scheduler) |
@@ -515,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0377-combination-sum-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0416-partition-equal-subset-sum) |
+| [0435-non-overlapping-intervals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
 | [0474-ones-and-zeroes](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0494-target-sum) |
@@ -1217,6 +1220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0435-non-overlapping-intervals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0561-array-partition](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0621-task-scheduler) |
