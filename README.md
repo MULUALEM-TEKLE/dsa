@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0747-min-cost-climbing-stairs) |
+| [0778-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
 | [0816-design-hashset](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0816-design-hashset) |
@@ -597,6 +598,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0703-kth-largest-element-in-a-stream](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0778-swim-in-rising-water) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
 | [0912-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0912-sort-an-array) |
@@ -750,6 +752,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0374-guess-number-higher-or-lower](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0374-guess-number-higher-or-lower) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0704-binary-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0704-binary-search) |
+| [0778-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0852-peak-index-in-a-mountain-array) |
@@ -787,6 +790,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0733-flood-fill) |
+| [0778-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0778-swim-in-rising-water) |
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
 | [0867-transpose-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0867-transpose-matrix) |
 | [0967-minimum-falling-path-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0967-minimum-falling-path-sum) |
@@ -977,6 +981,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0778-swim-in-rising-water) |
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0975-range-sum-of-bst) |
@@ -1040,6 +1045,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [0778-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0778-swim-in-rising-water) |
 | [0794-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0794-swim-in-rising-water) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0994-rotting-oranges](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0994-rotting-oranges) |
@@ -1307,6 +1313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
+| [0778-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0778-swim-in-rising-water) |
 | [1020-number-of-enclaves](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1020-number-of-enclaves) |
 | [1267-count-servers-that-communicate](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1267-count-servers-that-communicate) |
 | [1584-min-cost-to-connect-all-points](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1584-min-cost-to-connect-all-points) |
