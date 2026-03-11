@@ -4,7 +4,7 @@ class Solution:
         res = 0 
         end = float('-inf')
         for interval in intervals : 
-            if interval[1] > end : 
+            if interval[0] > end : 
                 end = interval[1]
             else : 
                 res += 1
