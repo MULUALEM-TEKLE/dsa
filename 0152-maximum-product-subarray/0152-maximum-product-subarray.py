@@ -2,13 +2,13 @@ class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         cur_min = 1
         cur_max = 1
-        res = nums[0]
+        res = float('-inf')
 
         for num in nums : 
-            if num == 0 : 
-                cur_min , cur_max = 1 , 1
-                res = max(res , 0)
-                continue 
+            # if num == 0 : 
+            #     cur_min , cur_max = 1 , 1
+            #     res = max(res , 0)
+            #     continue 
 
             old_max = cur_max
 
