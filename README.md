@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0621-task-scheduler) |
+| [0645-set-mismatch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0645-set-mismatch) |
 | [0648-replace-words](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0648-replace-words) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0682-baseball-game](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0682-baseball-game) |
@@ -275,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0621-task-scheduler) |
+| [0645-set-mismatch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0645-set-mismatch) |
 | [0720-longest-word-in-dictionary](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0720-longest-word-in-dictionary) |
 | [0721-accounts-merge](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0721-accounts-merge) |
 | [0853-car-fleet](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0853-car-fleet) |
@@ -733,6 +735,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0621-task-scheduler) |
+| [0645-set-mismatch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0645-set-mismatch) |
 | [0648-replace-words](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0648-replace-words) |
 | [0652-find-duplicate-subtrees](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0652-find-duplicate-subtrees) |
 | [0720-longest-word-in-dictionary](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0720-longest-word-in-dictionary) |
@@ -1114,6 +1117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0338-counting-bits) |
 | [0389-find-the-difference](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0389-find-the-difference) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
+| [0645-set-mismatch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0645-set-mismatch) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0800-letter-case-permutation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0800-letter-case-permutation) |
 | [1009-complement-of-base-10-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1009-complement-of-base-10-integer) |
