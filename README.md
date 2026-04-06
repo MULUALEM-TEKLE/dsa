@@ -349,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0203-remove-linked-list-elements](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0394-decode-string) |
 | [0509-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0509-fibonacci-number) |
 | [1013-fibonacci-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1013-fibonacci-number) |
 ## Design
@@ -432,6 +433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0394-decode-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0682-baseball-game](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0735-asteroid-collision) |
@@ -486,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0394-decode-string) |
 | [0412-fizz-buzz](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0412-fizz-buzz) |
 | [0424-longest-repeating-character-replacement](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0438-find-all-anagrams-in-a-string) |
