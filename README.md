@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0621-task-scheduler) |
 | [0645-set-mismatch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0645-set-mismatch) |
 | [0648-replace-words](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0648-replace-words) |
+| [0658-find-k-closest-elements](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0658-find-k-closest-elements) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0682-baseball-game](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0682-baseball-game) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0567-permutation-in-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0647-palindromic-substrings](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0647-palindromic-substrings) |
+| [0658-find-k-closest-elements](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0680-valid-palindrome-ii) |
 | [0876-middle-of-the-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0876-middle-of-the-linked-list) |
 | [0881-boats-to-save-people](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0881-boats-to-save-people) |
@@ -281,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0621-task-scheduler) |
 | [0645-set-mismatch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0645-set-mismatch) |
+| [0658-find-k-closest-elements](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0658-find-k-closest-elements) |
 | [0720-longest-word-in-dictionary](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0720-longest-word-in-dictionary) |
 | [0721-accounts-merge](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0721-accounts-merge) |
 | [0853-car-fleet](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0853-car-fleet) |
@@ -621,6 +624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0355-design-twitter) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0621-task-scheduler](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0621-task-scheduler) |
+| [0658-find-k-closest-elements](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0658-find-k-closest-elements) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0744-network-delay-time) |
@@ -784,6 +788,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0367-valid-perfect-square) |
 | [0374-guess-number-higher-or-lower](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0374-guess-number-higher-or-lower) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0658-find-k-closest-elements](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0658-find-k-closest-elements) |
 | [0704-binary-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0704-binary-search) |
 | [0778-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0792-binary-search) |
@@ -1182,6 +1187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0567-permutation-in-string) |
+| [0658-find-k-closest-elements](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0658-find-k-closest-elements) |
 | [0978-longest-turbulent-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0978-longest-turbulent-subarray) |
 | [1020-longest-turbulent-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1020-longest-turbulent-subarray) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
