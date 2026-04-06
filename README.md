@@ -373,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0816-design-hashset](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0817-design-hashmap) |
 | [0838-design-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0838-design-linked-list) |
+| [0895-maximum-frequency-stack](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0895-maximum-frequency-stack) |
 | [0901-online-stock-span](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0933-number-of-recent-calls) |
 | [0969-number-of-recent-calls](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0969-number-of-recent-calls) |
@@ -441,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0853-car-fleet](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0853-car-fleet) |
 | [0883-car-fleet](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0883-car-fleet) |
 | [0886-score-of-parentheses](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0886-score-of-parentheses) |
+| [0895-maximum-frequency-stack](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0895-maximum-frequency-stack) |
 | [0901-online-stock-span](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0901-online-stock-span) |
 | [0983-validate-stack-sequences](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0983-validate-stack-sequences) |
 | [1472-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1472-design-browser-history) |
@@ -769,6 +771,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0816-design-hashset](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0817-design-hashmap) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0895-maximum-frequency-stack](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0895-maximum-frequency-stack) |
 | [0981-time-based-key-value-store](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0981-time-based-key-value-store) |
 | [1023-time-based-key-value-store](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1023-time-based-key-value-store) |
 | [1146-snapshot-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1146-snapshot-array) |
@@ -1334,6 +1337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0220-contains-duplicate-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0220-contains-duplicate-iii) |
+| [0895-maximum-frequency-stack](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0895-maximum-frequency-stack) |
 ## Monotonic Stack
 |  |
 | ------- |
