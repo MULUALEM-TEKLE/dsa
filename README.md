@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0349-intersection-of-two-arrays) |
 | [0377-combination-sum-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0377-combination-sum-iv) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0410-split-array-largest-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0410-split-array-largest-sum) |
 | [0414-third-maximum-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0414-third-maximum-number) |
 | [0416-partition-equal-subset-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0417-pacific-atlantic-water-flow) |
@@ -560,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0338-counting-bits) |
 | [0377-combination-sum-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0392-is-subsequence) |
+| [0410-split-array-largest-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0473-matchsticks-to-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0473-matchsticks-to-square) |
@@ -811,6 +813,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0367-valid-perfect-square) |
 | [0374-guess-number-higher-or-lower](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0374-guess-number-higher-or-lower) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0410-split-array-largest-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0410-split-array-largest-sum) |
 | [0658-find-k-closest-elements](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0658-find-k-closest-elements) |
 | [0704-binary-search](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0704-binary-search) |
 | [0778-swim-in-rising-water](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0778-swim-in-rising-water) |
@@ -1299,6 +1302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0410-split-array-largest-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0561-array-partition](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -1326,6 +1330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0304-range-sum-query-2d-immutable) |
+| [0410-split-array-largest-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0724-find-pivot-index) |
 | [2001-jump-game-vii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2001-jump-game-vii) |
