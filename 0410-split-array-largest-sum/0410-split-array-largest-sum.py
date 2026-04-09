@@ -2,8 +2,8 @@ class Solution:
     def splitArray(self, nums: List[int], k: int) -> int:
         low , high = max(nums) , sum(nums)
 
-        if len(nums) == k : return max(nums)
-        if k == 1 : return sum(nums)
+        # if len(nums) == k : return max(nums)
+        # if k == 1 : return sum(nums)
         ans = 0
 
         while low <= high : 
@@ -11,30 +11,29 @@ class Solution:
 
             k_ = 1
             acc = 0 
-            min_acc = float('-inf')
-            split = []
-            sub = []
+            # min_acc = float('-inf')
+            # split = []
+            # sub = []
             # print(mid)
             for num in nums : 
-                
-                if acc + num >= mid : 
+                if acc + num > mid : 
                     k_ += 1 
                     acc = 0 
-                    split.append(sub)
-                    sub = []
+                    # split.append(sub)
+                    # sub = []
                     # continue
-                sub.append(num)
+                # sub.append(num)
                 acc += num 
-                min_acc = max(min_acc , acc)
+                # min_acc = max(min_acc , acc)
 
-            split.append(sub)
-            sub = []
+            # split.append(sub)
+            # sub = []
             
-            print(split)
+            # print(split)
             # split = []
             
             if k_ <= k : 
-                ans = min_acc
+                ans = mid
                 high = mid -1 
            
             else : 
