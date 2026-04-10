@@ -181,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1646-kth-missing-positive-number) |
 | [1706-min-cost-to-connect-all-points](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
+| [1760-minimum-limit-of-balls-in-a-bag](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1980-find-unique-binary-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1980-find-unique-binary-string) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -834,6 +835,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
+| [1760-minimum-limit-of-balls-in-a-bag](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
