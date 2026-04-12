@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2195-time-needed-to-buy-tickets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2195-time-needed-to-buy-tickets) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
+| [2226-maximum-candies-allocated-to-k-children](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2226-maximum-candies-allocated-to-k-children) |
 | [2350-find-closest-number-to-zero](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2350-find-closest-number-to-zero) |
 | [2367-number-of-arithmetic-triplets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2367-number-of-arithmetic-triplets) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -839,6 +840,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
+| [2226-maximum-candies-allocated-to-k-children](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2226-maximum-candies-allocated-to-k-children) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2634-minimum-common-value](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2634-minimum-common-value) |
 ## Matrix
