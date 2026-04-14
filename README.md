@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0621-task-scheduler) |
+| [0622-design-circular-queue](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0622-design-circular-queue) |
 | [0645-set-mismatch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0645-set-mismatch) |
 | [0648-replace-words](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0658-find-k-closest-elements) |
@@ -336,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0234-palindrome-linked-list) |
 | [0355-design-twitter](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0355-design-twitter) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0528-swapping-nodes-in-a-linked-list) |
+| [0622-design-circular-queue](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0622-design-circular-queue) |
 | [0707-design-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0707-design-linked-list) |
 | [0816-design-hashset](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0817-design-hashmap) |
@@ -376,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0304-range-sum-query-2d-immutable) |
 | [0355-design-twitter](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0355-design-twitter) |
 | [0449-serialize-and-deserialize-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0449-serialize-and-deserialize-bst) |
+| [0622-design-circular-queue](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0622-design-circular-queue) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0707-design-linked-list](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0707-design-linked-list) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -723,6 +726,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0387-first-unique-character-in-a-string) |
+| [0622-design-circular-queue](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0622-design-circular-queue) |
 | [0918-maximum-sum-circular-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0918-maximum-sum-circular-subarray) |
 | [0933-number-of-recent-calls](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0933-number-of-recent-calls) |
 | [0954-maximum-sum-circular-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0954-maximum-sum-circular-subarray) |
