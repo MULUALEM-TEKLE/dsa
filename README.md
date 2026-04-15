@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0417-pacific-atlantic-water-flow) |
 | [0419-battleships-in-a-board](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0419-battleships-in-a-board) |
+| [0427-construct-quad-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0427-construct-quad-tree) |
 | [0435-non-overlapping-intervals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -632,6 +633,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0347-top-k-frequent-elements) |
+| [0427-construct-quad-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0427-construct-quad-tree) |
 | [0912-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0912-sort-an-array) |
 | [0918-maximum-sum-circular-subarray](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0918-maximum-sum-circular-subarray) |
 | [0948-sort-an-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0948-sort-an-array) |
@@ -871,6 +873,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0417-pacific-atlantic-water-flow) |
 | [0419-battleships-in-a-board](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0419-battleships-in-a-board) |
+| [0427-construct-quad-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0427-construct-quad-tree) |
 | [0463-island-perimeter](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0733-flood-fill) |
@@ -917,6 +920,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0257-binary-tree-paths](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0427-construct-quad-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0427-construct-quad-tree) |
 | [0437-path-sum-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0449-serialize-and-deserialize-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0450-delete-node-in-a-bst) |
