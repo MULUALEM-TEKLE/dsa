@@ -26,7 +26,7 @@ class Solution:
             if all_same : 
                 return Node(first_val == 1 , True)
             
-            node = Node(False , False)
+            node = Node("xx" , False)
             half = n // 2
 
             node.topLeft = solve(r , c , half)
