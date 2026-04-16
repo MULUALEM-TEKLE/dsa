@@ -11,23 +11,26 @@
 #         self.right = right
 class Solution:
     def isSubPath(self, head: Optional[ListNode], root: Optional[TreeNode]) -> bool:
-        if not root : 
-            return False 
-            
-        def walk(node , list_node ) : 
-                
-
-            if (not node and list_node) : 
+        def solve(head , node ) : 
+            if not node : 
                 return False 
 
-            if not list_node  : 
-                return True 
+            def walk(node , list_node ) : 
+                    
 
-            if node.val == list_node.val : 
-                return walk(node.left , list_node.next) or walk(node.right , list_node.next)
-            # else : 
-            #     return walk(node.left , head) or walk(node.right , head)
+                if (not node and list_node) : 
+                    return False 
+
+                if not list_node  : 
+                    return True 
+
+                if node.val == list_node.val : 
+                    return walk(node.left , list_node.next) or walk(node.right , list_node.next)
+                # else : 
+                #     return walk(node.left , head) or walk(node.right , head)
+                
             
+            
+            return walk(node , head) or (solve(head , node.right) or solve(head , node.left))
         
-        
-        return walk(root , head) or (self.isSubPath(head , root.right) or self.isSubPath(head , root.left))
+        return solve(head , root)
