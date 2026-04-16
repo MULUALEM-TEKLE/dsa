@@ -606,6 +606,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1250-longest-common-subsequence) |
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1263-number-of-dice-rolls-with-target-sum) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2001-jump-game-vii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2001-jump-game-vii) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -953,6 +954,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1207-delete-nodes-and-return-forest) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -973,6 +975,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0975-range-sum-of-bst](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0975-range-sum-of-bst) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -1027,6 +1030,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1207-delete-nodes-and-return-forest) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Depth-First Search
@@ -1094,6 +1098,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1207-delete-nodes-and-return-forest) |
 | [1267-count-servers-that-communicate](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1267-count-servers-that-communicate) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1428-jump-game-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1428-jump-game-iii) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
