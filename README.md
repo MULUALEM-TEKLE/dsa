@@ -398,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1023-time-based-key-value-store](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1023-time-based-key-value-store) |
 | [1146-snapshot-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1146-snapshot-array) |
 | [1472-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1472-design-browser-history) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1582-design-browser-history](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1582-design-browser-history) |
 | [1603-design-parking-system](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1603-design-parking-system) |
 | [2013-detect-squares](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2013-detect-squares) |
@@ -610,6 +611,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2001-jump-game-vii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2001-jump-game-vii) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2397-count-number-of-ways-to-place-houses](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2397-count-number-of-ways-to-place-houses) |
@@ -850,6 +852,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1095-find-in-mountain-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1095-find-in-mountain-array) |
 | [1146-snapshot-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1146-snapshot-array) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1631-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
@@ -961,6 +964,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Binary Search Tree
@@ -1112,6 +1116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1428-jump-game-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1428-jump-game-iii) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1558-course-schedule-iv) |
 | [1631-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1631-path-with-minimum-effort) |
@@ -1179,6 +1184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1267-count-servers-that-communicate](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1267-count-servers-that-communicate) |
 | [1428-jump-game-iii](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1428-jump-game-iii) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1558-course-schedule-iv) |
 | [1631-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1631-path-with-minimum-effort) |
@@ -1212,6 +1218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0800-letter-case-permutation](https://github.com/MULUALEM-TEKLE/dsa/tree/master/0800-letter-case-permutation) |
 | [1009-complement-of-base-10-integer](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1009-complement-of-base-10-integer) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Interactive
 |  |
