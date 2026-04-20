@@ -185,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+| [1834-single-threaded-cpu](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1834-single-threaded-cpu) |
 | [1980-find-unique-binary-string](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1980-find-unique-binary-string) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2013-detect-squares](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2013-detect-squares) |
@@ -310,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1019-squares-of-a-sorted-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1019-squares-of-a-sorted-array) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+| [1834-single-threaded-cpu](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1834-single-threaded-cpu) |
 | [1970-sorting-the-sentence](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1970-sorting-the-sentence) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2215-finding-3-digit-even-numbers](https://github.com/MULUALEM-TEKLE/dsa/tree/master/2215-finding-3-digit-even-numbers) |
@@ -684,6 +686,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1325-path-with-maximum-probability](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1325-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1753-path-with-minimum-effort) |
+| [1834-single-threaded-cpu](https://github.com/MULUALEM-TEKLE/dsa/tree/master/1834-single-threaded-cpu) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/MULUALEM-TEKLE/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Quickselect
 |  |
