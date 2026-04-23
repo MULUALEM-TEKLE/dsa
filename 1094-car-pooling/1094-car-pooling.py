@@ -1,14 +1,18 @@
 class Solution:
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
-        stops = [0] * 1001
+        trips.sort(key=lambda x : x[1])
+
+        departures = []
+        current_load = 0 
 
         for num , start , end in trips : 
-            stops[start] += num 
-            stops[end] -= num
+            while departures and departures[0][0] <= start : 
+                _ , num_ = heapq.heappop(departures)
+                current_load -= num_
+            
+            current_load += num 
+            heapq.heappush(departures , [end , num])
 
-        current_passengers = 0 
-        for change in stops : 
-            current_passengers += change 
-            if current_passengers > capacity : return False 
-
-        return True  
+            if current_load > capacity : return False 
+        
+        return True
